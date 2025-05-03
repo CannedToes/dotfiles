@@ -12,7 +12,7 @@
 [window]
 
 # Window dimensions
-dimensions = { columns = 0, lines = 0 }  # Default: columns = 0, lines = 0
+dimensions = { columns = 130, lines = 30 }  # Default: columns = 0, lines = 0
 
 # Window startup position
 position = "None"  # Default: "None"
@@ -24,19 +24,16 @@ padding = { x = 16, y = 0 }  # Default: x = 0, y = 0
 dynamic_padding = true # Default: false
 
 # Window decorations
-decorations = "None"  # Default: "Full"
+decorations = "Full"  # Default: "Full"
 
 # Opacity
-opacity = 0.8 # Default: 1.0
+opacity = 0.7 # Default: 1.0
 
 # Blur (macOS/KDE Wayland only)
 blur = true # Default: false
 
 # Startup mode
 startup_mode = "Windowed"  # Default: "Windowed"
-
-# Window title
-title = "Alacritty"  # Default: "Alacritty"
 
 # Dynamic title
 dynamic_title = true  # Default: true Window class (Linux/BSD only)
