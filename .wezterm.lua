@@ -25,6 +25,9 @@ config.window_padding = {
 	bottom = 0,
 }
 
+config.initial_rows = 35
+config.initial_cols = 130
+
 -- plugins and all configuration regarding them
 local modal = wezterm.plugin.require("https://github.com/MLFlexer/modal.wezterm")
 require("wez-pain-control.plugin").apply_to_config(config, {
@@ -54,22 +57,22 @@ local status_text = require("ui_mode").get_hint_status_text(icons, hint_colors, 
 modal.add_mode("UI", key_table, status_text)
 
 config.keys = {
-	{
-		key = "1",
-		mods = "CTRL|ALT",
-		action = wezterm.action.SpawnCommandInNewTab({
-			args = { "pwsh.exe" },
-			domain = { DomainName = "local" },
-		}),
-	},
-	{
-		key = "2",
-		mods = "CTRL|ALT",
-		action = wezterm.action.SpawnCommandInNewTab({
-			args = { "wsl.exe" },
-			domain = { DomainName = "local" },
-		}),
-	},
+	-- {
+	-- 	key = "1",
+	-- 	mods = "CTRL|ALT",
+	-- 	action = wezterm.action.SpawnCommandInNewTab({
+	-- 		args = { "pwsh.exe" },
+	-- 		domain = { DomainName = "local" },
+	-- 	}),
+	-- },
+	-- {
+	-- 	key = "2",
+	-- 	mods = "CTRL|ALT",
+	-- 	action = wezterm.action.SpawnCommandInNewTab({
+	-- 		args = { "wsl.exe" },
+	-- 		domain = { DomainName = "local" },
+	-- 	}),
+	-- },
 	{
 		key = "u",
 		mods = "ALT",
