@@ -4,6 +4,8 @@ end
 
 alias cd="z"
 alias ls "eza --icons=always --no-permissions -l" 
+alias la "eza --icons=always --no-permissions -l -a" 
+alias ll "eza --icons=always --no-permissions" 
 
 zoxide init fish | source
 starship init fish | source

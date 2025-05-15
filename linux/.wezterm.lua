@@ -18,13 +18,6 @@ config.max_fps = 120
 config.window_close_confirmation = "NeverPrompt"
 config.default_cursor_style = "BlinkingBar"
 
-config.window_padding = {
-	left = 16,
-	right = 0,
-	top = 0,
-	bottom = 0,
-}
-
 config.initial_rows = 35
 config.initial_cols = 130
 
