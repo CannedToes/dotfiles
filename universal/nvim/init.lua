@@ -19,6 +19,9 @@ vim.opt.guifont = "RobotoMono Nerd Font:h13"
 vim.opt.number = true
 vim.opt.relativenumber = true
 
+vim.g.terminal_emulator = 'wezterm'
+
+
 vim.g.suda_smart_edit = 1
 
 -- neovide configuration options
