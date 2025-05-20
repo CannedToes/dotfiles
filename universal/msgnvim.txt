@@ -1,0 +1,1 @@
+You can exit this file with ":q" once your plugins have finished installing!
