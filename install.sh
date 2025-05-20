@@ -45,5 +45,7 @@ rm -rf $HOME/.cache/*
 rm -rf $REPO/yay
 
 # Installation has completed!
+echo "hint - run :Mason in nvim to configure coding languages"
+echo -e "hint - run :Lazy in nvim to configure plugins\n"
 echo "Installation has finished, enjoy! :)" && sleep 2
 source $HOME/.config/fish/config.fish
