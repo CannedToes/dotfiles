@@ -1,2 +1,2 @@
 # dotfiles
- My pesronal dot/configuration files for everything regarding my setup/stack
+ My personal dot/configuration files for everything regarding my setup/stack
