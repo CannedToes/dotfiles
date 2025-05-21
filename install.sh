@@ -26,10 +26,9 @@ clear
 
 # copying across and setting up config files
 cp -r $REPO/universal/nvim $HOME/.config/
-cp -r $REPO/universal/wezterm $HOME/.config/
-cp -r $REPO/universal/starship/linuxStarship.toml $HOME/.config/starship.toml
 
-cp -r $REPO/linux/wezterm.lua $HOME/.config/wezterm/
+cp -r $REPO/linux/starship.toml $HOME/.config/
+cp -r $REPO/linux/wezterm $HOME/.config/
 cp -r $REPO/linux/fish $HOME/.config/
 
 chsh -s /usr/bin/fish
