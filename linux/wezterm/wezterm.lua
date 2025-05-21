@@ -15,8 +15,6 @@ keymap.apply_to_config(config)
 config.default_prog = { "fish" }
 config.scrollback_lines = 3000
 config.status_update_interval = 2000
-config.initial_rows = 30
-config.initial_cols = 135
 
 -- and finally, return the configuration to wezterm
 return config

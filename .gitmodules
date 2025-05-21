@@ -1,6 +1,6 @@
 [submodule "universal/wezterm/plugins/wez-pain-control"]
-	path = universal/wezterm/plugins/wez-pain-control
+	path = linux/wezterm/plugins/wez-pain-control
 	url = https://github.com/sei40kr/wez-pain-control
 [submodule "universal/wezterm/plugins/wez-tmux"]
-	path = universal/wezterm/plugins/wez-tmux
+	path = linux/wezterm/plugins/wez-tmux
 	url = https://github.com/sei40kr/wez-tmux
