@@ -2,8 +2,33 @@
 
 # Set variables
 REPO="$( cd "$( dirname "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )"
-PACKAGES="neovim starship fish fisher wezterm kitty zoxide eza keychain ttf-roboto-mono-nerd"
-AURPACKAGES="mkinitcpio-firmware update-grub"
+git pull $REPO
+PACKAGES="
+neovim 
+starship 
+fish 
+fisher 
+wezterm 
+kitty 
+zoxide 
+eza 
+ttf-roboto-mono-nerd 
+hyprutils
+hyprpicker
+hyprlang
+hypridle
+hyprland-qt-support
+hyprland-qtutils
+hyprlock
+xdg-desktop-portal-hyprland
+hyprcursor
+hyprwayland-scanner
+hyprland
+"
+AURPACKAGES="
+mkinitcpio-firmware 
+update-grub
+"
 
 # Confirmation message
 echo -e "Please backup your dotfiles if you want to keep them (obviously)\n"
