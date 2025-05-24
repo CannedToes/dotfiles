@@ -1,7 +1,7 @@
 #!/bin/bash
 # Set variables
 REPO="$( cd "$( dirname "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )"
-PACKAGES="git neovim fzf starship fish fisher kitty zoxide eza nerd-fonts hyprland sddm swaync nwg-look qt5ct qt6ct pipewire wireplumber xdg-desktop-portal-hyprland hyprpolkitagent qt5-wayland qt6-wayland python-pywal16 waybar wofi"
+PACKAGES="git neovim fzf starship fish fisher kitty zoxide eza nerd-fonts hyprland swww sddm swaync nwg-look qt5ct qt6ct pipewire wireplumber xdg-desktop-portal-hyprland hyprpolkitagent qt5-wayland qt6-wayland python-pywal16 waybar wofi"
 AURPACKAGES="mkinitcpio-firmware wezterm-git wlogout swaylock-effects waybar gtk-engine-murrine gtk-murrine-themes-collection graphite-gtk-theme"
 FISHERPACKAGES="Jomik/fish-gruvbox jethrokuan/fzf jorgebucaran/bax.fish jorgebucaran/nvm.fish franciscolourenco/done jorgebucaran/spark.fish laughdelic/pisces adambrenecki/virtualfish Gazorby/fish-abbreviation-tips"
 HYPRREPOS="https://github.com/VirtCode/hypr-dynamic-cursors https://github.com/hyprwm/hyprland-plugins"
