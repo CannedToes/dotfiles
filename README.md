@@ -31,3 +31,4 @@ keychain - **https://github.com/hrantzsch/keychain**
 nerdfonts - **https://github.com/ryanoasis/nerd-fonts**  
 ## Inspirations
 end-4's dots hyprland - **https://github.com/end-4/dots-hyprland**  
+elifouts dotfiles - **https://github.com/elifouts/Dotfiles**	
