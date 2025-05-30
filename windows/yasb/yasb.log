@@ -1,0 +1,986 @@
+2025-05-29 11:21:10,960 [INFO] [MainThread] [root/log.py:59]: Yasb v1.7.4
+2025-05-29 11:21:10,960 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.1
+2025-05-29 11:21:10,961 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-05-29 11:21:11,111 [DEBUG] [MainThread] [tzlocal/win32.py:55]: Looking up time zone info from registry
+2025-05-29 11:21:11,468 [DEBUG] [MainThread] [comtypes/__init__.py:149]: CoInitializeEx(None, 2)
+2025-05-29 11:21:13,721 [INFO] [MainThread] [root/watcher.py:55]: Created file watcher for path C:\Users\myles\.config\yasb
+2025-05-29 11:21:13,727 [INFO] [Dummy-5] [root/event_listener.py:53]: Created named pipe yasb-443a1463-3c6e-11f0-a404-cd51cd997a0a
+2025-05-29 11:21:13,760 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:213]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-05-29 11:21:13,761 [DEBUG] [Dummy-8] [qasync._windows._EventWorker/_windows.py:192]: Thread started
+2025-05-29 11:21:14,794 [INFO] [MainThread] [root/weather.py:67]: Fetching new weather data at 2025-05-29 11:21:14.794909
+2025-05-29 11:21:24,084 [INFO] [MainThread] [root/controller.py:27]: Exiting Application from tray...
+2025-05-29 11:21:24,185 [INFO] [MainThread] [cli_server/cli_server.py:112]: Log pipe server stopped
+2025-05-29 11:21:24,185 [DEBUG] [MainThread] [cli_server/cli_server.py:206]: CLI server stopped
+2025-05-29 11:21:24,185 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:218]: Stopping worker thread...
+2025-05-29 11:21:24,200 [DEBUG] [Dummy-8] [qasync._windows._EventWorker/_windows.py:201]: Exiting thread
+2025-05-29 11:21:24,201 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:75]: Closing
+2025-05-29 11:24:48,456 [INFO] [MainThread] [root/log.py:59]: Yasb v1.7.4
+2025-05-29 11:24:48,457 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.1
+2025-05-29 11:24:48,457 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-05-29 11:24:48,615 [DEBUG] [MainThread] [tzlocal/win32.py:55]: Looking up time zone info from registry
+2025-05-29 11:24:48,944 [DEBUG] [MainThread] [comtypes/__init__.py:149]: CoInitializeEx(None, 2)
+2025-05-29 11:24:51,248 [INFO] [MainThread] [root/watcher.py:55]: Created file watcher for path C:\Users\myles\.config\yasb
+2025-05-29 11:24:51,249 [INFO] [Dummy-5] [root/event_listener.py:53]: Created named pipe yasb-c5e2107f-3c6e-11f0-b49f-cd51cd997a0a
+2025-05-29 11:24:51,287 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:213]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-05-29 11:24:51,288 [DEBUG] [Dummy-8] [qasync._windows._EventWorker/_windows.py:192]: Thread started
+2025-05-29 11:24:51,612 [DEBUG] [TrayMonitorThread] [root/utils.py:42]: Could not open process with PID 0
+2025-05-29 11:24:51,616 [ERROR] [TrayMonitorThread] [root/app_icons.py:216]: GetIconInfo failed: 0
+2025-05-29 11:24:51,950 [INFO] [MainThread] [root/weather.py:67]: Fetching new weather data at 2025-05-29 11:24:51.950720
+2025-05-29 11:25:00,262 [CRITICAL] [TrayMonitorThread] [systray_widget/tray_monitor.py:255]: Could not find the real systray window
+2025-05-29 11:25:00,268 [CRITICAL] [TrayMonitorThread] [systray_widget/tray_monitor.py:255]: Could not find the real systray window
+2025-05-29 11:25:00,269 [CRITICAL] [TrayMonitorThread] [systray_widget/tray_monitor.py:255]: Could not find the real systray window
+2025-05-29 11:26:30,705 [ERROR] [TrayMonitorThread] [root/app_icons.py:216]: GetIconInfo failed: 0
+2025-05-29 11:26:30,711 [ERROR] [TrayMonitorThread] [root/app_icons.py:216]: GetIconInfo failed: 0
+2025-05-29 11:29:39,063 [INFO] [MainThread] [root/controller.py:27]: Exiting Application from tray...
+2025-05-29 11:29:39,163 [INFO] [MainThread] [cli_server/cli_server.py:112]: Log pipe server stopped
+2025-05-29 11:29:39,163 [DEBUG] [MainThread] [cli_server/cli_server.py:206]: CLI server stopped
+2025-05-29 11:29:39,165 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:218]: Stopping worker thread...
+2025-05-29 11:29:39,179 [DEBUG] [Dummy-8] [qasync._windows._EventWorker/_windows.py:201]: Exiting thread
+2025-05-29 11:29:39,181 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:75]: Closing
+2025-05-29 11:32:54,470 [INFO] [MainThread] [root/log.py:59]: Yasb v1.7.4
+2025-05-29 11:32:54,470 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.1
+2025-05-29 11:32:54,471 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-05-29 11:32:54,592 [DEBUG] [MainThread] [tzlocal/win32.py:55]: Looking up time zone info from registry
+2025-05-29 11:32:54,799 [DEBUG] [MainThread] [comtypes/__init__.py:149]: CoInitializeEx(None, 2)
+2025-05-29 11:32:57,057 [INFO] [MainThread] [root/watcher.py:55]: Created file watcher for path C:\Users\myles\.config\yasb
+2025-05-29 11:32:57,067 [INFO] [Dummy-5] [root/event_listener.py:53]: Created named pipe yasb-e772b3f4-3c6f-11f0-8c45-cd51cd997a0a
+2025-05-29 11:32:57,096 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:213]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-05-29 11:32:57,097 [DEBUG] [Dummy-8] [qasync._windows._EventWorker/_windows.py:192]: Thread started
+2025-05-29 11:32:57,402 [DEBUG] [TrayMonitorThread] [root/utils.py:42]: Could not open process with PID 0
+2025-05-29 11:32:57,407 [ERROR] [TrayMonitorThread] [root/app_icons.py:216]: GetIconInfo failed: 0
+2025-05-29 11:32:57,820 [INFO] [MainThread] [root/weather.py:67]: Fetching new weather data at 2025-05-29 11:32:57.820712
+2025-05-29 11:33:03,688 [CRITICAL] [TrayMonitorThread] [systray_widget/tray_monitor.py:255]: Could not find the real systray window
+2025-05-29 11:33:04,721 [DEBUG] [TrayMonitorThread] [root/utils.py:42]: Could not open process with PID 0
+2025-05-29 11:33:04,722 [ERROR] [TrayMonitorThread] [root/app_icons.py:216]: GetIconInfo failed: 0
+2025-05-29 11:34:15,539 [INFO] [MainThread] [root/controller.py:27]: Exiting Application from tray...
+2025-05-29 11:34:15,645 [INFO] [MainThread] [cli_server/cli_server.py:112]: Log pipe server stopped
+2025-05-29 11:34:15,645 [DEBUG] [MainThread] [cli_server/cli_server.py:206]: CLI server stopped
+2025-05-29 11:34:15,646 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:218]: Stopping worker thread...
+2025-05-29 11:34:15,661 [DEBUG] [Dummy-8] [qasync._windows._EventWorker/_windows.py:201]: Exiting thread
+2025-05-29 11:34:15,662 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:75]: Closing
+2025-05-29 11:34:50,871 [INFO] [MainThread] [root/log.py:59]: Yasb v1.7.4
+2025-05-29 11:34:50,872 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.1
+2025-05-29 11:34:50,872 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-05-29 11:34:50,996 [DEBUG] [MainThread] [tzlocal/win32.py:55]: Looking up time zone info from registry
+2025-05-29 11:34:51,172 [DEBUG] [MainThread] [comtypes/__init__.py:149]: CoInitializeEx(None, 2)
+2025-05-29 11:34:53,392 [INFO] [MainThread] [root/watcher.py:55]: Created file watcher for path C:\Users\myles\.config\yasb
+2025-05-29 11:34:53,401 [INFO] [Dummy-5] [root/event_listener.py:53]: Created named pipe yasb-2cc9f749-3c70-11f0-936d-cd51cd997a0a
+2025-05-29 11:34:53,430 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:213]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-05-29 11:34:53,432 [DEBUG] [Dummy-8] [qasync._windows._EventWorker/_windows.py:192]: Thread started
+2025-05-29 11:34:53,728 [DEBUG] [TrayMonitorThread] [root/utils.py:42]: Could not open process with PID 0
+2025-05-29 11:34:53,731 [ERROR] [TrayMonitorThread] [root/app_icons.py:216]: GetIconInfo failed: 0
+2025-05-29 11:34:54,007 [INFO] [MainThread] [root/weather.py:67]: Fetching new weather data at 2025-05-29 11:34:54.007459
+2025-05-29 11:35:28,188 [INFO] [MainThread] [root/controller.py:12]: Reloading Application because of config update...
+2025-05-29 11:35:28,290 [INFO] [MainThread] [cli_server/cli_server.py:112]: Log pipe server stopped
+2025-05-29 11:35:28,290 [DEBUG] [MainThread] [cli_server/cli_server.py:206]: CLI server stopped
+2025-05-29 11:35:28,299 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:218]: Stopping worker thread...
+2025-05-29 11:35:28,306 [DEBUG] [Dummy-8] [qasync._windows._EventWorker/_windows.py:201]: Exiting thread
+2025-05-29 11:35:28,307 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:75]: Closing
+2025-05-29 11:35:30,400 [INFO] [MainThread] [root/log.py:59]: Yasb v1.7.4
+2025-05-29 11:35:30,401 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.1
+2025-05-29 11:35:30,401 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-05-29 11:35:30,530 [DEBUG] [MainThread] [tzlocal/win32.py:55]: Looking up time zone info from registry
+2025-05-29 11:35:30,720 [DEBUG] [MainThread] [comtypes/__init__.py:149]: CoInitializeEx(None, 2)
+2025-05-29 11:35:31,155 [INFO] [MainThread] [root/watcher.py:55]: Created file watcher for path C:\Users\myles\.config\yasb
+2025-05-29 11:35:31,168 [INFO] [Dummy-5] [root/event_listener.py:53]: Created named pipe yasb-434c1fe7-3c70-11f0-8246-cd51cd997a0a
+2025-05-29 11:35:31,199 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:213]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-05-29 11:35:31,200 [DEBUG] [Dummy-8] [qasync._windows._EventWorker/_windows.py:192]: Thread started
+2025-05-29 11:35:31,502 [DEBUG] [TrayMonitorThread] [root/utils.py:42]: Could not open process with PID 0
+2025-05-29 11:35:31,503 [ERROR] [TrayMonitorThread] [root/app_icons.py:216]: GetIconInfo failed: 0
+2025-05-29 11:35:31,749 [INFO] [MainThread] [root/weather.py:67]: Fetching new weather data at 2025-05-29 11:35:31.749594
+2025-05-29 11:35:40,621 [INFO] [MainThread] [root/controller.py:12]: Reloading Application because of config update...
+2025-05-29 11:35:40,724 [INFO] [MainThread] [cli_server/cli_server.py:112]: Log pipe server stopped
+2025-05-29 11:35:40,724 [DEBUG] [MainThread] [cli_server/cli_server.py:206]: CLI server stopped
+2025-05-29 11:35:40,746 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:218]: Stopping worker thread...
+2025-05-29 11:35:40,755 [DEBUG] [Dummy-8] [qasync._windows._EventWorker/_windows.py:201]: Exiting thread
+2025-05-29 11:35:40,756 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:75]: Closing
+2025-05-29 11:35:40,971 [INFO] [MainThread] [root/log.py:59]: Yasb v1.7.4
+2025-05-29 11:35:40,972 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.1
+2025-05-29 11:35:40,972 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-05-29 11:35:40,972 [ERROR] [MainThread] [root/main.py:35]: Another instance of the YASB is already running.
+2025-05-29 11:36:10,873 [INFO] [MainThread] [root/log.py:59]: Yasb v1.7.4
+2025-05-29 11:36:10,874 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.1
+2025-05-29 11:36:10,875 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-05-29 11:36:11,006 [DEBUG] [MainThread] [tzlocal/win32.py:55]: Looking up time zone info from registry
+2025-05-29 11:36:11,178 [DEBUG] [MainThread] [comtypes/__init__.py:149]: CoInitializeEx(None, 2)
+2025-05-29 11:36:11,609 [INFO] [MainThread] [root/watcher.py:55]: Created file watcher for path C:\Users\myles\.config\yasb
+2025-05-29 11:36:11,619 [INFO] [Dummy-5] [root/event_listener.py:53]: Created named pipe yasb-5b6907cc-3c70-11f0-9730-cd51cd997a0a
+2025-05-29 11:36:11,648 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:213]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-05-29 11:36:11,649 [DEBUG] [Dummy-8] [qasync._windows._EventWorker/_windows.py:192]: Thread started
+2025-05-29 11:36:11,943 [DEBUG] [TrayMonitorThread] [root/utils.py:42]: Could not open process with PID 0
+2025-05-29 11:36:11,946 [ERROR] [TrayMonitorThread] [root/app_icons.py:216]: GetIconInfo failed: 0
+2025-05-29 11:36:12,255 [INFO] [MainThread] [root/weather.py:67]: Fetching new weather data at 2025-05-29 11:36:12.255976
+2025-05-29 11:36:34,068 [INFO] [MainThread] [root/controller.py:12]: Reloading Application because of config update...
+2025-05-29 11:36:34,175 [INFO] [MainThread] [cli_server/cli_server.py:112]: Log pipe server stopped
+2025-05-29 11:36:34,175 [DEBUG] [MainThread] [cli_server/cli_server.py:206]: CLI server stopped
+2025-05-29 11:36:34,189 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:218]: Stopping worker thread...
+2025-05-29 11:36:34,190 [DEBUG] [Dummy-8] [qasync._windows._EventWorker/_windows.py:201]: Exiting thread
+2025-05-29 11:36:34,192 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:75]: Closing
+2025-05-29 11:36:35,039 [INFO] [MainThread] [root/log.py:59]: Yasb v1.7.4
+2025-05-29 11:36:35,039 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.1
+2025-05-29 11:36:35,039 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-05-29 11:36:35,171 [DEBUG] [MainThread] [tzlocal/win32.py:55]: Looking up time zone info from registry
+2025-05-29 11:36:35,343 [DEBUG] [MainThread] [comtypes/__init__.py:149]: CoInitializeEx(None, 2)
+2025-05-29 11:36:35,791 [INFO] [MainThread] [root/watcher.py:55]: Created file watcher for path C:\Users\myles\.config\yasb
+2025-05-29 11:36:35,803 [INFO] [Dummy-5] [root/event_listener.py:53]: Created named pipe yasb-69d2c031-3c70-11f0-a96b-cd51cd997a0a
+2025-05-29 11:36:35,833 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:213]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-05-29 11:36:35,833 [DEBUG] [Dummy-8] [qasync._windows._EventWorker/_windows.py:192]: Thread started
+2025-05-29 11:36:36,338 [INFO] [MainThread] [root/weather.py:67]: Fetching new weather data at 2025-05-29 11:36:36.338982
+2025-05-29 11:36:55,177 [INFO] [MainThread] [root/controller.py:12]: Reloading Application because of config update...
+2025-05-29 11:36:55,286 [INFO] [MainThread] [cli_server/cli_server.py:112]: Log pipe server stopped
+2025-05-29 11:36:55,286 [DEBUG] [MainThread] [cli_server/cli_server.py:206]: CLI server stopped
+2025-05-29 11:36:55,292 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:218]: Stopping worker thread...
+2025-05-29 11:36:55,301 [DEBUG] [Dummy-8] [qasync._windows._EventWorker/_windows.py:201]: Exiting thread
+2025-05-29 11:36:55,302 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:75]: Closing
+2025-05-29 11:36:55,613 [INFO] [MainThread] [root/log.py:59]: Yasb v1.7.4
+2025-05-29 11:36:55,614 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.1
+2025-05-29 11:36:55,614 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-05-29 11:36:55,716 [DEBUG] [MainThread] [tzlocal/win32.py:55]: Looking up time zone info from registry
+2025-05-29 11:36:55,899 [DEBUG] [MainThread] [comtypes/__init__.py:149]: CoInitializeEx(None, 2)
+2025-05-29 11:36:56,356 [INFO] [MainThread] [root/watcher.py:55]: Created file watcher for path C:\Users\myles\.config\yasb
+2025-05-29 11:36:56,366 [INFO] [Dummy-5] [root/event_listener.py:53]: Created named pipe yasb-7614a19d-3c70-11f0-9e92-cd51cd997a0a
+2025-05-29 11:36:56,396 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:213]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-05-29 11:36:56,397 [DEBUG] [Dummy-8] [qasync._windows._EventWorker/_windows.py:192]: Thread started
+2025-05-29 11:36:57,084 [INFO] [MainThread] [root/weather.py:67]: Fetching new weather data at 2025-05-29 11:36:57.084225
+2025-05-29 11:37:07,463 [INFO] [MainThread] [root/controller.py:12]: Reloading Application because of config update...
+2025-05-29 11:37:07,577 [INFO] [MainThread] [cli_server/cli_server.py:112]: Log pipe server stopped
+2025-05-29 11:37:07,577 [DEBUG] [MainThread] [cli_server/cli_server.py:206]: CLI server stopped
+2025-05-29 11:37:07,592 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:218]: Stopping worker thread...
+2025-05-29 11:37:07,607 [DEBUG] [Dummy-8] [qasync._windows._EventWorker/_windows.py:201]: Exiting thread
+2025-05-29 11:37:07,608 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:75]: Closing
+2025-05-29 11:37:07,927 [INFO] [MainThread] [root/log.py:59]: Yasb v1.7.4
+2025-05-29 11:37:07,927 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.1
+2025-05-29 11:37:07,927 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-05-29 11:37:08,054 [DEBUG] [MainThread] [tzlocal/win32.py:55]: Looking up time zone info from registry
+2025-05-29 11:37:08,213 [DEBUG] [MainThread] [comtypes/__init__.py:149]: CoInitializeEx(None, 2)
+2025-05-29 11:37:08,680 [INFO] [MainThread] [root/watcher.py:55]: Created file watcher for path C:\Users\myles\.config\yasb
+2025-05-29 11:37:08,691 [INFO] [Dummy-5] [root/event_listener.py:53]: Created named pipe yasb-7d6d3070-3c70-11f0-a617-cd51cd997a0a
+2025-05-29 11:37:08,723 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:213]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-05-29 11:37:08,724 [DEBUG] [Dummy-8] [qasync._windows._EventWorker/_windows.py:192]: Thread started
+2025-05-29 11:37:09,276 [INFO] [MainThread] [root/weather.py:67]: Fetching new weather data at 2025-05-29 11:37:09.276139
+2025-05-29 11:37:27,867 [INFO] [MainThread] [root/controller.py:12]: Reloading Application because of config update...
+2025-05-29 11:37:27,978 [INFO] [MainThread] [cli_server/cli_server.py:112]: Log pipe server stopped
+2025-05-29 11:37:27,978 [DEBUG] [MainThread] [cli_server/cli_server.py:206]: CLI server stopped
+2025-05-29 11:37:27,985 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:218]: Stopping worker thread...
+2025-05-29 11:37:27,994 [DEBUG] [Dummy-8] [qasync._windows._EventWorker/_windows.py:201]: Exiting thread
+2025-05-29 11:37:27,996 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:75]: Closing
+2025-05-29 11:37:28,799 [INFO] [MainThread] [root/log.py:59]: Yasb v1.7.4
+2025-05-29 11:37:28,801 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.1
+2025-05-29 11:37:28,801 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-05-29 11:37:28,931 [DEBUG] [MainThread] [tzlocal/win32.py:55]: Looking up time zone info from registry
+2025-05-29 11:37:29,081 [DEBUG] [MainThread] [comtypes/__init__.py:149]: CoInitializeEx(None, 2)
+2025-05-29 11:37:29,536 [INFO] [MainThread] [root/watcher.py:55]: Created file watcher for path C:\Users\myles\.config\yasb
+2025-05-29 11:37:29,537 [INFO] [Dummy-5] [root/event_listener.py:53]: Created named pipe yasb-89dbbd83-3c70-11f0-9f57-cd51cd997a0a
+2025-05-29 11:37:29,577 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:213]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-05-29 11:37:29,578 [DEBUG] [Dummy-8] [qasync._windows._EventWorker/_windows.py:192]: Thread started
+2025-05-29 11:37:55,700 [ERROR] [MainThread] [root/bar_manager.py:53]: Error loading config: while scanning a double-quoted scalar
+  in "C:\Users\myles\.config\yasb\config.yaml", line 298, column 19
+found unknown escape character 'M'
+  in "C:\Users\myles\.config\yasb\config.yaml", line 298, column 30
+2025-05-29 11:38:12,206 [INFO] [MainThread] [root/controller.py:27]: Exiting Application from tray...
+2025-05-29 11:38:12,309 [INFO] [MainThread] [cli_server/cli_server.py:112]: Log pipe server stopped
+2025-05-29 11:38:12,309 [DEBUG] [MainThread] [cli_server/cli_server.py:206]: CLI server stopped
+2025-05-29 11:38:12,309 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:218]: Stopping worker thread...
+2025-05-29 11:38:12,325 [DEBUG] [Dummy-8] [qasync._windows._EventWorker/_windows.py:201]: Exiting thread
+2025-05-29 11:38:12,325 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:75]: Closing
+2025-05-29 11:38:17,359 [INFO] [MainThread] [root/log.py:59]: Yasb v1.7.4
+2025-05-29 11:38:17,360 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.1
+2025-05-29 11:38:17,360 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-05-29 11:38:17,386 [ERROR] [MainThread] [root/main.py:99]: Exception during application startup
+Traceback (most recent call last):
+  File "main.py", line 97, in <module>
+  File "main.py", line 50, in main
+  File "D:\a\yasb\yasb\src\core\config.py", line 149, in get_config_and_stylesheet
+  File "D:\a\yasb\yasb\src\core\config.py", line 104, in get_config
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\yaml\__init__.py", line 125, in safe_load
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\yaml\__init__.py", line 81, in load
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\yaml\constructor.py", line 49, in get_single_data
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\yaml\composer.py", line 36, in get_single_node
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\yaml\composer.py", line 55, in compose_document
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\yaml\composer.py", line 84, in compose_node
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\yaml\composer.py", line 133, in compose_mapping_node
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\yaml\composer.py", line 84, in compose_node
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\yaml\composer.py", line 133, in compose_mapping_node
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\yaml\composer.py", line 84, in compose_node
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\yaml\composer.py", line 133, in compose_mapping_node
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\yaml\composer.py", line 84, in compose_node
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\yaml\composer.py", line 133, in compose_mapping_node
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\yaml\composer.py", line 64, in compose_node
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\yaml\parser.py", line 98, in check_event
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\yaml\parser.py", line 449, in parse_block_mapping_value
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\yaml\scanner.py", line 116, in check_token
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\yaml\scanner.py", line 251, in fetch_more_tokens
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\yaml\scanner.py", line 655, in fetch_double
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\yaml\scanner.py", line 666, in fetch_flow_scalar
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\yaml\scanner.py", line 1149, in scan_flow_scalar
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\yaml\scanner.py", line 1223, in scan_flow_scalar_non_spaces
+yaml.scanner.ScannerError: while scanning a double-quoted scalar
+  in "C:\Users\myles\.config\yasb\config.yaml", line 298, column 19
+found unknown escape character 'M'
+  in "C:\Users\myles\.config\yasb\config.yaml", line 298, column 30
+2025-05-29 11:38:24,959 [INFO] [MainThread] [root/log.py:59]: Yasb v1.7.4
+2025-05-29 11:38:24,959 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.1
+2025-05-29 11:38:24,960 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-05-29 11:38:24,986 [ERROR] [MainThread] [root/main.py:99]: Exception during application startup
+Traceback (most recent call last):
+  File "main.py", line 97, in <module>
+  File "main.py", line 50, in main
+  File "D:\a\yasb\yasb\src\core\config.py", line 149, in get_config_and_stylesheet
+  File "D:\a\yasb\yasb\src\core\config.py", line 104, in get_config
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\yaml\__init__.py", line 125, in safe_load
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\yaml\__init__.py", line 81, in load
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\yaml\constructor.py", line 49, in get_single_data
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\yaml\composer.py", line 36, in get_single_node
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\yaml\composer.py", line 55, in compose_document
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\yaml\composer.py", line 84, in compose_node
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\yaml\composer.py", line 133, in compose_mapping_node
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\yaml\composer.py", line 84, in compose_node
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\yaml\composer.py", line 133, in compose_mapping_node
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\yaml\composer.py", line 84, in compose_node
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\yaml\composer.py", line 133, in compose_mapping_node
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\yaml\composer.py", line 84, in compose_node
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\yaml\composer.py", line 133, in compose_mapping_node
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\yaml\composer.py", line 64, in compose_node
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\yaml\parser.py", line 98, in check_event
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\yaml\parser.py", line 449, in parse_block_mapping_value
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\yaml\scanner.py", line 116, in check_token
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\yaml\scanner.py", line 251, in fetch_more_tokens
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\yaml\scanner.py", line 655, in fetch_double
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\yaml\scanner.py", line 666, in fetch_flow_scalar
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\yaml\scanner.py", line 1149, in scan_flow_scalar
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\yaml\scanner.py", line 1223, in scan_flow_scalar_non_spaces
+yaml.scanner.ScannerError: while scanning a double-quoted scalar
+  in "C:\Users\myles\.config\yasb\config.yaml", line 298, column 19
+found unknown escape character 'M'
+  in "C:\Users\myles\.config\yasb\config.yaml", line 298, column 30
+2025-05-29 11:38:45,310 [INFO] [MainThread] [root/log.py:59]: Yasb v1.7.4
+2025-05-29 11:38:45,311 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.1
+2025-05-29 11:38:45,311 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-05-29 11:38:45,439 [DEBUG] [MainThread] [tzlocal/win32.py:55]: Looking up time zone info from registry
+2025-05-29 11:38:45,576 [DEBUG] [MainThread] [comtypes/__init__.py:149]: CoInitializeEx(None, 2)
+2025-05-29 11:38:46,564 [INFO] [MainThread] [root/watcher.py:55]: Created file watcher for path C:\Users\myles\.config\yasb
+2025-05-29 11:38:46,573 [INFO] [Dummy-5] [root/event_listener.py:53]: Created named pipe yasb-b7c543c1-3c70-11f0-848d-cd51cd997a0a
+2025-05-29 11:38:46,601 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:213]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-05-29 11:38:46,602 [DEBUG] [Dummy-8] [qasync._windows._EventWorker/_windows.py:192]: Thread started
+2025-05-29 11:38:58,376 [INFO] [MainThread] [root/controller.py:12]: Reloading Application because of config update...
+2025-05-29 11:38:58,480 [INFO] [MainThread] [cli_server/cli_server.py:112]: Log pipe server stopped
+2025-05-29 11:38:58,480 [DEBUG] [MainThread] [cli_server/cli_server.py:206]: CLI server stopped
+2025-05-29 11:38:58,494 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:218]: Stopping worker thread...
+2025-05-29 11:38:58,496 [DEBUG] [Dummy-8] [qasync._windows._EventWorker/_windows.py:201]: Exiting thread
+2025-05-29 11:38:58,498 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:75]: Closing
+2025-05-29 11:38:58,759 [INFO] [MainThread] [root/log.py:59]: Yasb v1.7.4
+2025-05-29 11:38:58,760 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.1
+2025-05-29 11:38:58,760 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-05-29 11:38:58,887 [DEBUG] [MainThread] [tzlocal/win32.py:55]: Looking up time zone info from registry
+2025-05-29 11:38:59,033 [DEBUG] [MainThread] [comtypes/__init__.py:149]: CoInitializeEx(None, 2)
+2025-05-29 11:38:59,494 [INFO] [MainThread] [root/watcher.py:55]: Created file watcher for path C:\Users\myles\.config\yasb
+2025-05-29 11:38:59,502 [INFO] [Dummy-5] [root/event_listener.py:53]: Created named pipe yasb-bf7a00ea-3c70-11f0-b31e-cd51cd997a0a
+2025-05-29 11:38:59,534 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:213]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-05-29 11:38:59,536 [DEBUG] [Dummy-8] [qasync._windows._EventWorker/_windows.py:192]: Thread started
+2025-05-29 11:39:12,893 [INFO] [MainThread] [root/controller.py:12]: Reloading Application because of config update...
+2025-05-29 11:39:13,002 [INFO] [MainThread] [cli_server/cli_server.py:112]: Log pipe server stopped
+2025-05-29 11:39:13,002 [DEBUG] [MainThread] [cli_server/cli_server.py:206]: CLI server stopped
+2025-05-29 11:39:13,013 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:218]: Stopping worker thread...
+2025-05-29 11:39:13,017 [DEBUG] [Dummy-8] [qasync._windows._EventWorker/_windows.py:201]: Exiting thread
+2025-05-29 11:39:13,018 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:75]: Closing
+2025-05-29 11:39:13,346 [INFO] [MainThread] [root/log.py:59]: Yasb v1.7.4
+2025-05-29 11:39:13,347 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.1
+2025-05-29 11:39:13,347 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-05-29 11:39:13,473 [DEBUG] [MainThread] [tzlocal/win32.py:55]: Looking up time zone info from registry
+2025-05-29 11:39:13,617 [DEBUG] [MainThread] [comtypes/__init__.py:149]: CoInitializeEx(None, 2)
+2025-05-29 11:39:14,072 [INFO] [MainThread] [root/watcher.py:55]: Created file watcher for path C:\Users\myles\.config\yasb
+2025-05-29 11:39:14,073 [INFO] [Dummy-5] [root/event_listener.py:53]: Created named pipe yasb-c82a8a16-3c70-11f0-9ab3-cd51cd997a0a
+2025-05-29 11:39:14,110 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:213]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-05-29 11:39:14,111 [DEBUG] [Dummy-8] [qasync._windows._EventWorker/_windows.py:192]: Thread started
+2025-05-29 11:39:41,555 [INFO] [MainThread] [root/controller.py:12]: Reloading Application because of config update...
+2025-05-29 11:39:41,659 [INFO] [MainThread] [cli_server/cli_server.py:112]: Log pipe server stopped
+2025-05-29 11:39:41,659 [DEBUG] [MainThread] [cli_server/cli_server.py:206]: CLI server stopped
+2025-05-29 11:39:41,669 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:218]: Stopping worker thread...
+2025-05-29 11:39:41,675 [DEBUG] [Dummy-8] [qasync._windows._EventWorker/_windows.py:201]: Exiting thread
+2025-05-29 11:39:41,676 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:75]: Closing
+2025-05-29 11:39:43,745 [INFO] [MainThread] [root/log.py:59]: Yasb v1.7.4
+2025-05-29 11:39:43,747 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.1
+2025-05-29 11:39:43,747 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-05-29 11:39:43,874 [DEBUG] [MainThread] [tzlocal/win32.py:55]: Looking up time zone info from registry
+2025-05-29 11:39:44,021 [DEBUG] [MainThread] [comtypes/__init__.py:149]: CoInitializeEx(None, 2)
+2025-05-29 11:39:44,460 [INFO] [MainThread] [root/watcher.py:55]: Created file watcher for path C:\Users\myles\.config\yasb
+2025-05-29 11:39:44,473 [INFO] [Dummy-5] [root/event_listener.py:53]: Created named pipe yasb-da477b2a-3c70-11f0-96db-cd51cd997a0a
+2025-05-29 11:39:44,503 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:213]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-05-29 11:39:44,505 [DEBUG] [Dummy-8] [qasync._windows._EventWorker/_windows.py:192]: Thread started
+2025-05-29 11:41:14,883 [INFO] [MainThread] [root/controller.py:12]: Reloading Application because of config update...
+2025-05-29 11:41:14,991 [INFO] [MainThread] [cli_server/cli_server.py:112]: Log pipe server stopped
+2025-05-29 11:41:14,991 [DEBUG] [MainThread] [cli_server/cli_server.py:206]: CLI server stopped
+2025-05-29 11:41:14,999 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:218]: Stopping worker thread...
+2025-05-29 11:41:15,007 [DEBUG] [Dummy-8] [qasync._windows._EventWorker/_windows.py:201]: Exiting thread
+2025-05-29 11:41:15,009 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:75]: Closing
+2025-05-29 11:41:17,062 [INFO] [MainThread] [root/log.py:59]: Yasb v1.7.4
+2025-05-29 11:41:17,062 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.1
+2025-05-29 11:41:17,063 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-05-29 11:41:17,186 [DEBUG] [MainThread] [tzlocal/win32.py:55]: Looking up time zone info from registry
+2025-05-29 11:41:17,345 [DEBUG] [MainThread] [comtypes/__init__.py:149]: CoInitializeEx(None, 2)
+2025-05-29 11:41:17,766 [INFO] [MainThread] [root/watcher.py:55]: Created file watcher for path C:\Users\myles\.config\yasb
+2025-05-29 11:41:17,776 [INFO] [Dummy-5] [root/event_listener.py:53]: Created named pipe yasb-11e4d855-3c71-11f0-a33c-cd51cd997a0a
+2025-05-29 11:41:17,809 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:213]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-05-29 11:41:17,810 [DEBUG] [Dummy-8] [qasync._windows._EventWorker/_windows.py:192]: Thread started
+2025-05-29 11:54:02,718 [INFO] [MainThread] [root/controller.py:27]: Exiting Application from tray...
+2025-05-29 11:54:02,824 [INFO] [MainThread] [cli_server/cli_server.py:112]: Log pipe server stopped
+2025-05-29 11:54:02,824 [DEBUG] [MainThread] [cli_server/cli_server.py:206]: CLI server stopped
+2025-05-29 11:54:02,824 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:218]: Stopping worker thread...
+2025-05-29 11:54:02,839 [DEBUG] [Dummy-8] [qasync._windows._EventWorker/_windows.py:201]: Exiting thread
+2025-05-29 11:54:02,841 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:75]: Closing
+2025-05-29 11:56:22,251 [INFO] [MainThread] [root/log.py:59]: Yasb v1.7.4
+2025-05-29 11:56:22,251 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.1
+2025-05-29 11:56:22,251 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-05-29 11:56:22,858 [DEBUG] [MainThread] [tzlocal/win32.py:55]: Looking up time zone info from registry
+2025-05-29 11:56:24,514 [DEBUG] [MainThread] [comtypes/__init__.py:149]: CoInitializeEx(None, 2)
+2025-05-29 11:56:27,135 [INFO] [MainThread] [root/watcher.py:55]: Created file watcher for path C:\Users\myles\.config\yasb
+2025-05-29 11:56:27,256 [INFO] [Dummy-5] [root/event_listener.py:53]: Created named pipe yasb-2feb7200-3c73-11f0-96e1-cd51cd997a0a
+2025-05-29 11:56:27,308 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:213]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-05-29 11:56:27,309 [DEBUG] [Dummy-8] [qasync._windows._EventWorker/_windows.py:192]: Thread started
+2025-05-29 11:57:59,542 [INFO] [MainThread] [root/controller.py:12]: Reloading Application because of config update...
+2025-05-29 11:57:59,651 [INFO] [MainThread] [cli_server/cli_server.py:112]: Log pipe server stopped
+2025-05-29 11:57:59,651 [DEBUG] [MainThread] [cli_server/cli_server.py:206]: CLI server stopped
+2025-05-29 11:57:59,673 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:218]: Stopping worker thread...
+2025-05-29 11:57:59,683 [DEBUG] [Dummy-8] [qasync._windows._EventWorker/_windows.py:201]: Exiting thread
+2025-05-29 11:57:59,684 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:75]: Closing
+2025-05-29 11:58:01,781 [INFO] [MainThread] [root/log.py:59]: Yasb v1.7.4
+2025-05-29 11:58:01,782 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.1
+2025-05-29 11:58:01,782 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-05-29 11:58:01,924 [DEBUG] [MainThread] [tzlocal/win32.py:55]: Looking up time zone info from registry
+2025-05-29 11:58:02,150 [DEBUG] [MainThread] [comtypes/__init__.py:149]: CoInitializeEx(None, 2)
+2025-05-29 11:58:02,610 [INFO] [MainThread] [root/watcher.py:55]: Created file watcher for path C:\Users\myles\.config\yasb
+2025-05-29 11:58:02,617 [INFO] [Dummy-5] [root/event_listener.py:53]: Created named pipe yasb-68d3e5bd-3c73-11f0-bcba-cd51cd997a0a
+2025-05-29 11:58:02,655 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:213]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-05-29 11:58:02,656 [DEBUG] [Dummy-8] [qasync._windows._EventWorker/_windows.py:192]: Thread started
+2025-05-29 12:01:59,596 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:249]: CLI server received command: stop
+2025-05-29 12:01:59,596 [INFO] [Thread-1 (_run_server)] [root/controller.py:27]: Exiting Application from CLI...
+2025-05-29 12:01:59,709 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:112]: Log pipe server stopped
+2025-05-29 12:01:59,709 [DEBUG] [Thread-1 (_run_server)] [cli_server/cli_server.py:206]: CLI server stopped
+2025-05-29 12:01:59,709 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:218]: Stopping worker thread...
+2025-05-29 12:01:59,726 [DEBUG] [Dummy-8] [qasync._windows._EventWorker/_windows.py:201]: Exiting thread
+2025-05-29 12:01:59,727 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:75]: Closing
+2025-05-29 12:02:02,119 [INFO] [MainThread] [root/log.py:59]: Yasb v1.7.4
+2025-05-29 12:02:02,120 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.1
+2025-05-29 12:02:02,120 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-05-29 12:02:02,306 [DEBUG] [MainThread] [tzlocal/win32.py:55]: Looking up time zone info from registry
+2025-05-29 12:02:02,978 [DEBUG] [MainThread] [comtypes/__init__.py:149]: CoInitializeEx(None, 2)
+2025-05-29 12:02:03,102 [INFO] [MainThread] [root/watcher.py:55]: Created file watcher for path C:\Users\myles\.config\yasb
+2025-05-29 12:02:03,110 [INFO] [Dummy-5] [root/event_listener.py:53]: Created named pipe yasb-f82bfa37-3c73-11f0-b7e8-cd51cd997a0a
+2025-05-29 12:02:03,169 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:213]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-05-29 12:02:03,171 [DEBUG] [Dummy-8] [qasync._windows._EventWorker/_windows.py:192]: Thread started
+2025-05-29 12:02:03,723 [INFO] [MainThread] [root/weather.py:67]: Fetching new weather data at 2025-05-29 12:02:03.723760
+2025-05-29 12:04:47,690 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:249]: CLI server received command: stop
+2025-05-29 12:04:47,691 [INFO] [Thread-1 (_run_server)] [root/controller.py:27]: Exiting Application from CLI...
+2025-05-29 12:04:47,805 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:112]: Log pipe server stopped
+2025-05-29 12:04:47,805 [DEBUG] [Thread-1 (_run_server)] [cli_server/cli_server.py:206]: CLI server stopped
+2025-05-29 12:04:47,805 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:218]: Stopping worker thread...
+2025-05-29 12:04:47,820 [DEBUG] [Dummy-8] [qasync._windows._EventWorker/_windows.py:201]: Exiting thread
+2025-05-29 12:04:47,820 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:75]: Closing
+2025-05-29 12:04:50,182 [INFO] [MainThread] [root/log.py:59]: Yasb v1.7.4
+2025-05-29 12:04:50,183 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.1
+2025-05-29 12:04:50,183 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-05-29 12:04:50,303 [DEBUG] [MainThread] [tzlocal/win32.py:55]: Looking up time zone info from registry
+2025-05-29 12:04:50,784 [DEBUG] [MainThread] [comtypes/__init__.py:149]: CoInitializeEx(None, 2)
+2025-05-29 12:04:50,985 [ERROR] [Thread-6 (_get_github_data)] [root/github.py:478]: No internet connection. Unable to fetch notifications.
+2025-05-29 12:04:51,306 [INFO] [MainThread] [root/watcher.py:55]: Created file watcher for path C:\Users\myles\.config\yasb
+2025-05-29 12:04:51,307 [INFO] [Dummy-9] [root/event_listener.py:53]: Created named pipe yasb-5c6db9cc-3c74-11f0-b5aa-cd51cd997a0a
+2025-05-29 12:04:51,350 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:213]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-05-29 12:04:51,351 [DEBUG] [Dummy-12] [qasync._windows._EventWorker/_windows.py:192]: Thread started
+2025-05-29 12:04:51,921 [INFO] [MainThread] [root/weather.py:67]: Fetching new weather data at 2025-05-29 12:04:51.921373
+2025-05-29 12:05:16,331 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:249]: CLI server received command: stop
+2025-05-29 12:05:16,331 [INFO] [Thread-1 (_run_server)] [root/controller.py:27]: Exiting Application from CLI...
+2025-05-29 12:05:16,431 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:112]: Log pipe server stopped
+2025-05-29 12:05:16,431 [DEBUG] [Thread-1 (_run_server)] [cli_server/cli_server.py:206]: CLI server stopped
+2025-05-29 12:05:16,431 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:218]: Stopping worker thread...
+2025-05-29 12:05:16,437 [DEBUG] [Dummy-12] [qasync._windows._EventWorker/_windows.py:201]: Exiting thread
+2025-05-29 12:05:16,438 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:75]: Closing
+2025-05-29 12:05:16,444 [ERROR] [Dummy-21] [root/event_service.py:30]: Failed to emit signal <bound PYQT_SIGNAL update_event of TaskbarWidget object at 0x0000022198B0EC10>. Removing link to WinEvent.EventObjectDestroy.
+2025-05-29 12:05:18,274 [INFO] [MainThread] [root/log.py:59]: Yasb v1.7.4
+2025-05-29 12:05:18,275 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.1
+2025-05-29 12:05:18,275 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-05-29 12:05:18,418 [DEBUG] [MainThread] [tzlocal/win32.py:55]: Looking up time zone info from registry
+2025-05-29 12:05:18,572 [DEBUG] [MainThread] [comtypes/__init__.py:149]: CoInitializeEx(None, 2)
+2025-05-29 12:05:19,166 [INFO] [MainThread] [root/watcher.py:55]: Created file watcher for path C:\Users\myles\.config\yasb
+2025-05-29 12:05:19,204 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:213]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-05-29 12:05:19,205 [DEBUG] [Dummy-5] [qasync._windows._EventWorker/_windows.py:192]: Thread started
+2025-05-29 12:05:19,456 [DEBUG] [TrayMonitorThread] [root/utils.py:42]: Could not open process with PID 0
+2025-05-29 12:05:19,458 [ERROR] [TrayMonitorThread] [root/app_icons.py:216]: GetIconInfo failed: 0
+2025-05-29 12:05:19,723 [INFO] [MainThread] [root/weather.py:67]: Fetching new weather data at 2025-05-29 12:05:19.723716
+2025-05-29 12:05:30,871 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:249]: CLI server received command: stop
+2025-05-29 12:05:30,871 [INFO] [Thread-1 (_run_server)] [root/controller.py:27]: Exiting Application from CLI...
+2025-05-29 12:05:30,973 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:112]: Log pipe server stopped
+2025-05-29 12:05:30,973 [DEBUG] [Thread-1 (_run_server)] [cli_server/cli_server.py:206]: CLI server stopped
+2025-05-29 12:05:30,973 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:218]: Stopping worker thread...
+2025-05-29 12:05:30,989 [DEBUG] [Dummy-5] [qasync._windows._EventWorker/_windows.py:201]: Exiting thread
+2025-05-29 12:05:30,989 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:75]: Closing
+2025-05-29 12:05:33,171 [INFO] [MainThread] [root/log.py:59]: Yasb v1.7.4
+2025-05-29 12:05:33,171 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.1
+2025-05-29 12:05:33,172 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-05-29 12:05:33,172 [ERROR] [MainThread] [root/main.py:35]: Another instance of the YASB is already running.
+2025-05-29 12:05:33,613 [ERROR] [Dummy-7] [root/event_service.py:30]: Failed to emit signal <bound PYQT_SIGNAL window_name_change of ActiveWindowWidget object at 0x0000022D33CE71B0>. Removing link to WinEvent.EventObjectNameChange.
+2025-05-29 12:05:41,431 [ERROR] [Dummy-7] [root/event_service.py:30]: Failed to emit signal <bound PYQT_SIGNAL foreground_change of ActiveWindowWidget object at 0x0000022D33CE71B0>. Removing link to WinEvent.EventSystemForeground.
+2025-05-29 12:05:44,641 [INFO] [MainThread] [root/log.py:59]: Yasb v1.7.4
+2025-05-29 12:05:44,642 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.1
+2025-05-29 12:05:44,642 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-05-29 12:05:44,642 [ERROR] [MainThread] [root/main.py:35]: Another instance of the YASB is already running.
+2025-05-29 12:06:09,714 [INFO] [MainThread] [root/log.py:59]: Yasb v1.7.4
+2025-05-29 12:06:09,714 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.1
+2025-05-29 12:06:09,715 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-05-29 12:06:09,851 [DEBUG] [MainThread] [tzlocal/win32.py:55]: Looking up time zone info from registry
+2025-05-29 12:06:10,063 [DEBUG] [MainThread] [comtypes/__init__.py:149]: CoInitializeEx(None, 2)
+2025-05-29 12:06:10,541 [INFO] [MainThread] [root/watcher.py:55]: Created file watcher for path C:\Users\myles\.config\yasb
+2025-05-29 12:06:10,550 [INFO] [Dummy-5] [root/event_listener.py:53]: Created named pipe yasb-8ba8289d-3c74-11f0-9ee5-cd51cd997a0a
+2025-05-29 12:06:10,587 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:213]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-05-29 12:06:10,588 [DEBUG] [Dummy-8] [qasync._windows._EventWorker/_windows.py:192]: Thread started
+2025-05-29 12:06:10,900 [DEBUG] [TrayMonitorThread] [root/utils.py:42]: Could not open process with PID 0
+2025-05-29 12:06:10,901 [ERROR] [TrayMonitorThread] [root/app_icons.py:216]: GetIconInfo failed: 0
+2025-05-29 12:06:11,279 [INFO] [MainThread] [root/weather.py:67]: Fetching new weather data at 2025-05-29 12:06:11.279822
+2025-05-29 12:06:25,179 [CRITICAL] [TrayMonitorThread] [systray_widget/tray_monitor.py:255]: Could not find the real systray window
+2025-05-29 12:06:25,182 [CRITICAL] [TrayMonitorThread] [systray_widget/tray_monitor.py:255]: Could not find the real systray window
+2025-05-29 12:06:25,187 [CRITICAL] [TrayMonitorThread] [systray_widget/tray_monitor.py:255]: Could not find the real systray window
+2025-05-29 12:06:25,190 [CRITICAL] [TrayMonitorThread] [systray_widget/tray_monitor.py:255]: Could not find the real systray window
+2025-05-29 12:06:25,193 [CRITICAL] [TrayMonitorThread] [systray_widget/tray_monitor.py:255]: Could not find the real systray window
+2025-05-29 12:06:54,969 [DEBUG] [TrayMonitorThread] [root/utils.py:42]: Could not open process with PID 0
+2025-05-29 12:06:54,970 [ERROR] [TrayMonitorThread] [root/app_icons.py:216]: GetIconInfo failed: 0
+2025-05-29 12:11:06,647 [INFO] [MainThread] [root/controller.py:12]: Reloading Application because of config update...
+2025-05-29 12:11:06,763 [INFO] [MainThread] [cli_server/cli_server.py:112]: Log pipe server stopped
+2025-05-29 12:11:06,763 [DEBUG] [MainThread] [cli_server/cli_server.py:206]: CLI server stopped
+2025-05-29 12:11:06,772 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:218]: Stopping worker thread...
+2025-05-29 12:11:06,778 [DEBUG] [Dummy-8] [qasync._windows._EventWorker/_windows.py:201]: Exiting thread
+2025-05-29 12:11:06,779 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:75]: Closing
+2025-05-29 12:11:07,045 [INFO] [MainThread] [root/log.py:59]: Yasb v1.7.4
+2025-05-29 12:11:07,046 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.1
+2025-05-29 12:11:07,046 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-05-29 12:11:07,123 [DEBUG] [MainThread] [tzlocal/win32.py:55]: Looking up time zone info from registry
+2025-05-29 12:11:07,407 [DEBUG] [MainThread] [comtypes/__init__.py:149]: CoInitializeEx(None, 2)
+2025-05-29 12:11:09,663 [INFO] [MainThread] [root/watcher.py:55]: Created file watcher for path C:\Users\myles\.config\yasb
+2025-05-29 12:11:09,669 [INFO] [Dummy-5] [root/event_listener.py:53]: Created named pipe yasb-3df26a4c-3c75-11f0-bc1e-cd51cd997a0a
+2025-05-29 12:11:09,706 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:213]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-05-29 12:11:09,708 [DEBUG] [Dummy-8] [qasync._windows._EventWorker/_windows.py:192]: Thread started
+2025-05-29 12:11:10,016 [DEBUG] [TrayMonitorThread] [root/utils.py:42]: Could not open process with PID 0
+2025-05-29 12:11:10,019 [ERROR] [TrayMonitorThread] [root/app_icons.py:216]: GetIconInfo failed: 0
+2025-05-29 12:11:10,270 [INFO] [MainThread] [root/weather.py:67]: Fetching new weather data at 2025-05-29 12:11:10.270335
+2025-05-29 12:12:07,538 [INFO] [MainThread] [root/controller.py:12]: Reloading Application because of config update...
+2025-05-29 12:12:07,647 [INFO] [MainThread] [cli_server/cli_server.py:112]: Log pipe server stopped
+2025-05-29 12:12:07,647 [DEBUG] [MainThread] [cli_server/cli_server.py:206]: CLI server stopped
+2025-05-29 12:12:07,658 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:218]: Stopping worker thread...
+2025-05-29 12:12:07,663 [DEBUG] [Dummy-8] [qasync._windows._EventWorker/_windows.py:201]: Exiting thread
+2025-05-29 12:12:07,664 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:75]: Closing
+2025-05-29 12:12:09,742 [INFO] [MainThread] [root/log.py:59]: Yasb v1.7.4
+2025-05-29 12:12:09,743 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.1
+2025-05-29 12:12:09,743 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-05-29 12:12:09,852 [DEBUG] [MainThread] [tzlocal/win32.py:55]: Looking up time zone info from registry
+2025-05-29 12:12:10,081 [DEBUG] [MainThread] [comtypes/__init__.py:149]: CoInitializeEx(None, 2)
+2025-05-29 12:12:10,543 [INFO] [MainThread] [root/watcher.py:55]: Created file watcher for path C:\Users\myles\.config\yasb
+2025-05-29 12:12:10,555 [INFO] [Dummy-5] [root/event_listener.py:53]: Created named pipe yasb-623c2070-3c75-11f0-90cb-cd51cd997a0a
+2025-05-29 12:12:10,587 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:213]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-05-29 12:12:10,589 [DEBUG] [Dummy-8] [qasync._windows._EventWorker/_windows.py:192]: Thread started
+2025-05-29 12:12:10,902 [DEBUG] [TrayMonitorThread] [root/utils.py:42]: Could not open process with PID 0
+2025-05-29 12:12:10,903 [ERROR] [TrayMonitorThread] [root/app_icons.py:216]: GetIconInfo failed: 0
+2025-05-29 12:12:11,404 [INFO] [MainThread] [root/weather.py:67]: Fetching new weather data at 2025-05-29 12:12:11.404488
+2025-05-29 12:12:19,598 [INFO] [MainThread] [root/controller.py:12]: Reloading Application because of config update...
+2025-05-29 12:12:19,705 [INFO] [MainThread] [cli_server/cli_server.py:112]: Log pipe server stopped
+2025-05-29 12:12:19,705 [DEBUG] [MainThread] [cli_server/cli_server.py:206]: CLI server stopped
+2025-05-29 12:12:19,721 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:218]: Stopping worker thread...
+2025-05-29 12:12:19,737 [DEBUG] [Dummy-8] [qasync._windows._EventWorker/_windows.py:201]: Exiting thread
+2025-05-29 12:12:19,738 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:75]: Closing
+2025-05-29 12:12:20,014 [INFO] [MainThread] [root/log.py:59]: Yasb v1.7.4
+2025-05-29 12:12:20,015 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.1
+2025-05-29 12:12:20,016 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-05-29 12:12:20,121 [DEBUG] [MainThread] [tzlocal/win32.py:55]: Looking up time zone info from registry
+2025-05-29 12:12:20,304 [DEBUG] [MainThread] [comtypes/__init__.py:149]: CoInitializeEx(None, 2)
+2025-05-29 12:12:20,741 [INFO] [MainThread] [root/watcher.py:55]: Created file watcher for path C:\Users\myles\.config\yasb
+2025-05-29 12:12:20,754 [INFO] [Dummy-5] [root/event_listener.py:53]: Created named pipe yasb-68503e2b-3c75-11f0-8a8e-cd51cd997a0a
+2025-05-29 12:12:20,783 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:213]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-05-29 12:12:20,784 [DEBUG] [Dummy-8] [qasync._windows._EventWorker/_windows.py:192]: Thread started
+2025-05-29 12:12:46,032 [INFO] [MainThread] [root/controller.py:12]: Reloading Application because of config update...
+2025-05-29 12:12:46,146 [INFO] [MainThread] [cli_server/cli_server.py:112]: Log pipe server stopped
+2025-05-29 12:12:46,146 [DEBUG] [MainThread] [cli_server/cli_server.py:206]: CLI server stopped
+2025-05-29 12:12:46,157 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:218]: Stopping worker thread...
+2025-05-29 12:12:46,161 [DEBUG] [Dummy-8] [qasync._windows._EventWorker/_windows.py:201]: Exiting thread
+2025-05-29 12:12:46,162 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:75]: Closing
+2025-05-29 12:12:48,234 [INFO] [MainThread] [root/log.py:59]: Yasb v1.7.4
+2025-05-29 12:12:48,234 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.1
+2025-05-29 12:12:48,235 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-05-29 12:12:48,341 [DEBUG] [MainThread] [tzlocal/win32.py:55]: Looking up time zone info from registry
+2025-05-29 12:12:48,525 [DEBUG] [MainThread] [comtypes/__init__.py:149]: CoInitializeEx(None, 2)
+2025-05-29 12:12:48,949 [INFO] [MainThread] [root/watcher.py:55]: Created file watcher for path C:\Users\myles\.config\yasb
+2025-05-29 12:12:48,956 [INFO] [Dummy-5] [root/event_listener.py:53]: Created named pipe yasb-79206b32-3c75-11f0-9194-cd51cd997a0a
+2025-05-29 12:12:48,994 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:213]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-05-29 12:12:48,995 [DEBUG] [Dummy-8] [qasync._windows._EventWorker/_windows.py:192]: Thread started
+2025-05-29 12:15:56,598 [INFO] [MainThread] [root/log.py:59]: Yasb v1.7.4
+2025-05-29 12:15:56,598 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.1
+2025-05-29 12:15:56,598 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-05-29 12:15:57,152 [DEBUG] [MainThread] [tzlocal/win32.py:55]: Looking up time zone info from registry
+2025-05-29 12:15:59,624 [DEBUG] [MainThread] [comtypes/__init__.py:149]: CoInitializeEx(None, 2)
+2025-05-29 12:16:00,461 [INFO] [MainThread] [root/watcher.py:55]: Created file watcher for path C:\Users\myles\.config\yasb
+2025-05-29 12:16:00,489 [INFO] [Dummy-5] [root/event_listener.py:53]: Created named pipe yasb-eb46acbb-3c75-11f0-b2f5-941db299cb7d
+2025-05-29 12:16:00,531 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:213]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-05-29 12:16:00,532 [DEBUG] [Dummy-8] [qasync._windows._EventWorker/_windows.py:192]: Thread started
+2025-05-29 12:16:46,675 [INFO] [Dummy-5] [root/event_listener.py:125]: Komorebi connected to named pipe: yasb-eb46acbb-3c75-11f0-b2f5-941db299cb7d
+2025-05-29 12:16:51,724 [WARNING] [Dummy-5] [root/event_listener.py:84]: Pipe has been ended: (109, 'PeekNamedPipe', 'The pipe has been ended.')
+2025-05-29 12:16:51,724 [INFO] [Dummy-5] [root/event_listener.py:94]: Attempting to reconnect to Komorebi...
+2025-05-29 12:16:54,727 [INFO] [Dummy-5] [root/event_listener.py:53]: Created named pipe yasb-eb46acbb-3c75-11f0-b2f5-941db299cb7d
+2025-05-29 12:17:45,786 [INFO] [Dummy-5] [root/event_listener.py:125]: Komorebi connected to named pipe: yasb-eb46acbb-3c75-11f0-b2f5-941db299cb7d
+2025-05-29 12:17:48,766 [ERROR] [Dummy-5] [root/event_listener.py:89]: Komorebi has disconnected from the named pipe yasb-eb46acbb-3c75-11f0-b2f5-941db299cb7d
+Traceback (most recent call last):
+  File "D:\a\yasb\yasb\src\core\utils\komorebi\event_listener.py", line 79, in run
+  File "D:\a\yasb\yasb\src\core\utils\komorebi\event_listener.py", line 101, in _emit_event
+  File "D:\a\yasb\yasb\src\core\event_service.py", line 28, in emit_event
+TypeError: WorkspaceWidget.k_signal_update[dict, dict].emit(): argument 1 has unexpected type 'str'
+2025-05-29 12:17:48,766 [INFO] [Dummy-5] [root/event_listener.py:94]: Attempting to reconnect to Komorebi...
+2025-05-29 12:17:51,776 [INFO] [Dummy-5] [root/event_listener.py:53]: Created named pipe yasb-eb46acbb-3c75-11f0-b2f5-941db299cb7d
+2025-05-29 12:17:51,875 [INFO] [Dummy-5] [root/event_listener.py:125]: Komorebi connected to named pipe: yasb-eb46acbb-3c75-11f0-b2f5-941db299cb7d
+2025-05-29 12:17:56,553 [WARNING] [Dummy-5] [root/event_listener.py:84]: Pipe has been ended: (109, 'PeekNamedPipe', 'The pipe has been ended.')
+2025-05-29 12:17:56,553 [INFO] [Dummy-5] [root/event_listener.py:94]: Attempting to reconnect to Komorebi...
+2025-05-29 12:17:59,554 [INFO] [Dummy-5] [root/event_listener.py:53]: Created named pipe yasb-eb46acbb-3c75-11f0-b2f5-941db299cb7d
+2025-05-29 12:40:49,362 [INFO] [MainThread] [root/log.py:59]: Yasb v1.7.4
+2025-05-29 12:40:49,362 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.1
+2025-05-29 12:40:49,362 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-05-29 12:40:49,871 [DEBUG] [MainThread] [tzlocal/win32.py:55]: Looking up time zone info from registry
+2025-05-29 12:40:52,749 [DEBUG] [MainThread] [comtypes/__init__.py:149]: CoInitializeEx(None, 2)
+2025-05-29 12:40:54,268 [INFO] [MainThread] [root/watcher.py:55]: Created file watcher for path C:\Users\myles\.config\yasb
+2025-05-29 12:40:54,285 [INFO] [Dummy-5] [root/event_listener.py:53]: Created named pipe yasb-65a7aabb-3c79-11f0-8557-a6d7f64bba4f
+2025-05-29 12:40:54,334 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:213]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-05-29 12:40:54,335 [DEBUG] [Dummy-8] [qasync._windows._EventWorker/_windows.py:192]: Thread started
+2025-05-29 12:57:14,951 [INFO] [Dummy-5] [root/event_listener.py:125]: Komorebi connected to named pipe: yasb-65a7aabb-3c79-11f0-8557-a6d7f64bba4f
+2025-05-29 12:57:19,065 [ERROR] [Dummy-5] [root/event_listener.py:89]: Komorebi has disconnected from the named pipe yasb-65a7aabb-3c79-11f0-8557-a6d7f64bba4f
+Traceback (most recent call last):
+  File "D:\a\yasb\yasb\src\core\utils\komorebi\event_listener.py", line 79, in run
+  File "D:\a\yasb\yasb\src\core\utils\komorebi\event_listener.py", line 101, in _emit_event
+  File "D:\a\yasb\yasb\src\core\event_service.py", line 28, in emit_event
+TypeError: WorkspaceWidget.k_signal_update[dict, dict].emit(): argument 1 has unexpected type 'str'
+2025-05-29 12:57:19,066 [INFO] [Dummy-5] [root/event_listener.py:94]: Attempting to reconnect to Komorebi...
+2025-05-29 12:57:22,067 [INFO] [Dummy-5] [root/event_listener.py:53]: Created named pipe yasb-65a7aabb-3c79-11f0-8557-a6d7f64bba4f
+2025-05-29 12:57:22,147 [INFO] [Dummy-5] [root/event_listener.py:125]: Komorebi connected to named pipe: yasb-65a7aabb-3c79-11f0-8557-a6d7f64bba4f
+2025-05-29 12:58:24,544 [WARNING] [Dummy-5] [root/event_listener.py:84]: Pipe has been ended: (109, 'PeekNamedPipe', 'The pipe has been ended.')
+2025-05-29 12:58:24,544 [INFO] [Dummy-5] [root/event_listener.py:94]: Attempting to reconnect to Komorebi...
+2025-05-29 12:58:27,545 [INFO] [Dummy-5] [root/event_listener.py:53]: Created named pipe yasb-65a7aabb-3c79-11f0-8557-a6d7f64bba4f
+2025-05-29 12:59:03,699 [INFO] [Dummy-5] [root/event_listener.py:125]: Komorebi connected to named pipe: yasb-65a7aabb-3c79-11f0-8557-a6d7f64bba4f
+2025-05-29 12:59:04,631 [ERROR] [Dummy-5] [root/event_listener.py:89]: Komorebi has disconnected from the named pipe yasb-65a7aabb-3c79-11f0-8557-a6d7f64bba4f
+Traceback (most recent call last):
+  File "D:\a\yasb\yasb\src\core\utils\komorebi\event_listener.py", line 79, in run
+  File "D:\a\yasb\yasb\src\core\utils\komorebi\event_listener.py", line 101, in _emit_event
+  File "D:\a\yasb\yasb\src\core\event_service.py", line 28, in emit_event
+TypeError: WorkspaceWidget.k_signal_update[dict, dict].emit(): argument 1 has unexpected type 'str'
+2025-05-29 12:59:04,631 [INFO] [Dummy-5] [root/event_listener.py:94]: Attempting to reconnect to Komorebi...
+2025-05-29 12:59:07,634 [INFO] [Dummy-5] [root/event_listener.py:53]: Created named pipe yasb-65a7aabb-3c79-11f0-8557-a6d7f64bba4f
+2025-05-29 12:59:07,718 [INFO] [Dummy-5] [root/event_listener.py:125]: Komorebi connected to named pipe: yasb-65a7aabb-3c79-11f0-8557-a6d7f64bba4f
+2025-05-29 12:59:14,004 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:218]: Stopping worker thread...
+2025-05-29 12:59:14,022 [DEBUG] [Dummy-8] [qasync._windows._EventWorker/_windows.py:201]: Exiting thread
+2025-05-29 12:59:14,022 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:75]: Closing
+2025-05-29 12:59:14,073 [ERROR] [Dummy-5] [root/event_service.py:30]: Failed to emit signal <bound PYQT_SIGNAL k_signal_update of WorkspaceWidget object at 0x000001D29635E210>. Removing link to KomorebiEvent.KomorebiUpdate.
+2025-05-29 12:59:14,073 [ERROR] [Dummy-5] [root/event_service.py:30]: Failed to emit signal <bound PYQT_SIGNAL k_signal_update of ActiveLayoutWidget object at 0x000001D2963B3070>. Removing link to KomorebiEvent.KomorebiUpdate.
+2025-05-29 13:00:43,296 [INFO] [MainThread] [root/log.py:59]: Yasb v1.7.4
+2025-05-29 13:00:43,298 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.1
+2025-05-29 13:00:43,298 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-05-29 13:00:43,851 [DEBUG] [MainThread] [tzlocal/win32.py:55]: Looking up time zone info from registry
+2025-05-29 13:00:47,004 [DEBUG] [MainThread] [comtypes/__init__.py:149]: CoInitializeEx(None, 2)
+2025-05-29 13:00:48,092 [INFO] [MainThread] [root/watcher.py:55]: Created file watcher for path C:\Users\myles\.config\yasb
+2025-05-29 13:00:48,116 [INFO] [Dummy-5] [root/event_listener.py:53]: Created named pipe yasb-2d3ac4e9-3c7c-11f0-82b7-9f929cd71435
+2025-05-29 13:00:48,168 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:213]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-05-29 13:00:48,169 [DEBUG] [Dummy-8] [qasync._windows._EventWorker/_windows.py:192]: Thread started
+2025-05-29 13:02:21,568 [INFO] [MainThread] [root/controller.py:12]: Reloading Application because of config update...
+2025-05-29 13:02:21,679 [INFO] [MainThread] [cli_server/cli_server.py:112]: Log pipe server stopped
+2025-05-29 13:02:21,679 [DEBUG] [MainThread] [cli_server/cli_server.py:206]: CLI server stopped
+2025-05-29 13:02:21,695 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:218]: Stopping worker thread...
+2025-05-29 13:02:21,711 [DEBUG] [Dummy-8] [qasync._windows._EventWorker/_windows.py:201]: Exiting thread
+2025-05-29 13:02:21,711 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:75]: Closing
+2025-05-29 13:02:23,693 [INFO] [MainThread] [root/log.py:59]: Yasb v1.7.4
+2025-05-29 13:02:23,693 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.1
+2025-05-29 13:02:23,693 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-05-29 13:02:24,105 [DEBUG] [MainThread] [tzlocal/win32.py:55]: Looking up time zone info from registry
+2025-05-29 13:02:25,669 [DEBUG] [MainThread] [comtypes/__init__.py:149]: CoInitializeEx(None, 2)
+2025-05-29 13:02:26,523 [INFO] [MainThread] [root/watcher.py:55]: Created file watcher for path C:\Users\myles\.config\yasb
+2025-05-29 13:02:26,524 [INFO] [Dummy-5] [root/event_listener.py:53]: Created named pipe yasb-67e60451-3c7c-11f0-a252-9f929cd71435
+2025-05-29 13:02:26,579 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:213]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-05-29 13:02:26,580 [DEBUG] [Dummy-8] [qasync._windows._EventWorker/_windows.py:192]: Thread started
+2025-05-29 13:02:35,499 [INFO] [MainThread] [root/controller.py:27]: Exiting Application from tray...
+2025-05-29 13:02:35,606 [INFO] [MainThread] [cli_server/cli_server.py:112]: Log pipe server stopped
+2025-05-29 13:02:35,606 [DEBUG] [MainThread] [cli_server/cli_server.py:206]: CLI server stopped
+2025-05-29 13:02:35,606 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:218]: Stopping worker thread...
+2025-05-29 13:02:35,621 [DEBUG] [Dummy-8] [qasync._windows._EventWorker/_windows.py:201]: Exiting thread
+2025-05-29 13:02:35,621 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:75]: Closing
+2025-05-29 13:02:39,809 [INFO] [MainThread] [root/log.py:59]: Yasb v1.7.4
+2025-05-29 13:02:39,809 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.1
+2025-05-29 13:02:39,809 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-05-29 13:02:39,921 [DEBUG] [MainThread] [tzlocal/win32.py:55]: Looking up time zone info from registry
+2025-05-29 13:02:40,141 [DEBUG] [MainThread] [comtypes/__init__.py:149]: CoInitializeEx(None, 2)
+2025-05-29 13:02:40,617 [INFO] [MainThread] [root/watcher.py:55]: Created file watcher for path C:\Users\myles\.config\yasb
+2025-05-29 13:02:40,623 [INFO] [Dummy-5] [root/event_listener.py:53]: Created named pipe yasb-704c9627-3c7c-11f0-beca-9f929cd71435
+2025-05-29 13:02:40,656 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:213]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-05-29 13:02:40,657 [DEBUG] [Dummy-8] [qasync._windows._EventWorker/_windows.py:192]: Thread started
+2025-05-29 13:02:50,920 [INFO] [Dummy-5] [root/event_listener.py:125]: Komorebi connected to named pipe: yasb-704c9627-3c7c-11f0-beca-9f929cd71435
+2025-05-29 13:03:01,007 [ERROR] [Dummy-5] [root/event_listener.py:89]: Komorebi has disconnected from the named pipe yasb-704c9627-3c7c-11f0-beca-9f929cd71435
+Traceback (most recent call last):
+  File "D:\a\yasb\yasb\src\core\utils\komorebi\event_listener.py", line 79, in run
+  File "D:\a\yasb\yasb\src\core\utils\komorebi\event_listener.py", line 101, in _emit_event
+  File "D:\a\yasb\yasb\src\core\event_service.py", line 28, in emit_event
+TypeError: WorkspaceWidget.k_signal_update[dict, dict].emit(): argument 1 has unexpected type 'str'
+2025-05-29 13:03:01,007 [INFO] [Dummy-5] [root/event_listener.py:94]: Attempting to reconnect to Komorebi...
+2025-05-29 13:03:04,008 [INFO] [Dummy-5] [root/event_listener.py:53]: Created named pipe yasb-704c9627-3c7c-11f0-beca-9f929cd71435
+2025-05-29 13:03:04,447 [INFO] [Dummy-5] [root/event_listener.py:125]: Komorebi connected to named pipe: yasb-704c9627-3c7c-11f0-beca-9f929cd71435
+2025-05-29 13:03:13,111 [INFO] [MainThread] [root/controller.py:12]: Reloading Application because of config update...
+2025-05-29 13:03:13,236 [INFO] [MainThread] [cli_server/cli_server.py:112]: Log pipe server stopped
+2025-05-29 13:03:13,236 [DEBUG] [MainThread] [cli_server/cli_server.py:206]: CLI server stopped
+2025-05-29 13:03:13,255 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:218]: Stopping worker thread...
+2025-05-29 13:03:13,268 [DEBUG] [Dummy-8] [qasync._windows._EventWorker/_windows.py:201]: Exiting thread
+2025-05-29 13:03:13,269 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:75]: Closing
+2025-05-29 13:03:15,316 [INFO] [MainThread] [root/log.py:59]: Yasb v1.7.4
+2025-05-29 13:03:15,316 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.1
+2025-05-29 13:03:15,316 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-05-29 13:03:15,434 [DEBUG] [MainThread] [tzlocal/win32.py:55]: Looking up time zone info from registry
+2025-05-29 13:03:15,673 [DEBUG] [MainThread] [comtypes/__init__.py:149]: CoInitializeEx(None, 2)
+2025-05-29 13:03:16,106 [INFO] [MainThread] [root/watcher.py:55]: Created file watcher for path C:\Users\myles\.config\yasb
+2025-05-29 13:03:16,117 [INFO] [Dummy-5] [root/event_listener.py:53]: Created named pipe yasb-8573ce4c-3c7c-11f0-9c3d-9f929cd71435
+2025-05-29 13:03:16,144 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:213]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-05-29 13:03:16,146 [DEBUG] [Dummy-8] [qasync._windows._EventWorker/_windows.py:192]: Thread started
+2025-05-29 13:03:16,258 [INFO] [Dummy-5] [root/event_listener.py:125]: Komorebi connected to named pipe: yasb-8573ce4c-3c7c-11f0-9c3d-9f929cd71435
+2025-05-29 13:03:43,110 [WARNING] [Dummy-5] [root/event_listener.py:84]: Pipe has been ended: (109, 'PeekNamedPipe', 'The pipe has been ended.')
+2025-05-29 13:03:43,110 [INFO] [Dummy-5] [root/event_listener.py:94]: Attempting to reconnect to Komorebi...
+2025-05-29 13:03:46,111 [INFO] [Dummy-5] [root/event_listener.py:53]: Created named pipe yasb-8573ce4c-3c7c-11f0-9c3d-9f929cd71435
+2025-05-29 13:03:46,265 [INFO] [Dummy-5] [root/event_listener.py:125]: Komorebi connected to named pipe: yasb-8573ce4c-3c7c-11f0-9c3d-9f929cd71435
+2025-05-29 13:03:51,140 [ERROR] [Dummy-5] [root/event_listener.py:89]: Komorebi has disconnected from the named pipe yasb-8573ce4c-3c7c-11f0-9c3d-9f929cd71435
+Traceback (most recent call last):
+  File "D:\a\yasb\yasb\src\core\utils\komorebi\event_listener.py", line 79, in run
+  File "D:\a\yasb\yasb\src\core\utils\komorebi\event_listener.py", line 101, in _emit_event
+  File "D:\a\yasb\yasb\src\core\event_service.py", line 28, in emit_event
+TypeError: WorkspaceWidget.k_signal_update[dict, dict].emit(): argument 1 has unexpected type 'str'
+2025-05-29 13:03:51,140 [INFO] [Dummy-5] [root/event_listener.py:94]: Attempting to reconnect to Komorebi...
+2025-05-29 13:03:54,142 [INFO] [Dummy-5] [root/event_listener.py:53]: Created named pipe yasb-8573ce4c-3c7c-11f0-9c3d-9f929cd71435
+2025-05-29 13:03:54,245 [INFO] [Dummy-5] [root/event_listener.py:125]: Komorebi connected to named pipe: yasb-8573ce4c-3c7c-11f0-9c3d-9f929cd71435
+2025-05-29 13:08:25,937 [ERROR] [MainThread] [root/bar_manager.py:53]: Error loading config: while scanning a double-quoted scalar
+  in "C:\Users\myles\.config\yasb\config.yaml", line 5, column 18
+expected escape sequence of 8 hexadecimal numbers, but found 's'
+  in "C:\Users\myles\.config\yasb\config.yaml", line 5, column 48
+2025-05-29 13:08:34,633 [WARNING] [Dummy-5] [root/event_listener.py:84]: Pipe has been ended: (109, 'PeekNamedPipe', 'The pipe has been ended.')
+2025-05-29 13:08:34,633 [INFO] [Dummy-5] [root/event_listener.py:94]: Attempting to reconnect to Komorebi...
+2025-05-29 13:08:37,638 [INFO] [Dummy-5] [root/event_listener.py:53]: Created named pipe yasb-8573ce4c-3c7c-11f0-9c3d-9f929cd71435
+2025-05-29 13:09:00,959 [ERROR] [MainThread] [root/bar_manager.py:53]: Error loading config: while scanning a double-quoted scalar
+  in "C:\Users\myles\.config\yasb\config.yaml", line 5, column 18
+expected escape sequence of 8 hexadecimal numbers, but found 's'
+  in "C:\Users\myles\.config\yasb\config.yaml", line 5, column 48
+2025-05-29 13:09:06,752 [INFO] [MainThread] [root/controller.py:27]: Exiting Application from tray...
+2025-05-29 13:09:06,863 [INFO] [MainThread] [cli_server/cli_server.py:112]: Log pipe server stopped
+2025-05-29 13:09:06,863 [DEBUG] [MainThread] [cli_server/cli_server.py:206]: CLI server stopped
+2025-05-29 13:09:06,863 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:218]: Stopping worker thread...
+2025-05-29 13:09:06,879 [DEBUG] [Dummy-8] [qasync._windows._EventWorker/_windows.py:201]: Exiting thread
+2025-05-29 13:09:06,879 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:75]: Closing
+2025-05-29 13:09:11,354 [INFO] [MainThread] [root/log.py:59]: Yasb v1.7.4
+2025-05-29 13:09:11,354 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.1
+2025-05-29 13:09:11,354 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-05-29 13:09:11,370 [ERROR] [MainThread] [root/main.py:99]: Exception during application startup
+Traceback (most recent call last):
+  File "main.py", line 97, in <module>
+  File "main.py", line 50, in main
+  File "D:\a\yasb\yasb\src\core\config.py", line 149, in get_config_and_stylesheet
+  File "D:\a\yasb\yasb\src\core\config.py", line 104, in get_config
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\yaml\__init__.py", line 125, in safe_load
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\yaml\__init__.py", line 81, in load
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\yaml\constructor.py", line 49, in get_single_data
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\yaml\composer.py", line 36, in get_single_node
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\yaml\composer.py", line 55, in compose_document
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\yaml\composer.py", line 84, in compose_node
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\yaml\composer.py", line 133, in compose_mapping_node
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\yaml\composer.py", line 84, in compose_node
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\yaml\composer.py", line 133, in compose_mapping_node
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\yaml\composer.py", line 64, in compose_node
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\yaml\parser.py", line 98, in check_event
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\yaml\parser.py", line 449, in parse_block_mapping_value
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\yaml\scanner.py", line 116, in check_token
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\yaml\scanner.py", line 251, in fetch_more_tokens
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\yaml\scanner.py", line 655, in fetch_double
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\yaml\scanner.py", line 666, in fetch_flow_scalar
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\yaml\scanner.py", line 1152, in scan_flow_scalar
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\yaml\scanner.py", line 1213, in scan_flow_scalar_non_spaces
+yaml.scanner.ScannerError: while scanning a double-quoted scalar
+  in "C:\Users\myles\.config\yasb\config.yaml", line 5, column 18
+expected escape sequence of 8 hexadecimal numbers, but found 's'
+  in "C:\Users\myles\.config\yasb\config.yaml", line 5, column 48
+2025-05-29 13:09:32,316 [INFO] [MainThread] [root/log.py:59]: Yasb v1.7.4
+2025-05-29 13:09:32,316 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.1
+2025-05-29 13:09:32,316 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-05-29 13:09:32,331 [ERROR] [MainThread] [root/main.py:99]: Exception during application startup
+Traceback (most recent call last):
+  File "main.py", line 97, in <module>
+  File "main.py", line 50, in main
+  File "D:\a\yasb\yasb\src\core\config.py", line 149, in get_config_and_stylesheet
+  File "D:\a\yasb\yasb\src\core\config.py", line 104, in get_config
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\yaml\__init__.py", line 125, in safe_load
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\yaml\__init__.py", line 81, in load
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\yaml\constructor.py", line 49, in get_single_data
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\yaml\composer.py", line 36, in get_single_node
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\yaml\composer.py", line 55, in compose_document
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\yaml\composer.py", line 84, in compose_node
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\yaml\composer.py", line 133, in compose_mapping_node
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\yaml\composer.py", line 84, in compose_node
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\yaml\composer.py", line 133, in compose_mapping_node
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\yaml\composer.py", line 64, in compose_node
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\yaml\parser.py", line 98, in check_event
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\yaml\parser.py", line 449, in parse_block_mapping_value
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\yaml\scanner.py", line 116, in check_token
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\yaml\scanner.py", line 251, in fetch_more_tokens
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\yaml\scanner.py", line 655, in fetch_double
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\yaml\scanner.py", line 666, in fetch_flow_scalar
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\yaml\scanner.py", line 1152, in scan_flow_scalar
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\yaml\scanner.py", line 1213, in scan_flow_scalar_non_spaces
+yaml.scanner.ScannerError: while scanning a double-quoted scalar
+  in "C:\Users\myles\.config\yasb\config.yaml", line 5, column 18
+expected escape sequence of 8 hexadecimal numbers, but found 's'
+  in "C:\Users\myles\.config\yasb\config.yaml", line 5, column 48
+2025-05-29 13:09:36,521 [INFO] [MainThread] [root/log.py:59]: Yasb v1.7.4
+2025-05-29 13:09:36,522 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.1
+2025-05-29 13:09:36,522 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-05-29 13:09:36,537 [ERROR] [MainThread] [root/main.py:99]: Exception during application startup
+Traceback (most recent call last):
+  File "main.py", line 97, in <module>
+  File "main.py", line 50, in main
+  File "D:\a\yasb\yasb\src\core\config.py", line 149, in get_config_and_stylesheet
+  File "D:\a\yasb\yasb\src\core\config.py", line 104, in get_config
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\yaml\__init__.py", line 125, in safe_load
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\yaml\__init__.py", line 81, in load
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\yaml\constructor.py", line 49, in get_single_data
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\yaml\composer.py", line 36, in get_single_node
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\yaml\composer.py", line 55, in compose_document
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\yaml\composer.py", line 84, in compose_node
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\yaml\composer.py", line 133, in compose_mapping_node
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\yaml\composer.py", line 84, in compose_node
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\yaml\composer.py", line 133, in compose_mapping_node
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\yaml\composer.py", line 64, in compose_node
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\yaml\parser.py", line 98, in check_event
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\yaml\parser.py", line 449, in parse_block_mapping_value
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\yaml\scanner.py", line 116, in check_token
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\yaml\scanner.py", line 251, in fetch_more_tokens
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\yaml\scanner.py", line 655, in fetch_double
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\yaml\scanner.py", line 666, in fetch_flow_scalar
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\yaml\scanner.py", line 1152, in scan_flow_scalar
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\yaml\scanner.py", line 1213, in scan_flow_scalar_non_spaces
+yaml.scanner.ScannerError: while scanning a double-quoted scalar
+  in "C:\Users\myles\.config\yasb\config.yaml", line 5, column 18
+expected escape sequence of 8 hexadecimal numbers, but found 's'
+  in "C:\Users\myles\.config\yasb\config.yaml", line 5, column 48
+2025-05-29 13:10:57,916 [INFO] [MainThread] [root/log.py:59]: Yasb v1.7.4
+2025-05-29 13:10:57,916 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.1
+2025-05-29 13:10:57,916 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-05-29 13:10:57,932 [ERROR] [MainThread] [root/main.py:99]: Exception during application startup
+Traceback (most recent call last):
+  File "main.py", line 97, in <module>
+  File "main.py", line 50, in main
+  File "D:\a\yasb\yasb\src\core\config.py", line 149, in get_config_and_stylesheet
+  File "D:\a\yasb\yasb\src\core\config.py", line 104, in get_config
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\yaml\__init__.py", line 125, in safe_load
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\yaml\__init__.py", line 81, in load
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\yaml\constructor.py", line 49, in get_single_data
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\yaml\composer.py", line 36, in get_single_node
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\yaml\composer.py", line 55, in compose_document
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\yaml\composer.py", line 84, in compose_node
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\yaml\composer.py", line 133, in compose_mapping_node
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\yaml\composer.py", line 84, in compose_node
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\yaml\composer.py", line 133, in compose_mapping_node
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\yaml\composer.py", line 64, in compose_node
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\yaml\parser.py", line 98, in check_event
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\yaml\parser.py", line 449, in parse_block_mapping_value
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\yaml\scanner.py", line 116, in check_token
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\yaml\scanner.py", line 251, in fetch_more_tokens
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\yaml\scanner.py", line 655, in fetch_double
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\yaml\scanner.py", line 666, in fetch_flow_scalar
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\yaml\scanner.py", line 1152, in scan_flow_scalar
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\yaml\scanner.py", line 1213, in scan_flow_scalar_non_spaces
+yaml.scanner.ScannerError: while scanning a double-quoted scalar
+  in "C:\Users\myles\.config\yasb\config.yaml", line 5, column 18
+expected escape sequence of 8 hexadecimal numbers, but found 's'
+  in "C:\Users\myles\.config\yasb\config.yaml", line 5, column 48
+2025-05-29 13:11:00,484 [INFO] [MainThread] [root/log.py:59]: Yasb v1.7.4
+2025-05-29 13:11:00,484 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.1
+2025-05-29 13:11:00,484 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-05-29 13:11:00,501 [ERROR] [MainThread] [root/main.py:99]: Exception during application startup
+Traceback (most recent call last):
+  File "main.py", line 97, in <module>
+  File "main.py", line 50, in main
+  File "D:\a\yasb\yasb\src\core\config.py", line 149, in get_config_and_stylesheet
+  File "D:\a\yasb\yasb\src\core\config.py", line 104, in get_config
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\yaml\__init__.py", line 125, in safe_load
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\yaml\__init__.py", line 81, in load
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\yaml\constructor.py", line 49, in get_single_data
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\yaml\composer.py", line 36, in get_single_node
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\yaml\composer.py", line 55, in compose_document
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\yaml\composer.py", line 84, in compose_node
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\yaml\composer.py", line 133, in compose_mapping_node
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\yaml\composer.py", line 84, in compose_node
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\yaml\composer.py", line 133, in compose_mapping_node
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\yaml\composer.py", line 64, in compose_node
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\yaml\parser.py", line 98, in check_event
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\yaml\parser.py", line 449, in parse_block_mapping_value
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\yaml\scanner.py", line 116, in check_token
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\yaml\scanner.py", line 251, in fetch_more_tokens
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\yaml\scanner.py", line 655, in fetch_double
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\yaml\scanner.py", line 666, in fetch_flow_scalar
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\yaml\scanner.py", line 1152, in scan_flow_scalar
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\yaml\scanner.py", line 1213, in scan_flow_scalar_non_spaces
+yaml.scanner.ScannerError: while scanning a double-quoted scalar
+  in "C:\Users\myles\.config\yasb\config.yaml", line 5, column 18
+expected escape sequence of 8 hexadecimal numbers, but found 's'
+  in "C:\Users\myles\.config\yasb\config.yaml", line 5, column 48
+2025-05-29 13:12:40,814 [INFO] [MainThread] [root/log.py:59]: Yasb v1.7.4
+2025-05-29 13:12:40,814 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.1
+2025-05-29 13:12:40,814 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-05-29 13:12:40,915 [DEBUG] [MainThread] [tzlocal/win32.py:55]: Looking up time zone info from registry
+2025-05-29 13:12:41,117 [DEBUG] [MainThread] [comtypes/__init__.py:149]: CoInitializeEx(None, 2)
+2025-05-29 13:12:43,440 [INFO] [MainThread] [root/watcher.py:55]: Created file watcher for path C:\Users\myles\.config\yasb
+2025-05-29 13:12:43,446 [INFO] [Dummy-5] [root/event_listener.py:53]: Created named pipe yasb-d79bf9c4-3c7d-11f0-aceb-9f929cd71435
+2025-05-29 13:12:43,482 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:213]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-05-29 13:12:43,483 [DEBUG] [Dummy-8] [qasync._windows._EventWorker/_windows.py:192]: Thread started
+2025-05-29 13:12:43,550 [INFO] [Dummy-5] [root/event_listener.py:125]: Komorebi connected to named pipe: yasb-d79bf9c4-3c7d-11f0-aceb-9f929cd71435
+2025-05-29 13:16:15,134 [WARNING] [Dummy-5] [root/event_listener.py:84]: Pipe has been ended: (109, 'PeekNamedPipe', 'The pipe has been ended.')
+2025-05-29 13:16:15,134 [INFO] [Dummy-5] [root/event_listener.py:94]: Attempting to reconnect to Komorebi...
+2025-05-29 13:16:18,135 [INFO] [Dummy-5] [root/event_listener.py:53]: Created named pipe yasb-d79bf9c4-3c7d-11f0-aceb-9f929cd71435
+2025-05-29 13:16:18,223 [INFO] [Dummy-5] [root/event_listener.py:125]: Komorebi connected to named pipe: yasb-d79bf9c4-3c7d-11f0-aceb-9f929cd71435
+2025-05-29 13:16:21,484 [WARNING] [Dummy-5] [root/event_listener.py:84]: Pipe has been ended: (109, 'PeekNamedPipe', 'The pipe has been ended.')
+2025-05-29 13:16:21,484 [INFO] [Dummy-5] [root/event_listener.py:94]: Attempting to reconnect to Komorebi...
+2025-05-29 13:16:24,485 [INFO] [Dummy-5] [root/event_listener.py:53]: Created named pipe yasb-d79bf9c4-3c7d-11f0-aceb-9f929cd71435
+2025-05-29 13:16:34,765 [INFO] [Dummy-5] [root/event_listener.py:125]: Komorebi connected to named pipe: yasb-d79bf9c4-3c7d-11f0-aceb-9f929cd71435
+2025-05-29 13:18:15,710 [WARNING] [Dummy-5] [root/event_listener.py:84]: Pipe has been ended: (109, 'PeekNamedPipe', 'The pipe has been ended.')
+2025-05-29 13:18:15,710 [INFO] [Dummy-5] [root/event_listener.py:94]: Attempting to reconnect to Komorebi...
+2025-05-29 13:18:18,711 [INFO] [Dummy-5] [root/event_listener.py:53]: Created named pipe yasb-d79bf9c4-3c7d-11f0-aceb-9f929cd71435
+2025-05-29 13:21:12,033 [INFO] [Dummy-5] [root/event_listener.py:125]: Komorebi connected to named pipe: yasb-d79bf9c4-3c7d-11f0-aceb-9f929cd71435
+2025-05-29 13:21:33,087 [WARNING] [Dummy-5] [root/event_listener.py:84]: Pipe has been ended: (109, 'PeekNamedPipe', 'The pipe has been ended.')
+2025-05-29 13:21:33,087 [INFO] [Dummy-5] [root/event_listener.py:94]: Attempting to reconnect to Komorebi...
+2025-05-29 13:21:36,088 [INFO] [Dummy-5] [root/event_listener.py:53]: Created named pipe yasb-d79bf9c4-3c7d-11f0-aceb-9f929cd71435
+2025-05-29 13:27:43,310 [INFO] [Dummy-5] [root/event_listener.py:125]: Komorebi connected to named pipe: yasb-d79bf9c4-3c7d-11f0-aceb-9f929cd71435
+2025-05-29 13:27:49,092 [WARNING] [Dummy-5] [root/event_listener.py:84]: Pipe has been ended: (109, 'PeekNamedPipe', 'The pipe has been ended.')
+2025-05-29 13:27:49,093 [INFO] [Dummy-5] [root/event_listener.py:94]: Attempting to reconnect to Komorebi...
+2025-05-29 13:27:52,095 [INFO] [Dummy-5] [root/event_listener.py:53]: Created named pipe yasb-d79bf9c4-3c7d-11f0-aceb-9f929cd71435
+2025-05-29 13:28:32,963 [INFO] [Dummy-5] [root/event_listener.py:125]: Komorebi connected to named pipe: yasb-d79bf9c4-3c7d-11f0-aceb-9f929cd71435
+2025-05-29 13:28:57,926 [WARNING] [Dummy-5] [root/event_listener.py:84]: Pipe has been ended: (109, 'PeekNamedPipe', 'The pipe has been ended.')
+2025-05-29 13:28:57,926 [INFO] [Dummy-5] [root/event_listener.py:94]: Attempting to reconnect to Komorebi...
+2025-05-29 13:29:00,928 [INFO] [Dummy-5] [root/event_listener.py:53]: Created named pipe yasb-d79bf9c4-3c7d-11f0-aceb-9f929cd71435
+2025-05-29 13:29:01,015 [INFO] [Dummy-5] [root/event_listener.py:125]: Komorebi connected to named pipe: yasb-d79bf9c4-3c7d-11f0-aceb-9f929cd71435
+2025-05-29 13:29:04,639 [WARNING] [Dummy-5] [root/event_listener.py:84]: Pipe has been ended: (109, 'PeekNamedPipe', 'The pipe has been ended.')
+2025-05-29 13:29:04,639 [INFO] [Dummy-5] [root/event_listener.py:94]: Attempting to reconnect to Komorebi...
+2025-05-29 13:29:07,641 [INFO] [Dummy-5] [root/event_listener.py:53]: Created named pipe yasb-d79bf9c4-3c7d-11f0-aceb-9f929cd71435
+2025-05-29 13:34:08,511 [INFO] [Dummy-5] [root/event_listener.py:125]: Komorebi connected to named pipe: yasb-d79bf9c4-3c7d-11f0-aceb-9f929cd71435
+2025-05-29 13:36:46,269 [ERROR] [MainThread] [root/bar_manager.py:53]: Error loading config: while scanning a double-quoted scalar
+  in "C:\Users\myles\.config\yasb\config.yaml", line 5, column 18
+expected escape sequence of 8 hexadecimal numbers, but found 's'
+  in "C:\Users\myles\.config\yasb\config.yaml", line 5, column 66
+2025-05-29 13:36:51,830 [WARNING] [Dummy-5] [root/event_listener.py:84]: Pipe has been ended: (109, 'PeekNamedPipe', 'The pipe has been ended.')
+2025-05-29 13:36:51,830 [INFO] [Dummy-5] [root/event_listener.py:94]: Attempting to reconnect to Komorebi...
+2025-05-29 13:36:54,831 [INFO] [Dummy-5] [root/event_listener.py:53]: Created named pipe yasb-d79bf9c4-3c7d-11f0-aceb-9f929cd71435
+2025-05-29 13:37:00,053 [INFO] [Dummy-5] [root/event_listener.py:125]: Komorebi connected to named pipe: yasb-d79bf9c4-3c7d-11f0-aceb-9f929cd71435
+2025-05-29 13:37:00,310 [WARNING] [Dummy-5] [root/event_listener.py:84]: Pipe has been ended: (109, 'PeekNamedPipe', 'The pipe has been ended.')
+2025-05-29 13:37:00,310 [INFO] [Dummy-5] [root/event_listener.py:94]: Attempting to reconnect to Komorebi...
+2025-05-29 13:37:03,311 [INFO] [Dummy-5] [root/event_listener.py:53]: Created named pipe yasb-d79bf9c4-3c7d-11f0-aceb-9f929cd71435
+2025-05-29 13:37:05,740 [INFO] [MainThread] [root/controller.py:12]: Reloading Application from tray...
+2025-05-29 13:37:05,849 [INFO] [MainThread] [cli_server/cli_server.py:112]: Log pipe server stopped
+2025-05-29 13:37:05,849 [DEBUG] [MainThread] [cli_server/cli_server.py:206]: CLI server stopped
+2025-05-29 13:37:05,877 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:218]: Stopping worker thread...
+2025-05-29 13:37:05,897 [DEBUG] [Dummy-8] [qasync._windows._EventWorker/_windows.py:201]: Exiting thread
+2025-05-29 13:37:05,898 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:75]: Closing
+2025-05-29 13:37:07,975 [INFO] [MainThread] [root/log.py:59]: Yasb v1.7.4
+2025-05-29 13:37:07,975 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.1
+2025-05-29 13:37:07,976 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-05-29 13:37:07,994 [ERROR] [MainThread] [root/main.py:99]: Exception during application startup
+Traceback (most recent call last):
+  File "main.py", line 97, in <module>
+  File "main.py", line 50, in main
+  File "D:\a\yasb\yasb\src\core\config.py", line 149, in get_config_and_stylesheet
+  File "D:\a\yasb\yasb\src\core\config.py", line 104, in get_config
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\yaml\__init__.py", line 125, in safe_load
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\yaml\__init__.py", line 81, in load
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\yaml\constructor.py", line 49, in get_single_data
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\yaml\composer.py", line 36, in get_single_node
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\yaml\composer.py", line 55, in compose_document
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\yaml\composer.py", line 84, in compose_node
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\yaml\composer.py", line 133, in compose_mapping_node
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\yaml\composer.py", line 84, in compose_node
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\yaml\composer.py", line 133, in compose_mapping_node
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\yaml\composer.py", line 64, in compose_node
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\yaml\parser.py", line 98, in check_event
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\yaml\parser.py", line 449, in parse_block_mapping_value
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\yaml\scanner.py", line 116, in check_token
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\yaml\scanner.py", line 251, in fetch_more_tokens
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\yaml\scanner.py", line 655, in fetch_double
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\yaml\scanner.py", line 666, in fetch_flow_scalar
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\yaml\scanner.py", line 1152, in scan_flow_scalar
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\yaml\scanner.py", line 1213, in scan_flow_scalar_non_spaces
+yaml.scanner.ScannerError: while scanning a double-quoted scalar
+  in "C:\Users\myles\.config\yasb\config.yaml", line 5, column 18
+expected escape sequence of 8 hexadecimal numbers, but found 's'
+  in "C:\Users\myles\.config\yasb\config.yaml", line 5, column 66
+2025-05-29 13:37:25,105 [INFO] [MainThread] [root/log.py:59]: Yasb v1.7.4
+2025-05-29 13:37:25,106 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.1
+2025-05-29 13:37:25,106 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-05-29 13:37:25,120 [ERROR] [MainThread] [root/main.py:99]: Exception during application startup
+Traceback (most recent call last):
+  File "main.py", line 97, in <module>
+  File "main.py", line 50, in main
+  File "D:\a\yasb\yasb\src\core\config.py", line 149, in get_config_and_stylesheet
+  File "D:\a\yasb\yasb\src\core\config.py", line 104, in get_config
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\yaml\__init__.py", line 125, in safe_load
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\yaml\__init__.py", line 81, in load
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\yaml\constructor.py", line 49, in get_single_data
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\yaml\composer.py", line 36, in get_single_node
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\yaml\composer.py", line 55, in compose_document
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\yaml\composer.py", line 84, in compose_node
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\yaml\composer.py", line 133, in compose_mapping_node
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\yaml\composer.py", line 84, in compose_node
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\yaml\composer.py", line 133, in compose_mapping_node
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\yaml\composer.py", line 64, in compose_node
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\yaml\parser.py", line 98, in check_event
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\yaml\parser.py", line 449, in parse_block_mapping_value
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\yaml\scanner.py", line 116, in check_token
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\yaml\scanner.py", line 251, in fetch_more_tokens
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\yaml\scanner.py", line 655, in fetch_double
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\yaml\scanner.py", line 666, in fetch_flow_scalar
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\yaml\scanner.py", line 1152, in scan_flow_scalar
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\yaml\scanner.py", line 1213, in scan_flow_scalar_non_spaces
+yaml.scanner.ScannerError: while scanning a double-quoted scalar
+  in "C:\Users\myles\.config\yasb\config.yaml", line 5, column 18
+expected escape sequence of 8 hexadecimal numbers, but found 's'
+  in "C:\Users\myles\.config\yasb\config.yaml", line 5, column 66
+2025-05-29 13:38:21,253 [INFO] [MainThread] [root/log.py:59]: Yasb v1.7.4
+2025-05-29 13:38:21,254 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.1
+2025-05-29 13:38:21,254 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-05-29 13:38:21,370 [DEBUG] [MainThread] [tzlocal/win32.py:55]: Looking up time zone info from registry
+2025-05-29 13:38:21,633 [DEBUG] [MainThread] [comtypes/__init__.py:149]: CoInitializeEx(None, 2)
+2025-05-29 13:38:23,880 [INFO] [MainThread] [root/watcher.py:55]: Created file watcher for path C:\Users\myles\.config\yasb
+2025-05-29 13:38:23,893 [INFO] [Dummy-5] [root/event_listener.py:53]: Created named pipe yasb-6dc8c157-3c81-11f0-a469-9f929cd71435
+2025-05-29 13:38:23,927 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:213]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-05-29 13:38:23,928 [DEBUG] [Dummy-8] [qasync._windows._EventWorker/_windows.py:192]: Thread started
+2025-05-29 13:38:34,614 [INFO] [Dummy-5] [root/event_listener.py:125]: Komorebi connected to named pipe: yasb-6dc8c157-3c81-11f0-a469-9f929cd71435
+2025-05-29 13:46:44,997 [INFO] [MainThread] [root/controller.py:27]: Exiting Application from tray...
+2025-05-29 13:46:45,105 [INFO] [MainThread] [cli_server/cli_server.py:112]: Log pipe server stopped
+2025-05-29 13:46:45,105 [DEBUG] [MainThread] [cli_server/cli_server.py:206]: CLI server stopped
+2025-05-29 13:46:45,105 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:218]: Stopping worker thread...
+2025-05-29 13:46:45,120 [DEBUG] [Dummy-8] [qasync._windows._EventWorker/_windows.py:201]: Exiting thread
+2025-05-29 13:46:45,134 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:75]: Closing
+2025-05-29 14:27:12,922 [INFO] [MainThread] [root/log.py:59]: Yasb v1.7.4
+2025-05-29 14:27:12,922 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.1
+2025-05-29 14:27:12,922 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-05-29 14:27:13,511 [DEBUG] [MainThread] [tzlocal/win32.py:55]: Looking up time zone info from registry
+2025-05-29 14:27:16,116 [DEBUG] [MainThread] [comtypes/__init__.py:149]: CoInitializeEx(None, 2)
+2025-05-29 14:27:17,230 [INFO] [MainThread] [root/watcher.py:55]: Created file watcher for path C:\Users\myles\.config\yasb
+2025-05-29 14:27:17,232 [INFO] [Dummy-5] [root/event_listener.py:53]: Created named pipe yasb-42327dda-3c88-11f0-a2e3-cc474042b6f0
+2025-05-29 14:27:17,289 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:213]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-05-29 14:27:17,290 [DEBUG] [Dummy-8] [qasync._windows._EventWorker/_windows.py:192]: Thread started
+2025-05-29 14:27:17,462 [INFO] [Dummy-5] [root/event_listener.py:125]: Komorebi connected to named pipe: yasb-42327dda-3c88-11f0-a2e3-cc474042b6f0
+2025-05-29 14:29:38,749 [DEBUG] [MainThread] [root/volume.py:330]: Attempting PolicyConfig interface with device: {0.0.0.00000000}.{1200b0b0-1f38-4b12-93db-0ba8ed1885e7}
+2025-05-29 15:42:39,266 [INFO] [MainThread] [root/log.py:59]: Yasb v1.7.4
+2025-05-29 15:42:39,266 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.1
+2025-05-29 15:42:39,266 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-05-29 15:42:39,673 [DEBUG] [MainThread] [tzlocal/win32.py:55]: Looking up time zone info from registry
+2025-05-29 15:42:41,751 [DEBUG] [MainThread] [comtypes/__init__.py:149]: CoInitializeEx(None, 2)
+2025-05-29 15:42:43,405 [INFO] [MainThread] [root/watcher.py:55]: Created file watcher for path C:\Users\myles\.config\yasb
+2025-05-29 15:42:43,406 [INFO] [Dummy-5] [root/event_listener.py:53]: Created named pipe yasb-cc01b9ea-3c92-11f0-a09f-cc474042b6f0
+2025-05-29 15:42:43,464 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:213]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-05-29 15:42:43,466 [DEBUG] [Dummy-8] [qasync._windows._EventWorker/_windows.py:192]: Thread started
+2025-05-29 15:42:43,556 [INFO] [Dummy-5] [root/event_listener.py:125]: Komorebi connected to named pipe: yasb-cc01b9ea-3c92-11f0-a09f-cc474042b6f0
+2025-05-29 16:17:24,028 [WARNING] [Dummy-5] [root/event_listener.py:84]: Pipe has been ended: (109, 'PeekNamedPipe', 'The pipe has been ended.')
+2025-05-29 16:17:24,028 [INFO] [Dummy-5] [root/event_listener.py:94]: Attempting to reconnect to Komorebi...
+2025-05-29 16:17:27,035 [INFO] [Dummy-5] [root/event_listener.py:53]: Created named pipe yasb-cc01b9ea-3c92-11f0-a09f-cc474042b6f0
+2025-05-29 16:31:29,527 [INFO] [MainThread] [root/controller.py:27]: Exiting Application from tray...
+2025-05-29 16:31:29,628 [INFO] [MainThread] [cli_server/cli_server.py:112]: Log pipe server stopped
+2025-05-29 16:31:29,628 [DEBUG] [MainThread] [cli_server/cli_server.py:206]: CLI server stopped
+2025-05-29 16:31:29,629 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:218]: Stopping worker thread...
+2025-05-29 16:31:29,644 [DEBUG] [Dummy-8] [qasync._windows._EventWorker/_windows.py:201]: Exiting thread
+2025-05-29 16:31:29,647 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:75]: Closing
