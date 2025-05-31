@@ -1,2 +1,2 @@
 #! /bin/sh
-rclone --vfs-cache-mode writes mount Onedrive: ~/OneDrive
+rclone --vfs-cache-mode full mount Onedrive: ~/OneDrive

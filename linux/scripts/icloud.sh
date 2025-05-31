@@ -1,2 +1,2 @@
 #! /bin/sh
-rclone --vfs-cache-mode writes mount icloud: ~/iCloud
+rclone --vfs-cache-mode all mount iCloud: ~/iCloud
