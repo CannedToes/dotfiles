@@ -984,3 +984,22 @@ expected escape sequence of 8 hexadecimal numbers, but found 's'
 2025-05-29 16:31:29,629 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:218]: Stopping worker thread...
 2025-05-29 16:31:29,644 [DEBUG] [Dummy-8] [qasync._windows._EventWorker/_windows.py:201]: Exiting thread
 2025-05-29 16:31:29,647 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:75]: Closing
+2025-05-31 18:14:48,791 [INFO] [MainThread] [root/log.py:59]: Yasb v1.7.4
+2025-05-31 18:14:48,793 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.1
+2025-05-31 18:14:48,794 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-05-31 18:14:49,628 [DEBUG] [MainThread] [tzlocal/win32.py:55]: Looking up time zone info from registry
+2025-05-31 18:14:55,793 [DEBUG] [MainThread] [comtypes/__init__.py:149]: CoInitializeEx(None, 2)
+2025-05-31 18:14:58,373 [INFO] [MainThread] [root/watcher.py:55]: Created file watcher for path C:\Users\myles\.config\yasb
+2025-05-31 18:14:58,382 [INFO] [Dummy-5] [root/event_listener.py:53]: Created named pipe yasb-65b2a745-3e3a-11f0-8140-cc474042b6f0
+2025-05-31 18:14:58,598 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:213]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-05-31 18:14:58,601 [DEBUG] [Dummy-8] [qasync._windows._EventWorker/_windows.py:192]: Thread started
+2025-05-31 18:15:46,127 [INFO] [MainThread] [root/utilities.py:115]: Created shortcut at C:\Users\myles\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\yasb.lnk
+2025-05-31 20:33:15,896 [INFO] [MainThread] [root/log.py:59]: Yasb v1.7.4
+2025-05-31 20:33:15,896 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.1
+2025-05-31 20:33:15,896 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-05-31 20:33:16,376 [DEBUG] [MainThread] [tzlocal/win32.py:55]: Looking up time zone info from registry
+2025-05-31 20:33:18,798 [DEBUG] [MainThread] [comtypes/__init__.py:149]: CoInitializeEx(None, 2)
+2025-05-31 20:33:19,604 [INFO] [MainThread] [root/watcher.py:55]: Created file watcher for path C:\Users\myles\.config\yasb
+2025-05-31 20:33:19,627 [INFO] [Dummy-5] [root/event_listener.py:53]: Created named pipe yasb-b99e1c95-3e4d-11f0-8fc4-cc474042b6f0
+2025-05-31 20:33:19,664 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:213]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-05-31 20:33:19,665 [DEBUG] [Dummy-8] [qasync._windows._EventWorker/_windows.py:192]: Thread started
