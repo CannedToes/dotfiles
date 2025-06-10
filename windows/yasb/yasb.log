@@ -1003,3 +1003,456 @@ expected escape sequence of 8 hexadecimal numbers, but found 's'
 2025-05-31 20:33:19,627 [INFO] [Dummy-5] [root/event_listener.py:53]: Created named pipe yasb-b99e1c95-3e4d-11f0-8fc4-cc474042b6f0
 2025-05-31 20:33:19,664 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:213]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
 2025-05-31 20:33:19,665 [DEBUG] [Dummy-8] [qasync._windows._EventWorker/_windows.py:192]: Thread started
+2025-06-02 11:40:01,589 [INFO] [MainThread] [root/log.py:59]: Yasb v1.7.4
+2025-06-02 11:40:01,589 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.1
+2025-06-02 11:40:01,589 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-06-02 11:40:02,026 [DEBUG] [MainThread] [tzlocal/win32.py:55]: Looking up time zone info from registry
+2025-06-02 11:40:04,585 [DEBUG] [MainThread] [comtypes/__init__.py:149]: CoInitializeEx(None, 2)
+2025-06-02 11:40:05,562 [INFO] [MainThread] [root/watcher.py:55]: Created file watcher for path C:\Users\myles\.config\yasb
+2025-06-02 11:40:05,562 [INFO] [Dummy-5] [root/event_listener.py:53]: Created named pipe yasb-90822764-3f95-11f0-935f-cc474042b6f0
+2025-06-02 11:40:05,629 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:213]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-06-02 11:40:05,630 [DEBUG] [Dummy-8] [qasync._windows._EventWorker/_windows.py:192]: Thread started
+2025-06-02 20:57:21,865 [INFO] [MainThread] [root/log.py:59]: Yasb v1.7.4
+2025-06-02 20:57:21,883 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.1
+2025-06-02 20:57:21,883 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-06-02 20:57:23,553 [DEBUG] [MainThread] [tzlocal/win32.py:55]: Looking up time zone info from registry
+2025-06-02 20:57:32,334 [DEBUG] [MainThread] [comtypes/__init__.py:149]: CoInitializeEx(None, 2)
+2025-06-02 20:57:35,811 [INFO] [MainThread] [root/watcher.py:55]: Created file watcher for path C:\Users\myles\.config\yasb
+2025-06-02 20:57:35,814 [INFO] [Dummy-5] [root/event_listener.py:53]: Created named pipe yasb-72692d7f-3fe3-11f0-8a90-cc474042b6f0
+2025-06-02 20:57:36,066 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:213]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-06-02 20:57:36,068 [DEBUG] [Dummy-8] [qasync._windows._EventWorker/_windows.py:192]: Thread started
+2025-06-03 02:55:43,193 [INFO] [MainThread] [root/log.py:59]: Yasb v1.7.4
+2025-06-03 02:55:43,193 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.1
+2025-06-03 02:55:43,194 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-06-03 02:55:43,777 [DEBUG] [MainThread] [tzlocal/win32.py:55]: Looking up time zone info from registry
+2025-06-03 02:55:46,761 [DEBUG] [MainThread] [comtypes/__init__.py:149]: CoInitializeEx(None, 2)
+2025-06-03 02:55:47,938 [INFO] [MainThread] [root/watcher.py:55]: Created file watcher for path C:\Users\myles\.config\yasb
+2025-06-03 02:55:47,938 [INFO] [Dummy-5] [root/event_listener.py:53]: Created named pipe yasb-7cb7739a-4015-11f0-a18c-cc474042b6f0
+2025-06-03 02:55:47,993 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:213]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-06-03 02:55:47,994 [DEBUG] [Dummy-8] [qasync._windows._EventWorker/_windows.py:192]: Thread started
+2025-06-03 04:32:41,770 [INFO] [MainThread] [root/log.py:59]: Yasb v1.7.4
+2025-06-03 04:32:41,771 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.1
+2025-06-03 04:32:41,772 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-06-03 04:32:42,304 [DEBUG] [MainThread] [tzlocal/win32.py:55]: Looking up time zone info from registry
+2025-06-03 04:32:45,102 [DEBUG] [MainThread] [comtypes/__init__.py:149]: CoInitializeEx(None, 2)
+2025-06-03 04:32:46,699 [INFO] [MainThread] [root/watcher.py:55]: Created file watcher for path C:\Users\myles\.config\yasb
+2025-06-03 04:32:46,700 [INFO] [Dummy-5] [root/event_listener.py:53]: Created named pipe yasb-08f7db32-4023-11f0-9d93-cc474042b6f0
+2025-06-03 04:32:46,768 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:213]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-06-03 04:32:46,769 [DEBUG] [Dummy-8] [qasync._windows._EventWorker/_windows.py:192]: Thread started
+2025-06-03 04:34:27,724 [INFO] [MainThread] [root/controller.py:27]: Exiting Application from tray...
+2025-06-03 04:34:27,835 [INFO] [MainThread] [cli_server/cli_server.py:112]: Log pipe server stopped
+2025-06-03 04:34:27,835 [DEBUG] [MainThread] [cli_server/cli_server.py:206]: CLI server stopped
+2025-06-03 04:34:27,835 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:218]: Stopping worker thread...
+2025-06-03 04:34:27,851 [DEBUG] [Dummy-8] [qasync._windows._EventWorker/_windows.py:201]: Exiting thread
+2025-06-03 04:34:27,851 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:75]: Closing
+2025-06-04 18:12:44,626 [INFO] [MainThread] [root/log.py:59]: Yasb v1.7.4
+2025-06-04 18:12:44,626 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.1
+2025-06-04 18:12:44,626 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-06-04 18:14:38,075 [DEBUG] [MainThread] [tzlocal/win32.py:55]: Looking up time zone info from registry
+2025-06-04 18:14:42,719 [DEBUG] [MainThread] [comtypes/__init__.py:149]: CoInitializeEx(None, 2)
+2025-06-04 18:14:43,871 [INFO] [MainThread] [root/watcher.py:55]: Created file watcher for path C:\Users\myles\.config\yasb
+2025-06-04 18:14:43,871 [INFO] [Dummy-5] [root/event_listener.py:53]: Created named pipe yasb-06b50174-415f-11f0-bd65-cc474042b6f0
+2025-06-04 18:14:43,934 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:213]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-06-04 18:14:43,935 [DEBUG] [Dummy-8] [qasync._windows._EventWorker/_windows.py:192]: Thread started
+2025-06-04 18:32:37,816 [INFO] [MainThread] [root/log.py:59]: Yasb v1.7.4
+2025-06-04 18:32:37,816 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.1
+2025-06-04 18:32:37,816 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-06-04 18:32:49,813 [DEBUG] [MainThread] [tzlocal/win32.py:55]: Looking up time zone info from registry
+2025-06-04 18:32:50,094 [DEBUG] [MainThread] [comtypes/__init__.py:149]: CoInitializeEx(None, 2)
+2025-06-04 18:32:50,748 [INFO] [MainThread] [root/watcher.py:55]: Created file watcher for path C:\Users\myles\.config\yasb
+2025-06-04 18:32:50,748 [INFO] [Dummy-5] [root/event_listener.py:53]: Created named pipe yasb-8e893dc5-4161-11f0-8445-cc474042b6f0
+2025-06-04 18:32:50,809 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:213]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-06-04 18:32:50,810 [DEBUG] [Dummy-8] [qasync._windows._EventWorker/_windows.py:192]: Thread started
+2025-06-04 19:59:34,415 [INFO] [MainThread] [root/log.py:59]: Yasb v1.7.4
+2025-06-04 19:59:34,415 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.1
+2025-06-04 19:59:34,415 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-06-04 19:59:39,311 [DEBUG] [MainThread] [tzlocal/win32.py:55]: Looking up time zone info from registry
+2025-06-04 19:59:39,570 [DEBUG] [MainThread] [comtypes/__init__.py:149]: CoInitializeEx(None, 2)
+2025-06-04 19:59:40,231 [INFO] [MainThread] [root/watcher.py:55]: Created file watcher for path C:\Users\myles\.config\yasb
+2025-06-04 19:59:40,233 [INFO] [Dummy-5] [root/event_listener.py:53]: Created named pipe yasb-afa14b52-416d-11f0-89d4-cc474042b6f0
+2025-06-04 19:59:40,271 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:213]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-06-04 19:59:40,272 [DEBUG] [Dummy-8] [qasync._windows._EventWorker/_windows.py:192]: Thread started
+2025-06-04 20:19:25,686 [INFO] [MainThread] [root/controller.py:27]: Exiting Application from tray...
+2025-06-04 20:19:25,798 [INFO] [MainThread] [cli_server/cli_server.py:112]: Log pipe server stopped
+2025-06-04 20:19:25,798 [DEBUG] [MainThread] [cli_server/cli_server.py:206]: CLI server stopped
+2025-06-04 20:19:25,799 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:218]: Stopping worker thread...
+2025-06-04 20:19:25,813 [DEBUG] [Dummy-8] [qasync._windows._EventWorker/_windows.py:201]: Exiting thread
+2025-06-04 20:19:25,813 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:75]: Closing
+2025-06-08 17:35:38,490 [INFO] [MainThread] [root/log.py:59]: Yasb v1.7.1
+2025-06-08 17:35:38,491 [INFO] [MainThread] [root/env_loader.py:22]: No env file found at C:\Users\myles\.config\yasb\.env, skipping environment loading.
+2025-06-08 17:35:38,634 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.0
+2025-06-08 17:35:38,634 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-06-08 17:35:39,204 [DEBUG] [MainThread] [tzlocal/win32.py:55]: Looking up time zone info from registry
+2025-06-08 17:35:42,838 [DEBUG] [MainThread] [comtypes/__init__.py:149]: CoInitializeEx(None, 2)
+2025-06-08 17:35:48,914 [INFO] [MainThread] [root/watcher.py:55]: Created file watcher for path C:\Users\myles\.config\yasb
+2025-06-08 17:35:49,570 [INFO] [Dummy-5] [root/event_listener.py:53]: Created named pipe yasb-409de98a-447e-11f0-a7e3-cc474042b6f0
+2025-06-08 17:35:49,606 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:213]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-06-08 17:35:49,607 [DEBUG] [Dummy-8] [qasync._windows._EventWorker/_windows.py:192]: Thread started
+2025-06-08 17:39:55,308 [INFO] [MainThread] [root/utilities.py:115]: Created shortcut at C:\Users\myles\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\yasb.lnk
+2025-06-08 17:39:57,391 [INFO] [MainThread] [root/controller.py:27]: Exiting Application from tray...
+2025-06-08 17:39:57,500 [INFO] [MainThread] [cli_server/cli_server.py:112]: Log pipe server stopped
+2025-06-08 17:39:57,500 [DEBUG] [MainThread] [cli_server/cli_server.py:206]: CLI server stopped
+2025-06-08 17:39:57,501 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:218]: Stopping worker thread...
+2025-06-08 17:39:57,515 [DEBUG] [Dummy-8] [qasync._windows._EventWorker/_windows.py:201]: Exiting thread
+2025-06-08 17:39:57,516 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:75]: Closing
+2025-06-08 17:41:58,500 [INFO] [MainThread] [root/log.py:59]: Yasb v1.7.1
+2025-06-08 17:41:58,500 [INFO] [MainThread] [root/env_loader.py:22]: No env file found at C:\Users\myles\.config\yasb\.env, skipping environment loading.
+2025-06-08 17:41:58,605 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.0
+2025-06-08 17:41:58,605 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-06-08 17:41:59,043 [DEBUG] [MainThread] [tzlocal/win32.py:55]: Looking up time zone info from registry
+2025-06-08 17:42:03,062 [DEBUG] [MainThread] [comtypes/__init__.py:149]: CoInitializeEx(None, 2)
+2025-06-08 17:42:06,362 [INFO] [MainThread] [root/watcher.py:55]: Created file watcher for path C:\Users\myles\.config\yasb
+2025-06-08 17:42:06,466 [INFO] [Dummy-5] [root/event_listener.py:53]: Created named pipe yasb-2197fb55-447f-11f0-89a0-cc474042b6f0
+2025-06-08 17:42:06,500 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:213]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-06-08 17:42:06,501 [DEBUG] [Dummy-8] [qasync._windows._EventWorker/_windows.py:192]: Thread started
+2025-06-08 17:59:00,808 [INFO] [MainThread] [root/controller.py:12]: Reloading Application from tray...
+2025-06-08 17:59:00,924 [INFO] [MainThread] [cli_server/cli_server.py:112]: Log pipe server stopped
+2025-06-08 17:59:00,926 [DEBUG] [MainThread] [cli_server/cli_server.py:206]: CLI server stopped
+2025-06-08 17:59:00,965 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:218]: Stopping worker thread...
+2025-06-08 17:59:00,971 [DEBUG] [Dummy-8] [qasync._windows._EventWorker/_windows.py:201]: Exiting thread
+2025-06-08 17:59:00,971 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:75]: Closing
+2025-06-08 17:59:01,002 [ERROR] [Dummy-409] [root/event_service.py:30]: Failed to emit signal <bound PYQT_SIGNAL window_name_change of ActiveWindowWidget object at 0x00000209318D2DF0>. Removing link to WinEvent.EventObjectNameChange.
+2025-06-08 17:59:03,064 [INFO] [MainThread] [root/log.py:59]: Yasb v1.7.1
+2025-06-08 17:59:03,064 [INFO] [MainThread] [root/env_loader.py:22]: No env file found at C:\Users\myles\.config\yasb\.env, skipping environment loading.
+2025-06-08 17:59:03,159 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.0
+2025-06-08 17:59:03,159 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-06-08 17:59:03,790 [DEBUG] [MainThread] [tzlocal/win32.py:55]: Looking up time zone info from registry
+2025-06-08 17:59:07,433 [DEBUG] [MainThread] [comtypes/__init__.py:149]: CoInitializeEx(None, 2)
+2025-06-08 17:59:09,427 [ERROR] [MainThread] [root/widget_builder.py:88]: Failed to validate widget(s) due to invalid options  - weather
+      icons:
+      - blizzardDay:
+        - unknown field
+      
+2025-06-08 17:59:09,441 [INFO] [Dummy-3] [root/event_listener.py:53]: Created named pipe yasb-836337f6-4481-11f0-9850-cc474042b6f0
+2025-06-08 17:59:32,335 [INFO] [MainThread] [root/watcher.py:55]: Created file watcher for path C:\Users\myles\.config\yasb
+2025-06-08 17:59:32,442 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:213]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-06-08 17:59:32,442 [DEBUG] [Dummy-16] [qasync._windows._EventWorker/_windows.py:192]: Thread started
+2025-06-08 19:44:04,885 [INFO] [MainThread] [root/log.py:59]: Yasb v1.7.1
+2025-06-08 19:44:04,885 [INFO] [MainThread] [root/env_loader.py:22]: No env file found at C:\Users\myles\.config\yasb\.env, skipping environment loading.
+2025-06-08 19:44:04,991 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.0
+2025-06-08 19:44:04,991 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-06-08 19:44:05,578 [DEBUG] [MainThread] [tzlocal/win32.py:55]: Looking up time zone info from registry
+2025-06-08 19:44:09,771 [DEBUG] [MainThread] [comtypes/__init__.py:149]: CoInitializeEx(None, 2)
+2025-06-08 19:44:14,209 [ERROR] [MainThread] [root/widget_builder.py:88]: Failed to validate widget(s) due to invalid options  - weather
+      icons:
+      - blizzardDay:
+        - unknown field
+      
+2025-06-08 19:44:14,209 [INFO] [Dummy-3] [root/event_listener.py:53]: Created named pipe yasb-3154a6ab-4490-11f0-9754-cc474042b6f0
+2025-06-08 19:44:22,281 [INFO] [MainThread] [root/watcher.py:55]: Created file watcher for path C:\Users\myles\.config\yasb
+2025-06-08 19:44:22,371 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:213]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-06-08 19:44:22,372 [DEBUG] [Dummy-10] [qasync._windows._EventWorker/_windows.py:192]: Thread started
+2025-06-09 11:13:14,642 [INFO] [MainThread] [root/controller.py:12]: Reloading Application because of config update...
+2025-06-09 11:13:14,749 [INFO] [MainThread] [cli_server/cli_server.py:112]: Log pipe server stopped
+2025-06-09 11:13:14,749 [DEBUG] [MainThread] [cli_server/cli_server.py:206]: CLI server stopped
+2025-06-09 11:13:14,767 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:218]: Stopping worker thread...
+2025-06-09 11:13:14,779 [DEBUG] [Dummy-10] [qasync._windows._EventWorker/_windows.py:201]: Exiting thread
+2025-06-09 11:13:14,781 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:75]: Closing
+2025-06-09 11:13:18,173 [INFO] [MainThread] [root/log.py:59]: Yasb v1.7.1
+2025-06-09 11:13:18,173 [INFO] [MainThread] [root/env_loader.py:22]: No env file found at C:\Users\myles\.config\yasb\.env, skipping environment loading.
+2025-06-09 11:13:18,239 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.0
+2025-06-09 11:13:18,239 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-06-09 11:13:18,882 [DEBUG] [MainThread] [tzlocal/win32.py:55]: Looking up time zone info from registry
+2025-06-09 11:13:23,290 [DEBUG] [MainThread] [comtypes/__init__.py:149]: CoInitializeEx(None, 2)
+2025-06-09 11:13:26,481 [ERROR] [MainThread] [root/widget_builder.py:88]: Failed to validate widget(s) due to invalid options  - weather
+      icons:
+      - blizzardDay:
+        - unknown field
+      
+2025-06-09 11:13:26,482 [INFO] [Dummy-3] [root/event_listener.py:53]: Created named pipe yasb-004622a1-4512-11f0-8f23-cc474042b6f0
+2025-06-09 11:13:43,698 [INFO] [MainThread] [root/log.py:59]: Yasb v1.7.1
+2025-06-09 11:13:43,698 [INFO] [MainThread] [root/env_loader.py:22]: No env file found at C:\Users\myles\.config\yasb\.env, skipping environment loading.
+2025-06-09 11:13:43,744 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.0
+2025-06-09 11:13:43,744 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-06-09 11:13:43,829 [DEBUG] [MainThread] [tzlocal/win32.py:55]: Looking up time zone info from registry
+2025-06-09 11:13:44,312 [DEBUG] [MainThread] [comtypes/__init__.py:149]: CoInitializeEx(None, 2)
+2025-06-09 11:13:45,828 [ERROR] [MainThread] [root/widget_builder.py:88]: Failed to validate widget(s) due to invalid options  - weather
+      icons:
+      - blizzardDay:
+        - unknown field
+      
+2025-06-09 11:13:45,835 [INFO] [Dummy-3] [root/event_listener.py:53]: Created named pipe yasb-0bce22be-4512-11f0-a09d-cc474042b6f0
+2025-06-09 11:16:07,399 [INFO] [MainThread] [root/log.py:59]: Yasb v1.7.1
+2025-06-09 11:16:07,399 [INFO] [MainThread] [root/env_loader.py:22]: No env file found at C:\Users\myles\.config\yasb\.env, skipping environment loading.
+2025-06-09 11:16:07,456 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.0
+2025-06-09 11:16:07,462 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-06-09 11:16:08,023 [DEBUG] [MainThread] [tzlocal/win32.py:55]: Looking up time zone info from registry
+2025-06-09 11:16:10,947 [DEBUG] [MainThread] [comtypes/__init__.py:149]: CoInitializeEx(None, 2)
+2025-06-09 11:16:14,541 [ERROR] [MainThread] [root/widget_builder.py:88]: Failed to validate widget(s) due to invalid options  - weather
+      icons:
+      - blizzardDay:
+        - unknown field
+      
+2025-06-09 11:16:14,547 [INFO] [Dummy-3] [root/event_listener.py:53]: Created named pipe yasb-64720d0d-4512-11f0-bcff-cc474042b6f0
+2025-06-09 11:16:44,287 [INFO] [MainThread] [root/watcher.py:55]: Created file watcher for path C:\Users\myles\.config\yasb
+2025-06-09 11:16:44,374 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:213]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-06-09 11:16:44,375 [DEBUG] [Dummy-18] [qasync._windows._EventWorker/_windows.py:192]: Thread started
+2025-06-09 11:20:14,200 [INFO] [MainThread] [root/controller.py:12]: Reloading Application because of config update...
+2025-06-09 11:20:14,314 [INFO] [MainThread] [cli_server/cli_server.py:112]: Log pipe server stopped
+2025-06-09 11:20:14,314 [DEBUG] [MainThread] [cli_server/cli_server.py:206]: CLI server stopped
+2025-06-09 11:20:14,324 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:218]: Stopping worker thread...
+2025-06-09 11:20:14,330 [DEBUG] [Dummy-18] [qasync._windows._EventWorker/_windows.py:201]: Exiting thread
+2025-06-09 11:20:14,330 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:75]: Closing
+2025-06-09 11:20:15,742 [INFO] [MainThread] [root/log.py:59]: Yasb v1.7.1
+2025-06-09 11:20:15,742 [INFO] [MainThread] [root/env_loader.py:22]: No env file found at C:\Users\myles\.config\yasb\.env, skipping environment loading.
+2025-06-09 11:20:15,787 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.0
+2025-06-09 11:20:15,787 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-06-09 11:20:16,248 [DEBUG] [MainThread] [tzlocal/win32.py:55]: Looking up time zone info from registry
+2025-06-09 11:20:18,069 [DEBUG] [MainThread] [comtypes/__init__.py:149]: CoInitializeEx(None, 2)
+2025-06-09 11:20:19,634 [ERROR] [MainThread] [root/widget_builder.py:88]: Failed to validate widget(s) due to invalid options  - weather
+      icons:
+      - blizzardDay:
+        - unknown field
+      
+2025-06-09 11:20:19,654 [INFO] [Dummy-3] [root/event_listener.py:53]: Created named pipe yasb-f688547f-4512-11f0-8a7f-cc474042b6f0
+2025-06-09 11:20:21,255 [INFO] [MainThread] [root/watcher.py:55]: Created file watcher for path C:\Users\myles\.config\yasb
+2025-06-09 11:20:21,305 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:213]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-06-09 11:20:21,307 [DEBUG] [Dummy-8] [qasync._windows._EventWorker/_windows.py:192]: Thread started
+2025-06-09 11:20:23,224 [INFO] [MainThread] [root/controller.py:12]: Reloading Application because of config update...
+2025-06-09 11:20:23,331 [INFO] [MainThread] [cli_server/cli_server.py:112]: Log pipe server stopped
+2025-06-09 11:20:23,331 [DEBUG] [MainThread] [cli_server/cli_server.py:206]: CLI server stopped
+2025-06-09 11:20:23,331 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:218]: Stopping worker thread...
+2025-06-09 11:20:23,347 [DEBUG] [Dummy-8] [qasync._windows._EventWorker/_windows.py:201]: Exiting thread
+2025-06-09 11:20:23,347 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:75]: Closing
+2025-06-09 11:20:23,584 [INFO] [MainThread] [root/log.py:59]: Yasb v1.7.1
+2025-06-09 11:20:23,584 [INFO] [MainThread] [root/env_loader.py:22]: No env file found at C:\Users\myles\.config\yasb\.env, skipping environment loading.
+2025-06-09 11:20:23,634 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.0
+2025-06-09 11:20:23,634 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-06-09 11:20:23,732 [DEBUG] [MainThread] [tzlocal/win32.py:55]: Looking up time zone info from registry
+2025-06-09 11:20:24,202 [DEBUG] [MainThread] [comtypes/__init__.py:149]: CoInitializeEx(None, 2)
+2025-06-09 11:20:25,535 [INFO] [MainThread] [root/watcher.py:55]: Created file watcher for path C:\Users\myles\.config\yasb
+2025-06-09 11:20:25,552 [INFO] [Dummy-5] [root/event_listener.py:53]: Created named pipe yasb-fa0cd957-4512-11f0-84e0-cc474042b6f0
+2025-06-09 11:20:25,584 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:213]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-06-09 11:20:25,584 [DEBUG] [Dummy-8] [qasync._windows._EventWorker/_windows.py:192]: Thread started
+2025-06-09 11:20:47,515 [INFO] [MainThread] [root/controller.py:12]: Reloading Application because of config update...
+2025-06-09 11:20:47,631 [INFO] [MainThread] [cli_server/cli_server.py:112]: Log pipe server stopped
+2025-06-09 11:20:47,631 [DEBUG] [MainThread] [cli_server/cli_server.py:206]: CLI server stopped
+2025-06-09 11:20:47,640 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:218]: Stopping worker thread...
+2025-06-09 11:20:47,647 [DEBUG] [Dummy-8] [qasync._windows._EventWorker/_windows.py:201]: Exiting thread
+2025-06-09 11:20:47,647 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:75]: Closing
+2025-06-09 11:20:47,968 [INFO] [MainThread] [root/log.py:59]: Yasb v1.7.1
+2025-06-09 11:20:47,968 [INFO] [MainThread] [root/env_loader.py:22]: No env file found at C:\Users\myles\.config\yasb\.env, skipping environment loading.
+2025-06-09 11:20:48,013 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.0
+2025-06-09 11:20:48,013 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-06-09 11:20:48,101 [DEBUG] [MainThread] [tzlocal/win32.py:55]: Looking up time zone info from registry
+2025-06-09 11:20:48,613 [DEBUG] [MainThread] [comtypes/__init__.py:149]: CoInitializeEx(None, 2)
+2025-06-09 11:20:49,919 [INFO] [MainThread] [root/watcher.py:55]: Created file watcher for path C:\Users\myles\.config\yasb
+2025-06-09 11:20:49,935 [INFO] [Dummy-5] [root/event_listener.py:53]: Created named pipe yasb-089588c0-4513-11f0-b118-cc474042b6f0
+2025-06-09 11:20:49,967 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:213]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-06-09 11:20:49,967 [DEBUG] [Dummy-8] [qasync._windows._EventWorker/_windows.py:192]: Thread started
+2025-06-09 11:21:16,282 [INFO] [MainThread] [root/controller.py:12]: Reloading Application because of config update...
+2025-06-09 11:21:16,394 [INFO] [MainThread] [cli_server/cli_server.py:112]: Log pipe server stopped
+2025-06-09 11:21:16,394 [DEBUG] [MainThread] [cli_server/cli_server.py:206]: CLI server stopped
+2025-06-09 11:21:16,403 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:218]: Stopping worker thread...
+2025-06-09 11:21:16,410 [DEBUG] [Dummy-8] [qasync._windows._EventWorker/_windows.py:201]: Exiting thread
+2025-06-09 11:21:16,410 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:75]: Closing
+2025-06-09 11:21:18,474 [INFO] [MainThread] [root/log.py:59]: Yasb v1.7.1
+2025-06-09 11:21:18,474 [INFO] [MainThread] [root/env_loader.py:22]: No env file found at C:\Users\myles\.config\yasb\.env, skipping environment loading.
+2025-06-09 11:21:18,522 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.0
+2025-06-09 11:21:18,522 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-06-09 11:21:18,538 [WARNING] [MainThread] [root/widget_builder.py:38]: No widget config could be found for widget 'glazewm_workspaces
+2025-06-09 11:21:18,596 [DEBUG] [MainThread] [tzlocal/win32.py:55]: Looking up time zone info from registry
+2025-06-09 11:21:19,062 [DEBUG] [MainThread] [comtypes/__init__.py:149]: CoInitializeEx(None, 2)
+2025-06-09 11:21:20,582 [ERROR] [MainThread] [root/widget_builder.py:77]: Failed to add undefined widget(s)  - The widget "glazewm_workspaces" is undefined.
+2025-06-09 11:21:20,593 [INFO] [Dummy-3] [root/event_listener.py:53]: Created named pipe yasb-1adc5c3b-4513-11f0-b356-cc474042b6f0
+2025-06-09 11:24:06,958 [INFO] [MainThread] [root/log.py:59]: Yasb v1.7.1
+2025-06-09 11:24:06,958 [INFO] [MainThread] [root/env_loader.py:22]: No env file found at C:\Users\myles\.config\yasb\.env, skipping environment loading.
+2025-06-09 11:24:07,003 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.0
+2025-06-09 11:24:07,003 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-06-09 11:24:08,165 [WARNING] [MainThread] [root/widget_builder.py:38]: No widget config could be found for widget 'komorebi_active_layout
+2025-06-09 11:24:08,207 [DEBUG] [MainThread] [tzlocal/win32.py:55]: Looking up time zone info from registry
+2025-06-09 11:24:08,730 [DEBUG] [MainThread] [comtypes/__init__.py:149]: CoInitializeEx(None, 2)
+2025-06-09 11:24:10,012 [ERROR] [MainThread] [root/widget_builder.py:77]: Failed to add undefined widget(s)  - The widget "komorebi_active_layout" is undefined.
+2025-06-09 11:25:28,891 [INFO] [MainThread] [root/watcher.py:55]: Created file watcher for path C:\Users\myles\.config\yasb
+2025-06-09 11:25:28,955 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:213]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-06-09 11:25:28,956 [DEBUG] [Dummy-5] [qasync._windows._EventWorker/_windows.py:192]: Thread started
+2025-06-09 11:25:31,608 [INFO] [MainThread] [root/controller.py:12]: Reloading Application because of config update...
+2025-06-09 11:25:31,713 [INFO] [MainThread] [cli_server/cli_server.py:112]: Log pipe server stopped
+2025-06-09 11:25:31,713 [DEBUG] [MainThread] [cli_server/cli_server.py:206]: CLI server stopped
+2025-06-09 11:25:31,719 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:218]: Stopping worker thread...
+2025-06-09 11:25:31,728 [DEBUG] [Dummy-5] [qasync._windows._EventWorker/_windows.py:201]: Exiting thread
+2025-06-09 11:25:31,729 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:75]: Closing
+2025-06-09 11:25:32,920 [INFO] [MainThread] [root/log.py:59]: Yasb v1.7.1
+2025-06-09 11:25:32,921 [INFO] [MainThread] [root/env_loader.py:22]: No env file found at C:\Users\myles\.config\yasb\.env, skipping environment loading.
+2025-06-09 11:25:32,967 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.0
+2025-06-09 11:25:32,967 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-06-09 11:25:33,278 [DEBUG] [MainThread] [tzlocal/win32.py:55]: Looking up time zone info from registry
+2025-06-09 11:25:34,963 [DEBUG] [MainThread] [comtypes/__init__.py:149]: CoInitializeEx(None, 2)
+2025-06-09 11:25:36,834 [INFO] [MainThread] [root/watcher.py:55]: Created file watcher for path C:\Users\myles\.config\yasb
+2025-06-09 11:25:36,882 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:213]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-06-09 11:25:36,883 [DEBUG] [Dummy-5] [qasync._windows._EventWorker/_windows.py:192]: Thread started
+2025-06-09 11:27:32,910 [INFO] [MainThread] [root/controller.py:12]: Reloading Application because of config update...
+2025-06-09 11:27:33,025 [INFO] [MainThread] [cli_server/cli_server.py:112]: Log pipe server stopped
+2025-06-09 11:27:33,025 [DEBUG] [MainThread] [cli_server/cli_server.py:206]: CLI server stopped
+2025-06-09 11:27:33,032 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:218]: Stopping worker thread...
+2025-06-09 11:27:33,040 [DEBUG] [Dummy-5] [qasync._windows._EventWorker/_windows.py:201]: Exiting thread
+2025-06-09 11:27:33,042 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:75]: Closing
+2025-06-09 11:27:36,218 [INFO] [MainThread] [root/log.py:59]: Yasb v1.7.1
+2025-06-09 11:27:36,219 [INFO] [MainThread] [root/env_loader.py:22]: No env file found at C:\Users\myles\.config\yasb\.env, skipping environment loading.
+2025-06-09 11:27:36,273 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.0
+2025-06-09 11:27:36,274 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-06-09 11:27:36,776 [DEBUG] [MainThread] [tzlocal/win32.py:55]: Looking up time zone info from registry
+2025-06-09 11:27:41,351 [DEBUG] [MainThread] [comtypes/__init__.py:149]: CoInitializeEx(None, 2)
+2025-06-09 11:27:43,726 [INFO] [MainThread] [root/watcher.py:55]: Created file watcher for path C:\Users\myles\.config\yasb
+2025-06-09 11:27:43,769 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:213]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-06-09 11:27:43,770 [DEBUG] [Dummy-5] [qasync._windows._EventWorker/_windows.py:192]: Thread started
+2025-06-09 12:23:41,206 [INFO] [MainThread] [root/controller.py:12]: Reloading Application because of config update...
+2025-06-09 12:23:41,322 [INFO] [MainThread] [cli_server/cli_server.py:112]: Log pipe server stopped
+2025-06-09 12:23:41,323 [DEBUG] [MainThread] [cli_server/cli_server.py:206]: CLI server stopped
+2025-06-09 12:23:41,335 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:218]: Stopping worker thread...
+2025-06-09 12:23:41,337 [DEBUG] [Dummy-5] [qasync._windows._EventWorker/_windows.py:201]: Exiting thread
+2025-06-09 12:23:41,338 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:75]: Closing
+2025-06-09 12:23:43,526 [INFO] [MainThread] [root/log.py:59]: Yasb v1.7.1
+2025-06-09 12:23:43,526 [INFO] [MainThread] [root/env_loader.py:22]: No env file found at C:\Users\myles\.config\yasb\.env, skipping environment loading.
+2025-06-09 12:23:43,574 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.0
+2025-06-09 12:23:43,574 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-06-09 12:23:43,655 [DEBUG] [MainThread] [tzlocal/win32.py:55]: Looking up time zone info from registry
+2025-06-09 12:23:44,230 [DEBUG] [MainThread] [comtypes/__init__.py:149]: CoInitializeEx(None, 2)
+2025-06-09 12:23:45,974 [INFO] [MainThread] [root/watcher.py:55]: Created file watcher for path C:\Users\myles\.config\yasb
+2025-06-09 12:23:46,017 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:213]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-06-09 12:23:46,018 [DEBUG] [Dummy-5] [qasync._windows._EventWorker/_windows.py:192]: Thread started
+2025-06-09 12:24:32,949 [INFO] [MainThread] [root/controller.py:12]: Reloading Application because of config update...
+2025-06-09 12:24:33,063 [INFO] [MainThread] [cli_server/cli_server.py:112]: Log pipe server stopped
+2025-06-09 12:24:33,063 [DEBUG] [MainThread] [cli_server/cli_server.py:206]: CLI server stopped
+2025-06-09 12:24:33,071 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:218]: Stopping worker thread...
+2025-06-09 12:24:33,078 [DEBUG] [Dummy-5] [qasync._windows._EventWorker/_windows.py:201]: Exiting thread
+2025-06-09 12:24:33,080 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:75]: Closing
+2025-06-09 12:24:35,169 [INFO] [MainThread] [root/log.py:59]: Yasb v1.7.1
+2025-06-09 12:24:35,169 [INFO] [MainThread] [root/env_loader.py:22]: No env file found at C:\Users\myles\.config\yasb\.env, skipping environment loading.
+2025-06-09 12:24:35,217 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.0
+2025-06-09 12:24:35,217 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-06-09 12:24:35,805 [DEBUG] [MainThread] [tzlocal/win32.py:55]: Looking up time zone info from registry
+2025-06-09 12:24:35,837 [DEBUG] [MainThread] [comtypes/__init__.py:149]: CoInitializeEx(None, 2)
+2025-06-09 12:24:37,500 [INFO] [MainThread] [root/watcher.py:55]: Created file watcher for path C:\Users\myles\.config\yasb
+2025-06-09 12:24:37,541 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:213]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-06-09 12:24:37,543 [DEBUG] [Dummy-5] [qasync._windows._EventWorker/_windows.py:192]: Thread started
+2025-06-09 12:24:50,346 [INFO] [MainThread] [root/controller.py:12]: Reloading Application because of config update...
+2025-06-09 12:24:50,448 [INFO] [MainThread] [cli_server/cli_server.py:112]: Log pipe server stopped
+2025-06-09 12:24:50,448 [DEBUG] [MainThread] [cli_server/cli_server.py:206]: CLI server stopped
+2025-06-09 12:24:50,457 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:218]: Stopping worker thread...
+2025-06-09 12:24:50,464 [DEBUG] [Dummy-5] [qasync._windows._EventWorker/_windows.py:201]: Exiting thread
+2025-06-09 12:24:50,465 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:75]: Closing
+2025-06-09 12:24:50,753 [INFO] [MainThread] [root/log.py:59]: Yasb v1.7.1
+2025-06-09 12:24:50,754 [INFO] [MainThread] [root/env_loader.py:22]: No env file found at C:\Users\myles\.config\yasb\.env, skipping environment loading.
+2025-06-09 12:24:50,803 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.0
+2025-06-09 12:24:50,803 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-06-09 12:24:51,378 [DEBUG] [MainThread] [comtypes/__init__.py:149]: CoInitializeEx(None, 2)
+2025-06-09 12:24:52,943 [INFO] [MainThread] [root/watcher.py:55]: Created file watcher for path C:\Users\myles\.config\yasb
+2025-06-09 12:24:52,984 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:213]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-06-09 12:24:52,985 [DEBUG] [Dummy-5] [qasync._windows._EventWorker/_windows.py:192]: Thread started
+2025-06-09 12:25:33,665 [INFO] [MainThread] [root/controller.py:12]: Reloading Application because of config update...
+2025-06-09 12:25:33,774 [INFO] [MainThread] [cli_server/cli_server.py:112]: Log pipe server stopped
+2025-06-09 12:25:33,774 [DEBUG] [MainThread] [cli_server/cli_server.py:206]: CLI server stopped
+2025-06-09 12:25:33,778 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:218]: Stopping worker thread...
+2025-06-09 12:25:33,790 [DEBUG] [Dummy-5] [qasync._windows._EventWorker/_windows.py:201]: Exiting thread
+2025-06-09 12:25:33,791 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:75]: Closing
+2025-06-09 12:25:35,888 [INFO] [MainThread] [root/log.py:59]: Yasb v1.7.1
+2025-06-09 12:25:35,889 [INFO] [MainThread] [root/env_loader.py:22]: No env file found at C:\Users\myles\.config\yasb\.env, skipping environment loading.
+2025-06-09 12:25:35,939 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.0
+2025-06-09 12:25:35,939 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-06-09 12:25:36,043 [DEBUG] [MainThread] [tzlocal/win32.py:55]: Looking up time zone info from registry
+2025-06-09 12:25:36,572 [DEBUG] [MainThread] [comtypes/__init__.py:149]: CoInitializeEx(None, 2)
+2025-06-09 12:25:38,247 [INFO] [MainThread] [root/watcher.py:55]: Created file watcher for path C:\Users\myles\.config\yasb
+2025-06-09 12:25:38,291 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:213]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-06-09 12:25:38,293 [DEBUG] [Dummy-5] [qasync._windows._EventWorker/_windows.py:192]: Thread started
+2025-06-09 12:25:43,688 [INFO] [MainThread] [root/controller.py:12]: Reloading Application because of config update...
+2025-06-09 12:25:43,798 [INFO] [MainThread] [cli_server/cli_server.py:112]: Log pipe server stopped
+2025-06-09 12:25:43,798 [DEBUG] [MainThread] [cli_server/cli_server.py:206]: CLI server stopped
+2025-06-09 12:25:43,802 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:218]: Stopping worker thread...
+2025-06-09 12:25:43,814 [DEBUG] [Dummy-5] [qasync._windows._EventWorker/_windows.py:201]: Exiting thread
+2025-06-09 12:25:43,814 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:75]: Closing
+2025-06-09 12:25:44,095 [INFO] [MainThread] [root/log.py:59]: Yasb v1.7.1
+2025-06-09 12:25:44,095 [INFO] [MainThread] [root/env_loader.py:22]: No env file found at C:\Users\myles\.config\yasb\.env, skipping environment loading.
+2025-06-09 12:25:44,146 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.0
+2025-06-09 12:25:44,146 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-06-09 12:25:44,717 [DEBUG] [MainThread] [comtypes/__init__.py:149]: CoInitializeEx(None, 2)
+2025-06-09 12:25:46,218 [INFO] [MainThread] [root/watcher.py:55]: Created file watcher for path C:\Users\myles\.config\yasb
+2025-06-09 12:25:46,263 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:213]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-06-09 12:25:46,264 [DEBUG] [Dummy-5] [qasync._windows._EventWorker/_windows.py:192]: Thread started
+2025-06-09 12:28:29,463 [INFO] [MainThread] [root/controller.py:12]: Reloading Application because of config update...
+2025-06-09 12:28:29,574 [INFO] [MainThread] [cli_server/cli_server.py:112]: Log pipe server stopped
+2025-06-09 12:28:29,574 [DEBUG] [MainThread] [cli_server/cli_server.py:206]: CLI server stopped
+2025-06-09 12:28:29,583 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:218]: Stopping worker thread...
+2025-06-09 12:28:29,590 [DEBUG] [Dummy-5] [qasync._windows._EventWorker/_windows.py:201]: Exiting thread
+2025-06-09 12:28:29,591 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:75]: Closing
+2025-06-09 12:28:31,672 [INFO] [MainThread] [root/log.py:59]: Yasb v1.7.1
+2025-06-09 12:28:31,673 [INFO] [MainThread] [root/env_loader.py:22]: No env file found at C:\Users\myles\.config\yasb\.env, skipping environment loading.
+2025-06-09 12:28:31,720 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.0
+2025-06-09 12:28:31,720 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-06-09 12:28:32,293 [DEBUG] [MainThread] [comtypes/__init__.py:149]: CoInitializeEx(None, 2)
+2025-06-09 12:28:32,352 [DEBUG] [MainThread] [tzlocal/win32.py:55]: Looking up time zone info from registry
+2025-06-09 12:28:34,046 [INFO] [MainThread] [root/watcher.py:55]: Created file watcher for path C:\Users\myles\.config\yasb
+2025-06-09 12:28:34,087 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:213]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-06-09 12:28:34,089 [DEBUG] [Dummy-5] [qasync._windows._EventWorker/_windows.py:192]: Thread started
+2025-06-09 12:30:53,605 [INFO] [MainThread] [root/controller.py:12]: Reloading Application because of config update...
+2025-06-09 12:30:53,715 [INFO] [MainThread] [cli_server/cli_server.py:112]: Log pipe server stopped
+2025-06-09 12:30:53,715 [DEBUG] [MainThread] [cli_server/cli_server.py:206]: CLI server stopped
+2025-06-09 12:30:53,723 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:218]: Stopping worker thread...
+2025-06-09 12:30:53,731 [DEBUG] [Dummy-5] [qasync._windows._EventWorker/_windows.py:201]: Exiting thread
+2025-06-09 12:30:53,731 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:75]: Closing
+2025-06-09 12:30:55,830 [INFO] [MainThread] [root/log.py:59]: Yasb v1.7.1
+2025-06-09 12:30:55,830 [INFO] [MainThread] [root/env_loader.py:22]: No env file found at C:\Users\myles\.config\yasb\.env, skipping environment loading.
+2025-06-09 12:30:55,880 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.0
+2025-06-09 12:30:55,880 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-06-09 12:30:56,462 [DEBUG] [MainThread] [comtypes/__init__.py:149]: CoInitializeEx(None, 2)
+2025-06-09 12:30:56,521 [DEBUG] [MainThread] [tzlocal/win32.py:55]: Looking up time zone info from registry
+2025-06-09 12:30:58,269 [INFO] [MainThread] [root/watcher.py:55]: Created file watcher for path C:\Users\myles\.config\yasb
+2025-06-09 12:30:58,312 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:213]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-06-09 12:30:58,313 [DEBUG] [Dummy-5] [qasync._windows._EventWorker/_windows.py:192]: Thread started
+2025-06-09 15:42:05,872 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:218]: Stopping worker thread...
+2025-06-09 15:42:05,874 [DEBUG] [Dummy-5] [qasync._windows._EventWorker/_windows.py:201]: Exiting thread
+2025-06-09 15:42:05,875 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:75]: Closing
+2025-06-09 15:58:46,715 [INFO] [MainThread] [root/log.py:59]: Yasb v1.7.1
+2025-06-09 15:58:46,715 [INFO] [MainThread] [root/env_loader.py:22]: No env file found at C:\Users\myles\.config\yasb\.env, skipping environment loading.
+2025-06-09 15:58:46,813 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.0
+2025-06-09 15:58:46,813 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-06-09 15:58:48,437 [DEBUG] [MainThread] [comtypes/__init__.py:149]: CoInitializeEx(None, 2)
+2025-06-09 15:58:48,781 [DEBUG] [MainThread] [tzlocal/win32.py:55]: Looking up time zone info from registry
+2025-06-09 15:58:55,099 [INFO] [MainThread] [root/watcher.py:55]: Created file watcher for path C:\Users\myles\.config\yasb
+2025-06-09 15:58:55,166 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:213]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-06-09 15:58:55,166 [DEBUG] [Dummy-5] [qasync._windows._EventWorker/_windows.py:192]: Thread started
+2025-06-09 20:53:26,482 [INFO] [MainThread] [root/log.py:59]: Yasb v1.7.1
+2025-06-09 20:53:26,484 [INFO] [MainThread] [root/env_loader.py:22]: No env file found at C:\Users\myles\.config\yasb\.env, skipping environment loading.
+2025-06-09 20:53:26,544 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.0
+2025-06-09 20:53:26,544 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-06-09 20:53:28,199 [DEBUG] [MainThread] [comtypes/__init__.py:149]: CoInitializeEx(None, 2)
+2025-06-09 20:53:28,549 [DEBUG] [MainThread] [tzlocal/win32.py:55]: Looking up time zone info from registry
+2025-06-09 20:53:34,448 [INFO] [MainThread] [root/watcher.py:55]: Created file watcher for path C:\Users\myles\.config\yasb
+2025-06-09 20:53:34,518 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:213]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-06-09 20:53:34,518 [DEBUG] [Dummy-5] [qasync._windows._EventWorker/_windows.py:192]: Thread started
+2025-06-09 21:08:45,076 [INFO] [MainThread] [root/log.py:59]: Yasb v1.7.1
+2025-06-09 21:08:45,076 [INFO] [MainThread] [root/env_loader.py:22]: No env file found at C:\Users\myles\.config\yasb\.env, skipping environment loading.
+2025-06-09 21:08:45,149 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.0
+2025-06-09 21:08:45,149 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-06-09 21:08:46,698 [DEBUG] [MainThread] [comtypes/__init__.py:149]: CoInitializeEx(None, 2)
+2025-06-09 21:08:47,031 [DEBUG] [MainThread] [tzlocal/win32.py:55]: Looking up time zone info from registry
+2025-06-09 21:08:54,320 [INFO] [MainThread] [root/watcher.py:55]: Created file watcher for path C:\Users\myles\.config\yasb
+2025-06-09 21:08:54,400 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:213]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-06-09 21:08:54,400 [DEBUG] [Dummy-5] [qasync._windows._EventWorker/_windows.py:192]: Thread started
+2025-06-10 17:05:30,435 [INFO] [MainThread] [root/log.py:59]: Yasb v1.7.1
+2025-06-10 17:05:30,435 [INFO] [MainThread] [root/env_loader.py:22]: No env file found at C:\Users\myles\.config\yasb\.env, skipping environment loading.
+2025-06-10 17:05:30,502 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.0
+2025-06-10 17:05:30,502 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-06-10 17:05:32,171 [DEBUG] [MainThread] [comtypes/__init__.py:149]: CoInitializeEx(None, 2)
+2025-06-10 17:05:32,499 [DEBUG] [MainThread] [tzlocal/win32.py:55]: Looking up time zone info from registry
+2025-06-10 17:05:36,522 [INFO] [MainThread] [root/watcher.py:55]: Created file watcher for path C:\Users\myles\.config\yasb
+2025-06-10 17:05:36,591 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:213]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-06-10 17:05:36,591 [DEBUG] [Dummy-5] [qasync._windows._EventWorker/_windows.py:192]: Thread started
+2025-06-10 17:46:58,684 [INFO] [MainThread] [root/log.py:59]: Yasb v1.7.1
+2025-06-10 17:46:58,684 [INFO] [MainThread] [root/env_loader.py:22]: No env file found at C:\Users\myles\.config\yasb\.env, skipping environment loading.
+2025-06-10 17:46:58,752 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.0
+2025-06-10 17:46:58,752 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-06-10 17:47:00,597 [DEBUG] [MainThread] [comtypes/__init__.py:149]: CoInitializeEx(None, 2)
+2025-06-10 17:47:01,007 [DEBUG] [MainThread] [tzlocal/win32.py:55]: Looking up time zone info from registry
+2025-06-10 17:47:06,628 [INFO] [MainThread] [root/watcher.py:55]: Created file watcher for path C:\Users\myles\.config\yasb
+2025-06-10 17:47:06,706 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:213]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-06-10 17:47:06,706 [DEBUG] [Dummy-5] [qasync._windows._EventWorker/_windows.py:192]: Thread started
+2025-06-10 19:20:53,651 [INFO] [MainThread] [root/log.py:59]: Yasb v1.7.1
+2025-06-10 19:20:53,651 [INFO] [MainThread] [root/env_loader.py:22]: No env file found at C:\Users\myles\.config\yasb\.env, skipping environment loading.
+2025-06-10 19:20:53,760 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.0
+2025-06-10 19:20:53,760 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-06-10 19:20:56,137 [DEBUG] [MainThread] [comtypes/__init__.py:149]: CoInitializeEx(None, 2)
+2025-06-10 19:20:56,540 [DEBUG] [MainThread] [tzlocal/win32.py:55]: Looking up time zone info from registry
+2025-06-10 19:21:02,563 [INFO] [MainThread] [root/watcher.py:55]: Created file watcher for path C:\Users\myles\.config\yasb
+2025-06-10 19:21:02,642 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:213]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-06-10 19:21:02,643 [DEBUG] [Dummy-5] [qasync._windows._EventWorker/_windows.py:192]: Thread started
