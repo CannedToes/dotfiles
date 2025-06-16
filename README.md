@@ -26,11 +26,11 @@ starship - **https://github.com/starship/starship**
 fish - **https://github.com/fish-shell/fish-shell**  
 fisher - **https://github.com/jorgebucaran/fisher**  
 wezterm - **https://github.com/wezterm/wezterm**  
-kitty - **https://github.com/kovidgoyal/kitty**  
 zoxide - **https://github.com/ajeetdsouza/zoxide**  
 eza - **https://github.com/eza-community/eza**  
-keychain - **https://github.com/hrantzsch/keychain**  
 nerdfonts - **https://github.com/ryanoasis/nerd-fonts**  
++ other ones i haven't added to here yet  
 ## Inspirations
 end-4's dots hyprland - **https://github.com/end-4/dots-hyprland**  
-elifouts dotfiles - **https://github.com/elifouts/Dotfiles**	
+elifouts dotfiles - **https://github.com/elifouts/Dotfiles**  
+Origincode's dotfiles - **https://github.com/OriginCode/dotfiles**
