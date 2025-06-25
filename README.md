@@ -4,8 +4,6 @@ I did not make this completely from scratch, so all the Repositories/Configs I t
 
 # Installation
 
-PLEASE DONT INSTALL IT USING THE SCRIPT!!! These are my personal dotfiles and right now the script is very temporary and broken you will have to fix shit guaranteed no questions asked, please just dont use this at all make your own these aren't good + i push updates everytime i change anything so stuff is always very broken (unless it one day reaches a point it isn't ofcourse) this is all just for future reference please don't use this and come complaining please don't
-
 To install the dotfiles simply clone the repository and go into it-  
   `git clone https://github.com/CannedToes/dotfiles && cd dotfiles`  
 then copy across the files you want to the correct directories  
