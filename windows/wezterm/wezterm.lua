@@ -23,10 +23,6 @@ end)
 -- This is where you actually apply your config
 local appearance = require("lua.appearance")
 appearance.apply_to_config(config)
-local plugins = require("lua.plugins")
-plugins.apply_to_config(config)
-local keymap = require("lua.keymap")
-keymap.apply_to_config(config)
 
 config.default_prog = { "pwsh.exe" }
 config.scrollback_lines = 3000
