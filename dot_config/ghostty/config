@@ -1,4 +1,3 @@
 font-family = "Sauce Code Pro NFP"
 font-size = 14
-theme = "GruvboxDark"
-command = "fish"
+theme = "Monokai Pro Spectrum"

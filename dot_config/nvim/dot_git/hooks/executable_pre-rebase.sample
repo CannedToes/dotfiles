@@ -1,4 +1,4 @@
-#!/usr/bin/sh
+#!/nix/store/rlq03x4cwf8zn73hxaxnx0zn5q9kifls-bash-5.3p3/bin/bash
 #
 # Copyright (c) 2006, 2008 Junio C Hamano
 #
@@ -65,7 +65,7 @@ then
 	fi
 else
 	not_in_next=`git rev-list --pretty=oneline ^${publish} "$topic"`
-	/usr/bin/perl -e '
+	/nix/store/h2jsb5i4yfblr2f3ac2c7zpmlmj7zjym-perl-5.40.0/bin/perl -e '
 		my $topic = $ARGV[0];
 		my $msg = "* $topic has commits already merged to public branch:\n";
 		my (%not_in_next) = map {
