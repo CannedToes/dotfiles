@@ -2,7 +2,7 @@
 AppData
 Documents
 {{ else if eq .chezmoi.os "windows" -}}
-dot_config/ghostty
 dot_config/nvim
-dot_config/private_fish
+dot_config/nixos
+dot_config/fish
 {{ end }}
