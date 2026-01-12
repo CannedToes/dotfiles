@@ -4,7 +4,6 @@ Set NVIM_CONF "C:/Users/myles/AppData/Local/nvim/"
 
 # inits & plugins
 Invoke-Expression (& { (starship init powershell | Out-String) })
-Invoke-Expression (& { (zoxide init powershell | Out-String) })
 Invoke-Expression (& { (chezmoi completion powershell | Out-String) })
 
 Import-Module PSReadLine -ErrorAction SilentlyContinue
@@ -20,10 +19,10 @@ Import-Module PSReadLine -ErrorAction SilentlyContinue
 
 # functions
 function lseza {
-  eza -l --icons --no-permissions
+  eza -l --icons --no-permissions $args
 }
 
 # aliases
-Set-Alias cd z -Option AllScope
+Set-Alias neofetch fastfetch
 Set-Alias ls lseza
 Set-Alias which Get-Command
