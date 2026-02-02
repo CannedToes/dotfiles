@@ -30,6 +30,13 @@ local now_if_args = _G.Config.now_if_args
 --   textobjects (see `:h text-objects`, `:h MiniAi.gen_spec.treesitter()`).
 --
 -- Add these plugins now if file (and not 'mini.starter') is shown after startup.
+--
+-- Troubleshooting:
+-- - Run `:checkhealth vim.treesitter nvim-treesitter` to see potential issues.
+-- - In case of errors related to queries for Neovim bundled parsers (like `lua`,
+--   `vimdoc`, `markdown`, etc.), manually install them via 'nvim-treesitter'
+--   with `:TSInstall <language>`. Be sure to have necessary system dependencies
+--   (see MiniMax README section for software requirements).
 now_if_args(function()
   add({
     source = 'nvim-treesitter/nvim-treesitter',
@@ -44,6 +51,8 @@ now_if_args(function()
   })
 
   -- Define languages which will have parsers installed and auto enabled
+  -- After changing this, restart Neovim once to install necessary parsers. Wait
+  -- for the installation to finish before opening a file for added language(s).
   local languages = {
     -- These are already pre-installed with Neovim. Used as an example.
     'lua',
@@ -115,6 +124,10 @@ later(function()
   -- - `:h conform-options`
   -- - `:h conform-formatters`
   require('conform').setup({
+    default_format_opts = {
+      -- Allow formatting from LSP server if no dedicated formatter is available
+      lsp_format = 'fallback',
+    },
     -- Map of filetype to formatters
     -- Make sure that necessary CLI tool is available
     -- formatters_by_ft = { lua = { 'stylua' } },
