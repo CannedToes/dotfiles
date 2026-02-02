@@ -1,0 +1,32 @@
+# path
+export PATH=$PATH:$HOME/.config/emacs/bin
+
+# coloring stuff
+alias ls='ls --color=auto'
+alias grep='grep --color=auto'
+alias diff='diff --color=auto'
+alias ip='ip -color=auto'
+
+# init starship
+eval "$(starship init zsh)"
+# init zoxide
+eval "$(zoxide init zsh)"
+
+# other options
+HISTFILE="$HOME/.zsh_history"
+HISTSIZE=10000
+SAVEHIST=10000
+
+setopt HIST_IGNORE_ALL_DUPS
+setopt HIST_REDUCE_BLANKS
+setopt SHARE_HISTORY
+setopt INC_APPEND_HISTORY
+
+setopt AUTO_CD
+setopt INTERACTIVE_COMMENTS
+setopt NO_BEEP
+setopt EXTENDED_GLOB
+
+# sourcing plugins/modules
+source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
+source ~/.zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
