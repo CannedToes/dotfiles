@@ -1,18 +1,16 @@
-# path
-export PATH=$PATH:$HOME/.config/emacs/bin
+# env variables
+export PATH=$PATH:$HOME/.config/emacs/bin # append doom emacs script to path
+export EDITOR="nvim"
 
 # coloring stuff
 alias ls='ls --color=auto'
 alias grep='grep --color=auto'
-alias diff='diff --color=auto'
-alias ip='ip -color=auto'
 
-# init starship
+# init starship and zoxide
 eval "$(starship init zsh)"
-# init zoxide
 eval "$(zoxide init zsh)"
 
-# other options
+# zsh options
 HISTFILE="$HOME/.zsh_history"
 HISTSIZE=10000
 SAVEHIST=10000
@@ -30,3 +28,4 @@ setopt EXTENDED_GLOB
 # sourcing plugins/modules
 source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
 source ~/.zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source ~/.zsh/zsh-history-substring-search/zsh-history-substring-search.zsh

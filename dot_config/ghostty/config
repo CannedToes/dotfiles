@@ -1,0 +1,10 @@
+# font
+font-family = SauceCodePro Nerd Font
+font-size = 12
+
+# theme
+theme = Kanagawa Wave
+
+# options
+window-padding-x = 8
+window-padding-y = 8
