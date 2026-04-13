@@ -1,31 +1,12 @@
-# env variables
-export PATH=$PATH:$HOME/.config/emacs/bin # append doom emacs script to path
-export EDITOR="nvim"
+export ZSH="$HOME/.oh-my-zsh"
 
-# coloring stuff
-alias ls='ls --color=auto'
-alias grep='grep --color=auto'
+ZSH_THEME="simple"
 
-# init starship and zoxide
-eval "$(starship init zsh)"
-eval "$(zoxide init zsh)"
+plugins=(git zsh-autosuggestions zsh-syntax-highlighting sudo copyfile copybuffer dirhistory history)
 
-# zsh options
-HISTFILE="$HOME/.zsh_history"
-HISTSIZE=10000
-SAVEHIST=10000
+source $ZSH/oh-my-zsh.sh
 
-setopt HIST_IGNORE_ALL_DUPS
-setopt HIST_REDUCE_BLANKS
-setopt SHARE_HISTORY
-setopt INC_APPEND_HISTORY
-
-setopt AUTO_CD
-setopt INTERACTIVE_COMMENTS
-setopt NO_BEEP
-setopt EXTENDED_GLOB
-
-# sourcing plugins/modules
-source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
-source ~/.zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-source ~/.zsh/zsh-history-substring-search/zsh-history-substring-search.zsh
+alias so="source ~/.zshrc"
+alias ohmyzsh="nvim ~/.oh-my-zsh"
+alias rbld="sudo nixos-rebuild switch --flake ~/.config/nixos#$HOST"
+alias neofetch="fastfetch"

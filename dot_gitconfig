@@ -1,7 +1,5 @@
 [user]
-	email = mylesglanville@gmail.com
-	name = CannedToes
+  email = mylesglanville@gmail.com
+  name = CannedToes
 [init]
   defaultBranch = main
-[credential "helperselector"]
-	selected = manager
