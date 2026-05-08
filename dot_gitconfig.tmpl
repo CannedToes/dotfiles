@@ -1,27 +1,45 @@
 [branch]
   sort = -committerdate
+
 [commit]
   gpgSign = true
+
 [core]
   autocrlf = {{ if eq .chezmoi.os "windows" }}true{{ else }}input{{ end }}
+
 [diff]
   algorithm = histogram
+
 [fetch]
   prune = true
+
 [gpg]
   format = ssh
+
 [init]
   defaultBranch = main
+
 [merge]
   conflictstyle = zdiff3
+
 [pull]
   rebase = true
+
 [push]
   autoSetupRemote = true
+
 [rerere]
   enabled = true
+
 [tag]
   gpgSign = true
+
+[url "ssh://git@github.com/"]
+	insteadOf = https://github.com/
+
+[url "ssh://git@gitlab.com/"]
+	insteadOf = https://gitlab.com/
+
 [user]
   email = {{ .email }}
   name = {{ .name }}
