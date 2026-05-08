@@ -1,0 +1,12 @@
+#!{{ lookPath "bash" }}
+set -e
+
+KEY="{{- .chezmoi.homeDir -}}/.ssh/id_ed25519"
+
+if [ ! -f "$KEY" ]; then
+  ssh-keygen -t ed25519 -C "{{- .chezmoi.username -}}@{{- .chezmoi.hostname -}}" -f "$KEY"
+  echo ""
+  echo "New SSH key generated. Here is your public key:"
+  echo ""
+  cat "${KEY}.pub"
+fi

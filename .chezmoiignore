@@ -3,6 +3,9 @@ AppData
 Documents
 {{ else if eq .chezmoi.os "windows" -}}
 dot_config/nvim
-dot_config/nixos
-dot_config/fish
+dot_zshrc
 {{ end }}
+.ssh/id**
+.oh-my-zsh/cache
+.oh-my-zsh/cache/**
+.oh-my-zsh/**/*.zwc

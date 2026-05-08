@@ -1,0 +1,30 @@
+[branch]
+  sort = -committerdate
+[commit]
+  gpgSign = true
+[core]
+  autocrlf = {{ if eq .chezmoi.os "windows" }}true{{ else }}input{{ end }}
+[diff]
+  algorithm = histogram
+[fetch]
+  prune = true
+[gpg]
+  format = ssh
+[gpg "ssh"]
+  allowedSignersFile = ~/.ssh/allowed_signers
+[init]
+  defaultBranch = main
+[merge]
+  conflictstyle = zdiff3
+[pull]
+  rebase = true
+[push]
+  autoSetupRemote = true
+[rerere]
+  enabled = true
+[tag]
+  gpgSign = true
+[user]
+  email = {{ .email }}
+  name = {{ .name }}
+  signingkey = ~/.ssh/id_ed25519.pub

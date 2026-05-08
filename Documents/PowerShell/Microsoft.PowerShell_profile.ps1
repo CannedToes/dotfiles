@@ -1,6 +1,5 @@
 # environments variables
-Set EDITOR nvim
-Set NVIM_CONF "C:/Users/myles/AppData/Local/nvim/"
+$Env:EDITOR = "nvim"
 
 # inits & plugins
 Invoke-Expression (& { (starship init powershell | Out-String) })
