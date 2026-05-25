@@ -12,6 +12,7 @@
 
 [fetch]
   prune = true
+  pruneTags = true
 
 [gpg]
   format = ssh
@@ -23,10 +24,15 @@
   conflictstyle = zdiff3
 
 [pull]
+  ff = only
   rebase = true
 
 [push]
   autoSetupRemote = true
+
+[rebase]
+  autosquash = true
+  autostash = true
 
 [rerere]
   enabled = true
@@ -35,10 +41,10 @@
   gpgSign = true
 
 [url "ssh://git@github.com/"]
-	insteadOf = https://github.com/
+  insteadOf = https://github.com/
 
 [url "ssh://git@gitlab.com/"]
-	insteadOf = https://gitlab.com/
+  insteadOf = https://gitlab.com/
 
 [user]
   email = {{ .email }}

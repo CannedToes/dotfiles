@@ -1,4 +1,3 @@
-# dot_config/git/ignore
 .DS_Store
 Thumbs.db
 desktop.ini

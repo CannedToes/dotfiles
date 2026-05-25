@@ -1,0 +1,103 @@
+add_newline = true
+
+format = """
+$os\
+$username\
+$directory\
+$git_branch\
+$git_status\
+$fill\
+$golang\
+$rust\
+$python\
+$nodejs\
+$cmd_duration\
+$status\
+$jobs\
+$line_break\
+$character"""
+
+# -- os --
+[os]
+disabled = false
+style = "bold"
+
+# -- id --
+[username]
+show_always = false
+style_user = "bold dimmed"
+style_root = "bold red"
+format = "[$user]($style) "
+
+[hostname]
+ssh_only = true
+style = "dimmed"
+format = "@[$hostname]($style) "
+
+# -- dir --
+[directory]
+style = "bold cyan"
+truncation_length = 3
+truncation_symbol = "…/"
+truncate_to_repo = true
+
+# -- git --
+[git_branch]
+style = "bold green"
+format = "[$symbol$branch]($style)"
+
+[git_status]
+style = "bold green"
+format = " [$all_status$ahead_behind]($style)"
+conflicted = "🏳$count"
+ahead = "⇡$count"
+behind = "⇣$count"
+diverged = "⇕$count"
+stashed = "📦$count"
+modified = "!$count"
+staged = "+$count"
+renamed = "»$count"
+deleted = "✕$count"
+
+# -- lang --
+[golang]
+style = "bold bright-cyan"
+format = " via [$symbol($version) ]($style)"
+detect_extensions = ["go"]
+
+[nodejs]
+style = "bold bright-cyan"
+format = " via [$symbol($version) ]($style)"
+detect_files = ["package.json"]
+detect_extensions = ["js", "ts", "mjs", "cjs"]
+
+[python]
+style = "bold bright-cyan"
+format = " via [$symbol($version) ]($style)"
+
+[rust]
+style = "bold bright-cyan"
+format = " via [$symbol($version) ]($style)"
+
+# -- status --
+[cmd_duration]
+style = "bold yellow"
+format = "⏱ [$duration]($style)"
+min_time = 2000
+show_milliseconds = false
+
+[status]
+disabled = false
+style = "bold red"
+format = "[$symbol$status]($style)"
+pipestatus = false
+
+[jobs]
+style = "bold blue"
+format = " [$symbol$number]($style)"
+threshold = 1
+
+[character]
+success_symbol = "[❯](bold green)"
+error_symbol = "[❯](bold red)"
+vimcmd_symbol = "[❯](bold cyan)"

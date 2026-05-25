@@ -1,19 +1,19 @@
 encryption = "age"
 
-{{ $name := promptStringOnce . "name" "What is your name? (e.g: John Smith)" }}
-{{ $email := promptStringOnce . "email" "What is your personal email? (e.g: johnsmith@blackrock.gov.nj)" }}
+{{ $name := promptStringOnce . "name" "What is your name?" }}
+{{ $email := promptStringOnce . "email" "What is your email?" }}
 
 [data]
   name = {{ $name | quote }}
   email = {{ $email | quote }}
 
 [age]
-    identity = "{{ if eq .chezmoi.os "windows" }}{{- env "USERPROFILE" -}}/.config/sops/age/keys.txt{{ else }}~/.config/sops/age/keys.txt{{ end }}"
-    recipient = "{{ if eq .chezmoi.username "myles" }}age12y9t37jpa0fk25x6g5mpu7lx6nlxe8agayrzxfanz25rdal0xsxs3eg74u{{ end }}"
+  identity = "{{ .chezmoi.homeDir }}/.config/sops/age/keys.txt"
+  recipient = "{{ if eq .chezmoi.username "myles" }}age12y9t37jpa0fk25x6g5mpu7lx6nlxe8agayrzxfanz25rdal0xsxs3eg74u{{ end }}"
 
 [git]
-    autoCommit = false
-    autoPush = false
+  autoCommit = false
+  autoPush = false
 
 [diff]
-    pager = "delta"
+  pager = "delta"
