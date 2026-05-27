@@ -1,15 +1,9 @@
-encryption = "age"
-
 {{ $name := promptStringOnce . "name" "What is your name?" }}
 {{ $email := promptStringOnce . "email" "What is your email?" }}
 
 [data]
   name = {{ $name | quote }}
   email = {{ $email | quote }}
-
-[age]
-  identity = "{{ .chezmoi.homeDir }}/.config/sops/age/keys.txt"
-  recipient = "{{ if eq .chezmoi.username "myles" }}age12y9t37jpa0fk25x6g5mpu7lx6nlxe8agayrzxfanz25rdal0xsxs3eg74u{{ end }}"
 
 [git]
   autoCommit = false

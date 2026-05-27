@@ -2,7 +2,9 @@
 vim.loader.enable()
 vim.cmd([[hi @lsp.type.number gui=bold]])
 vim.cmd([[set noswapfile]])
-vim.schedule(function() vim.o.clipboard = 'unnamedplus' end)
+vim.schedule(function()
+  vim.o.clipboard = "unnamedplus"
+end)
 
 vim.g.mapleader = " "
 vim.g.maplocalleader = " "
@@ -12,7 +14,7 @@ vim.opt.cursorcolumn = false
 vim.opt.cursorline = true
 vim.opt.ignorecase = true
 vim.opt.laststatus = 3
-vim.opt.mouse = 'a'
+vim.opt.mouse = "a"
 vim.opt.number = true
 vim.opt.scrolloff = 10
 vim.opt.shiftwidth = 2
@@ -58,6 +60,8 @@ vim.pack.add({
   "https://github.com/ibhagwan/fzf-lua",
   "https://github.com/nvim-treesitter/nvim-treesitter",
   "https://github.com/neovim/nvim-lspconfig",
+  "https://github.com/mason-org/mason.nvim",
+  "https://github.com/mason-org/mason-lspconfig.nvim",
   "https://github.com/L3MON4D3/LuaSnip",
   { src = "https://github.com/saghen/blink.cmp", version = vim.version.range("1.*") },
   "https://github.com/stevearc/conform.nvim",
@@ -86,7 +90,8 @@ require("mini.statusline").setup({})
 require("luasnip").setup({ enable_autosnippets = true })
 
 -- <treesitter> --
-local basic_parsers = { "bash", "c", "diff", "html", "lua", "luadoc", "markdown", "markdown_inline", "query", "vim", "vimdoc" }
+local basic_parsers =
+  { "bash", "c", "diff", "html", "lua", "luadoc", "markdown", "markdown_inline", "query", "vim", "vimdoc" }
 require("nvim-treesitter").install(basic_parsers)
 
 local function treesitter_try_attach(buf, language)
@@ -126,6 +131,8 @@ vim.api.nvim_create_autocmd("FileType", {
 })
 
 require("quicker").setup({})
+
+require("mason").setup({})
 
 require("oil").setup({
   default_file_explorer = true,

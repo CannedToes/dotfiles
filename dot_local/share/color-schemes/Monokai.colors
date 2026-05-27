@@ -1,0 +1,175 @@
+# Palette reference (from monokai.txt):
+#   Background:        39,40,34
+#   Foreground:        241,235,235
+#   Color0  (dark):    72,72,62       Color0Intense:  118,113,94
+#   Color1  (pink):    220,37,102     Color1Intense:  250,39,114
+#   Color2  (green):   143,192,41     Color2Intense:  167,226,46
+#   Color3  (yellow):  212,201,110    Color3Intense:  231,219,117
+#   Color4  (cyan):    85,188,206     Color4Intense:  102,217,238
+#   Color5  (purple):  147,88,254     Color5Intense:  174,130,255
+#   Color6  (teal):    86,183,165     Color6Intense:  102,239,213
+#   Color7  (silver):  172,173,161    Color7Intense:  207,208,194
+#
+# Derived surface shades (all grounded in Background 39,40,34):
+#   Surface-1 (View alt):    45,46,39
+#   Surface0  (Window):      49,50,43
+#   Surface1  (Window alt):  57,58,51
+#   Surface2  (Button):      66,67,59
+
+[ColorEffects:Disabled]
+Color=72,72,62
+ColorAmount=0
+ColorEffect=0
+ContrastAmount=0.65
+ContrastEffect=1
+IntensityAmount=0.1
+IntensityEffect=2
+
+[ColorEffects:Inactive]
+ChangeSelectionColor=true
+Color=118,113,94
+ColorAmount=0.025
+ColorEffect=2
+ContrastAmount=0.1
+ContrastEffect=2
+Enable=false
+IntensityAmount=0
+IntensityEffect=0
+
+# -- <buttons> --
+[Colors:Button]
+BackgroundAlternate=66,67,59
+BackgroundNormal=57,58,51
+DecorationFocus=102,217,238
+DecorationHover=167,226,46
+ForegroundActive=102,217,238
+ForegroundInactive=172,173,161
+ForegroundLink=85,188,206
+ForegroundNegative=250,39,114
+ForegroundNeutral=231,219,117
+ForegroundNormal=241,235,235
+ForegroundPositive=167,226,46
+ForegroundVisited=174,130,255
+
+# -- <complementary> --
+[Colors:Complementary]
+BackgroundAlternate=57,58,51
+BackgroundNormal=45,46,39
+DecorationFocus=102,217,238
+DecorationHover=167,226,46
+ForegroundActive=102,217,238
+ForegroundInactive=172,173,161
+ForegroundLink=85,188,206
+ForegroundNegative=250,39,114
+ForegroundNeutral=231,219,117
+ForegroundNormal=241,235,235
+ForegroundPositive=167,226,46
+ForegroundVisited=174,130,255
+
+# -- <header> --
+[Colors:Header]
+BackgroundAlternate=45,46,39
+BackgroundNormal=57,58,51
+DecorationFocus=102,217,238
+DecorationHover=167,226,46
+ForegroundActive=102,217,238
+ForegroundInactive=172,173,161
+ForegroundLink=85,188,206
+ForegroundNegative=250,39,114
+ForegroundNeutral=231,219,117
+ForegroundNormal=241,235,235
+ForegroundPositive=167,226,46
+ForegroundVisited=174,130,255
+
+[Colors:Header][Inactive]
+BackgroundAlternate=49,50,43
+BackgroundNormal=45,46,39
+DecorationFocus=102,217,238
+DecorationHover=167,226,46
+ForegroundActive=102,217,238
+ForegroundInactive=172,173,161
+ForegroundLink=85,188,206
+ForegroundNegative=250,39,114
+ForegroundNeutral=231,219,117
+ForegroundNormal=207,208,194
+ForegroundPositive=167,226,46
+ForegroundVisited=174,130,255
+
+# -- <selection> --
+[Colors:Selection]
+BackgroundAlternate=85,188,206
+BackgroundNormal=102,217,238
+DecorationFocus=102,217,238
+DecorationHover=167,226,46
+ForegroundActive=39,40,34
+ForegroundInactive=72,72,62
+ForegroundLink=39,40,34
+ForegroundNegative=220,37,102
+ForegroundNeutral=212,201,110
+ForegroundNormal=39,40,34
+ForegroundPositive=143,192,41
+ForegroundVisited=147,88,254
+
+# -- <tooltip> --
+[Colors:Tooltip]
+BackgroundAlternate=45,46,39
+BackgroundNormal=57,58,51
+DecorationFocus=102,217,238
+DecorationHover=167,226,46
+ForegroundActive=102,217,238
+ForegroundInactive=172,173,161
+ForegroundLink=85,188,206
+ForegroundNegative=250,39,114
+ForegroundNeutral=231,219,117
+ForegroundNormal=241,235,235
+ForegroundPositive=167,226,46
+ForegroundVisited=174,130,255
+
+# -- <view> --
+[Colors:View]
+BackgroundAlternate=45,46,39
+BackgroundNormal=39,40,34
+DecorationFocus=102,217,238
+DecorationHover=167,226,46
+ForegroundActive=102,217,238
+ForegroundInactive=172,173,161
+ForegroundLink=85,188,206
+ForegroundNegative=250,39,114
+ForegroundNeutral=231,219,117
+ForegroundNormal=241,235,235
+ForegroundPositive=167,226,46
+ForegroundVisited=174,130,255
+
+# -- <window> --
+[Colors:Window]
+BackgroundAlternate=57,58,51
+BackgroundNormal=49,50,43
+DecorationFocus=102,217,238
+DecorationHover=167,226,46
+ForegroundActive=102,217,238
+ForegroundInactive=172,173,161
+ForegroundLink=85,188,206
+ForegroundNegative=250,39,114
+ForegroundNeutral=231,219,117
+ForegroundNormal=241,235,235
+ForegroundPositive=167,226,46
+ForegroundVisited=174,130,255
+
+# -- <general> --
+[General]
+ColorScheme=Monokai
+Name=Monokai
+shadeSortColumn=true
+
+# KDE global contrast (0–7; 4 is neutral)
+[KDE]
+contrast=4
+
+# -- <window-manager> --
+[WM]
+activeBackground=57,58,51
+activeBlend=241,235,235
+activeForeground=241,235,235
+inactiveBackground=49,50,43
+inactiveBlend=172,173,161
+inactiveForeground=172,173,161
