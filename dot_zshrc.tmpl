@@ -7,18 +7,19 @@ plugins=(git zsh-autosuggestions zsh-syntax-highlighting sudo copyfile copybuffe
 source $ZSH/oh-my-zsh.sh
 eval "$(starship init zsh)"
 
-alias alefmt="fd -t f -e nix -x alejandra -q"
+alias ..="cd .."
+alias l="ls -lah"
+alias la="ls -A"
+alias ll="ls -lh"
+alias lt="ls -lah --sort=time"
+alias md="mkdir -p"
 alias ncg="sudo nix-collect-garbage --delete-older-than 3d"
 alias neofetch="fastfetch"
 alias ohmyzsh="nvim ~/.oh-my-zsh"
-alias rbld="sudo nixos-rebuild switch --flake ~/.config/nixos#{{- .chezmoi.hostname -}}"
-alias rbldlaptop="nixos-rebuild switch --flake ~/.config/nixos#laptop --target-host root@192.168.1.57"
-alias rbldserver="nixos-rebuild switch --flake ~/.config/nixos#server --target-host root@192.168.1.158"
-alias rbldwsl="nixos-rebuild switch --flake ~/.config/nixos#wsl --target-host root@192.168.1.152"
-alias server="ssh root@192.168.1.158"
+alias rbld="sudo nixos-rebuild switch --flake"
+alias rd="rmdir"
 alias so="source ~/.zshrc"
 
 export SSH_AUTH_SOCK="/run/user/$(id -u)/ssh-agent"
 export MANPAGER="less -N --use-color -Dd+y -Du+208 -DN+r"
 export DISABLE_AUTO_UPDATE="true"
-
