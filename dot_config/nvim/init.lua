@@ -68,6 +68,7 @@ vim.pack.add({
   "https://github.com/nvim-mini/mini.nvim",
   "https://github.com/romus204/tree-sitter-manager.nvim",
   "https://github.com/stevearc/oil.nvim",
+  "https://github.com/vague-theme/vague.nvim",
 })
 
 -- <theme> --
@@ -89,36 +90,30 @@ require("mini.statusline").setup({})
 require("tree-sitter-manager").setup({
   ensure_installed = {
     "bash",
-    "c",
     "diff",
-    "html",
+    "git_config",
+    "git_rebase",
+    "gitattributes",
+    "gitcommit",
+    "json",
+    "jsonc",
     "lua",
     "luadoc",
     "markdown",
     "markdown_inline",
+    "nix",
     "query",
+    "regex",
+    "toml",
+    "vim",
     "vim",
     "vimdoc",
+    "yaml",
   },
   auto_install = true,
 })
 
-require("oil").setup({
-  default_file_explorer = true,
-  view_options = { show_hidden = true },
-  lsp_file_methods = {
-    enabled = true,
-    timeout_ms = 1000,
-    autosave_changes = true,
-  },
-  columns = {
-    "icon",
-  },
-  float = {
-    max_width = 0.3,
-    max_height = 0.6,
-  },
-})
+require("oil").setup({})
 vim.keymap.set("n", "<leader>e", "<cmd>Oil<cr>", { desc = "Open parent directory" })
 
 -- <search> --

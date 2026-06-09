@@ -14,7 +14,6 @@ vim.opt.cursorcolumn = false
 vim.opt.cursorline = true
 vim.opt.ignorecase = true
 vim.opt.laststatus = 3
-vim.opt.mouse = "a"
 vim.opt.number = true
 vim.opt.scrolloff = 10
 vim.opt.shiftwidth = 2
@@ -28,9 +27,11 @@ vim.opt.tabstop = 2
 vim.opt.termguicolors = true
 vim.opt.timeoutlen = 300
 vim.opt.undofile = true
-vim.opt.undofile = true
 vim.opt.updatetime = 250
 vim.opt.wrap = false
+
+-- <completion>
+vim.opt.completeopt = { "menuone", "noselect", "popup" }
 
 -- <keymaps> --
 vim.keymap.set("n", "<ESC>", "<cmd>nohlsearch<cr>", { desc = "Clear search highlights" })
@@ -41,6 +42,10 @@ vim.keymap.set("n", "<C-h>", "<C-w>h", { desc = "Move left window" })
 vim.keymap.set("n", "<C-j>", "<C-w>j", { desc = "Move down window" })
 vim.keymap.set("n", "<C-k>", "<C-w>k", { desc = "Move up window" })
 vim.keymap.set("n", "<C-l>", "<C-w>l", { desc = "Move right window" })
+
+vim.keymap.set("i", "<C-Space>", function()
+  vim.lsp.completion.get()
+end, { desc = "Trigger completion" })
 
 -- <autocmds> --
 local augroup = vim.api.nvim_create_augroup("my.config", { clear = true })
@@ -56,20 +61,14 @@ vim.api.nvim_create_autocmd("FileType", {
 
 -- <plugins> --
 vim.pack.add({
-  "https://github.com/nvim-mini/mini.nvim",
-  "https://github.com/ibhagwan/fzf-lua",
-  "https://github.com/nvim-treesitter/nvim-treesitter",
-  "https://github.com/neovim/nvim-lspconfig",
-  "https://github.com/mason-org/mason.nvim",
-  "https://github.com/mason-org/mason-lspconfig.nvim",
-  "https://github.com/L3MON4D3/LuaSnip",
-  { src = "https://github.com/saghen/blink.cmp", version = vim.version.range("1.*") },
-  "https://github.com/stevearc/conform.nvim",
   "https://github.com/chomosuke/typst-preview.nvim",
+  "https://github.com/ibhagwan/fzf-lua",
   "https://github.com/loctvl842/monokai-pro.nvim",
-  "https://github.com/folke/flash.nvim",
+  "https://github.com/neovim/nvim-lspconfig",
+  "https://github.com/nvim-mini/mini.nvim",
+  "https://github.com/romus204/tree-sitter-manager.nvim",
   "https://github.com/stevearc/oil.nvim",
-  "https://github.com/stevearc/quicker.nvim",
+  "https://github.com/vague-theme/vague.nvim",
 })
 
 -- <theme> --
@@ -87,87 +86,35 @@ require("mini.surround").setup({})
 require("mini.trailspace").setup({})
 require("mini.statusline").setup({})
 
-require("luasnip").setup({ enable_autosnippets = true })
-
 -- <treesitter> --
-local basic_parsers =
-  { "bash", "c", "diff", "html", "lua", "luadoc", "markdown", "markdown_inline", "query", "vim", "vimdoc" }
-require("nvim-treesitter").install(basic_parsers)
-
-local function treesitter_try_attach(buf, language)
-  if not vim.treesitter.language.add(language) then
-    return
-  end
-
-  vim.treesitter.start(buf, language)
-
-  if vim.treesitter.query.get(language, "indents") then
-    vim.bo[buf].indentexpr = "v:lua.require'nvim-treesitter'.indentexpr()"
-  end
-end
-
-local available_parsers = require("nvim-treesitter").get_available()
-vim.api.nvim_create_autocmd("FileType", {
-  group = augroup,
-  callback = function(args)
-    local language = vim.treesitter.language.get_lang(args.match)
-    if not language then
-      return
-    end
-
-    local installed_parsers = require("nvim-treesitter").get_installed("parsers")
-
-    if vim.tbl_contains(installed_parsers, language) then
-      treesitter_try_attach(args.buf, language)
-    elseif vim.tbl_contains(available_parsers, language) then
-      require("nvim-treesitter").install(language):await(function()
-        treesitter_try_attach(args.buf, language)
-      end)
-    else
-      treesitter_try_attach(args.buf, language)
-    end
-  end,
-  desc = "Install and start Treesitter parsers by filetype",
+require("tree-sitter-manager").setup({
+  ensure_installed = {
+    "bash",
+    "diff",
+    "git_config",
+    "git_rebase",
+    "gitattributes",
+    "gitcommit",
+    "json",
+    "jsonc",
+    "lua",
+    "luadoc",
+    "markdown",
+    "markdown_inline",
+    "nix",
+    "query",
+    "regex",
+    "toml",
+    "vim",
+    "vim",
+    "vimdoc",
+    "yaml",
+  },
+  auto_install = true,
 })
 
-require("quicker").setup({})
-
-require("mason").setup({})
-
-require("oil").setup({
-  default_file_explorer = true,
-  view_options = { show_hidden = true },
-  lsp_file_methods = {
-    enabled = true,
-    timeout_ms = 1000,
-    autosave_changes = true,
-  },
-  columns = {
-    "icon",
-  },
-  float = {
-    max_width = 0.3,
-    max_height = 0.6,
-  },
-})
+require("oil").setup({})
 vim.keymap.set("n", "<leader>e", "<cmd>Oil<cr>", { desc = "Open parent directory" })
-
-require("flash").setup({})
-vim.keymap.set({ "n", "x", "o" }, "s", function()
-  require("flash").jump()
-end, { desc = "Flash" })
-vim.keymap.set({ "n", "x", "o" }, "S", function()
-  require("flash").treesitter()
-end, { desc = "Flash Treesitter" })
-vim.keymap.set("o", "r", function()
-  require("flash").remote()
-end, { desc = "Remote Flash" })
-vim.keymap.set({ "o", "x" }, "R", function()
-  require("flash").treesitter_search()
-end, { desc = "Treesitter Search" })
-vim.keymap.set("c", "<C-s>", function()
-  require("flash").toggle()
-end, { desc = "Toggle Flash Search" })
 
 -- <search> --
 require("fzf-lua").setup({ "default" })
@@ -180,23 +127,6 @@ end, { desc = "Live grep" })
 vim.keymap.set("n", "<leader>fb", function()
   require("fzf-lua").buffers()
 end, { desc = "Find buffers" })
-
--- <completion> --
-require("blink.cmp").setup({
-  keymap = { preset = "default" },
-  appearance = {
-    nerd_font_variant = "mono",
-  },
-  completion = {
-    documentation = { auto_show = false, auto_show_delay_ms = 500 },
-  },
-  sources = {
-    default = { "lsp", "path", "snippets" },
-  },
-  snippets = { preset = "luasnip" },
-  fuzzy = { implementation = "lua" },
-  signature = { enabled = true },
-})
 
 -- <lsp> --
 vim.lsp.enable({
@@ -214,6 +144,14 @@ vim.lsp.enable({
 vim.api.nvim_create_autocmd("LspAttach", {
   group = augroup,
   callback = function(ev)
+    local client = vim.lsp.get_client_by_id(ev.data.client_id)
+
+    if client and client:supports_method("textDocument/completion") then
+      vim.lsp.completion.enable(true, client.id, ev.buf, {
+        autotrigger = true,
+      })
+    end
+
     local opts = { buffer = ev.buf, silent = true }
     vim.keymap.set("n", "K", vim.lsp.buf.hover, opts)
     vim.keymap.set("n", "gd", vim.lsp.buf.definition, opts)
@@ -226,19 +164,6 @@ vim.api.nvim_create_autocmd("LspAttach", {
 })
 
 -- <formatting> --
-require("conform").setup({
-  formatters_by_ft = {
-    lua = { "stylua" },
-    rust = { "rustfmt" },
-    nix = { "nixfmt" },
-    python = { "isort", "ruff_format" },
-    c = { "clang_format" },
-    cpp = { "clang_format" },
-    zig = { "zigfmt" },
-    typst = { "typstyle" },
-  },
-})
-
 vim.keymap.set("n", "<leader>f", function()
-  require("conform").format({ async = true, lsp_format = "fallback" })
+  vim.lsp.buf.format({ async = true })
 end, { desc = "Format buffer" })
