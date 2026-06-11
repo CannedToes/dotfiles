@@ -6,9 +6,9 @@ alias lt="ls -lah --sort=time"
 alias md="mkdir -p"
 alias neofetch="fastfetch"
 alias so="source ~/.zshrc"
+
 {{ if eq .chezmoi.os "linux" -}}
 alias ncg="sudo nix-collect-garbage --delete-older-than 3d"
-alias rbld="sudo nixos-rebuild switch --flake"
 {{ end -}}
 
 # -- history --
@@ -27,7 +27,17 @@ setopt EXTENDED_HISTORY
 # -- completions --
 autoload -Uz compinit
 zmodload zsh/complist
-compinit -d "${XDG_CACHE_HOME:-$HOME/.cache}/zsh/zcompdump"
+
+ZSH_CACHE_DIR="${XDG_CACHE_HOME:-$HOME/.cache}/zsh"
+ZSH_COMPDUMP="$ZSH_CACHE_DIR/zcompdump"
+
+mkdir -p "$ZSH_CACHE_DIR"
+
+if [[ -f "$ZSH_COMPDUMP" ]]; then
+  compinit -C -d "$ZSH_COMPDUMP"
+else
+  compinit -d "$ZSH_COMPDUMP"
+fi
 
 zstyle ':completion:*' menu select
 zstyle ':completion:*' matcher-list 'm:{a-zA-Z}={A-Za-z}'
@@ -36,57 +46,21 @@ zstyle ':completion:*:warnings' format '%F{red}-- no matches --%f'
 zstyle ':completion:*' group-name ''
 
 # -- prompt --
-setopt PROMPT_SUBST
+eval "$(starship init zsh)"
 
-# Vague-ish colors
-PROMPT_USER="%F{#bb9dbd}"   # muted mauve
-PROMPT_HOST="%F{#7e98e8}"   # soft blue
-PROMPT_PATH="%F{#cdcdcd}"   # foreground
-PROMPT_GIT="%F{#7fa563}"    # muted green
-PROMPT_BAD="%F{#d8647e}"    # soft red
-PROMPT_OK="%F{#7fa563}"     # muted green
-PROMPT_DIM="%F{#606079}"    # comment gray
-PROMPT_WARN="%F{#f3be7c}"   # muted yellow
-PROMPT_RESET="%f"
+# -- plugins --
+ZSH_PLUGIN_DIR="$HOME/.local/share/zsh/plugins"
 
-GIT_PROMPT=""
+[[ -r "$ZSH_PLUGIN_DIR/fzf-tab/fzf-tab.plugin.zsh" ]] &&
+  source "$ZSH_PLUGIN_DIR/fzf-tab/fzf-tab.plugin.zsh"
 
-prompt_git_status() {
-  GIT_PROMPT=""
+zstyle ':fzf-tab:*' fzf-command fzf
 
-  git rev-parse --is-inside-work-tree >/dev/null 2>&1 || return
+[[ -r "$ZSH_PLUGIN_DIR/zsh-autosuggestions/zsh-autosuggestions.zsh" ]] &&
+  source "$ZSH_PLUGIN_DIR/zsh-autosuggestions/zsh-autosuggestions.zsh"
 
-  local branch staged unstaged untracked ahead behind upstream
-  branch="$(git branch --show-current 2>/dev/null)"
-  [[ -z "$branch" ]] && branch="$(git rev-parse --short HEAD 2>/dev/null)"
-
-  staged="$(git diff --cached --name-only 2>/dev/null | wc -l | tr -d ' ')"
-  unstaged="$(git diff --name-only 2>/dev/null | wc -l | tr -d ' ')"
-  untracked="$(git ls-files --others --exclude-standard 2>/dev/null | wc -l | tr -d ' ')"
-
-  upstream="$(git rev-parse --abbrev-ref --symbolic-full-name '@{upstream}' 2>/dev/null)"
-  if [[ -n "$upstream" ]]; then
-    ahead="$(git rev-list --count "${upstream}..HEAD" 2>/dev/null)"
-    behind="$(git rev-list --count "HEAD..${upstream}" 2>/dev/null)"
-  else
-    ahead=0
-    behind=0
-  fi
-
-  GIT_PROMPT=" ${PROMPT_DIM}on${PROMPT_RESET} ${PROMPT_GIT}git:${branch}${PROMPT_RESET}"
-
-  (( staged > 0 )) && GIT_PROMPT+=" ${PROMPT_OK}+${staged}${PROMPT_RESET}"
-  (( unstaged > 0 )) && GIT_PROMPT+=" ${PROMPT_WARN}!${unstaged}${PROMPT_RESET}"
-  (( untracked > 0 )) && GIT_PROMPT+=" ${PROMPT_BAD}?${untracked}${PROMPT_RESET}"
-  (( ahead > 0 )) && GIT_PROMPT+=" ${PROMPT_GIT}^${ahead}${PROMPT_RESET}"
-  (( behind > 0 )) && GIT_PROMPT+=" ${PROMPT_BAD}v${behind}${PROMPT_RESET}"
-}
-
-precmd() {
-  prompt_git_status
-}
-
-PROMPT='${PROMPT_USER}%n${PROMPT_RESET}${PROMPT_DIM}@${PROMPT_RESET}${PROMPT_HOST}%m${PROMPT_RESET} ${PROMPT_PATH}%~${PROMPT_RESET}${GIT_PROMPT} %(?.${PROMPT_OK}.${PROMPT_BAD})λ${PROMPT_RESET} '
+[[ -r "$ZSH_PLUGIN_DIR/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh" ]] &&
+  source "$ZSH_PLUGIN_DIR/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh"
 
 # -- shell behaviour --
 setopt AUTO_CD

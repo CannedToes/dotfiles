@@ -1,4 +1,44 @@
 {{ if ne .chezmoi.os "windows" }}
+[".config/bat/themes/vague.tmTheme"]
+    type = "file"
+    url = "https://raw.githubusercontent.com/vague-theme/vague-bat/main/vague.tmTheme"
+    refreshPeriod = "168h"
+
+[".config/btop/themes/vague.theme"]
+    type = "file"
+    url = "https://raw.githubusercontent.com/vague-theme/vague-btop/main/vague.theme"
+    refreshPeriod = "168h"
+
+[".config/foot/vague.ini"]
+    type = "file"
+    url = "https://raw.githubusercontent.com/vague-theme/vague-foot/main/vague.ini"
+    refreshPeriod = "168h"
+
+[".config/fzf/vague"]
+    type = "file"
+    url = "https://raw.githubusercontent.com/vague-theme/vague-fzf/main/vague"
+    refreshPeriod = "168h"
+
+[".config/helix/themes/vague.toml"]
+    type = "file"
+    url = "https://raw.githubusercontent.com/vague-theme/vague-helix/main/vague.toml"
+    refreshPeriod = "168h"
+
+[".config/lazygit/config.yml"]
+    type = "file"
+    url = "https://raw.githubusercontent.com/vague-theme/vague-lazygit/main/vague.yml"
+    refreshPeriod = "168h"
+
+[".config/tmux/vague.conf"]
+    type = "file"
+    url = "https://raw.githubusercontent.com/vague-theme/vague-tmux/main/vague.conf"
+    refreshPeriod = "168h"
+
+[".config/yazi/flavors/vague.yazi"]
+    type = "git-repo"
+    url = "https://github.com/vague-theme/vague.yazi.git"
+    refreshPeriod = "168h"
+
 [".local/share/zsh/plugins/zsh-autosuggestions"]
     type = "git-repo"
     url = "https://github.com/zsh-users/zsh-autosuggestions.git"

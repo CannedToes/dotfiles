@@ -1,23 +1,42 @@
-"$schema" = 'https://starship.rs/config-schema.json'
+"$schema" = "https://starship.rs/config-schema.json"
 
-[battery]
-full_symbol = "• "
-charging_symbol = "⇡ "
-discharging_symbol = "⇣ "
-unknown_symbol = "❓ "
-empty_symbol = "❗ "
+add_newline = false
+format = "$username$hostname $directory$git_branch$git_status $character"
 
-[erlang]
-symbol = "ⓔ "
+[username]
+format = "[$user](#bb9dbd)"
+show_always = true
 
-[fortran]
-symbol = "F "
+[hostname]
+format = "[@](#606079)[$hostname](#7e98e8)"
+ssh_only = false
+trim_at = "."
 
-[nodejs]
-symbol = "[⬢](bold green) "
+[directory]
+format = "[$path](#cdcdcd)"
+home_symbol = "~"
+read_only = ""
+truncate_to_repo = false
+truncation_length = 1000
 
-[pulumi]
-symbol = "🧊 "
+[git_branch]
+format = " [on](#606079) [git:$branch](#7fa563)"
+truncation_length = 1000
 
-[typst]
-symbol = "t "
+[git_status]
+format = "$staged$modified$deleted$renamed$typechanged$untracked$ahead_behind"
+ahead = " [^$count](#7fa563)"
+behind = " [v$count](#d8647e)"
+deleted = " [!$count](#f3be7c)"
+diverged = " [^$ahead_count](#7fa563) [v$behind_count](#d8647e)"
+modified = " [!$count](#f3be7c)"
+renamed = " [!$count](#f3be7c)"
+staged = " [+$count](#7fa563)"
+typechanged = " [!$count](#f3be7c)"
+untracked = " [?$count](#d8647e)"
+
+[character]
+error_symbol = "[λ](#d8647e)"
+format = "$symbol "
+success_symbol = "[λ](#7fa563)"
+vimcmd_symbol = "[λ](#7fa563)"

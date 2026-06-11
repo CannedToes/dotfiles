@@ -6,7 +6,6 @@ dot_config/nvim
 dot_config/yazi
 dot_zshrc.tmpl
 dot_zshenv
-run_once_generate-ssh-key.sh.tmpl
 {{ end }}
 .ssh/id**
 .oh-my-zsh/cache

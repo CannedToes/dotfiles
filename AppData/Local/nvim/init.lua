@@ -72,8 +72,8 @@ vim.pack.add({
 })
 
 -- <theme> --
-require("monokai-pro").setup({ filter = "classic" })
-vim.cmd.colorscheme("monokai-pro-classic")
+require("vague").setup({})
+vim.cmd.colorscheme("vague")
 
 -- <ui> --
 require("mini.ai").setup({})
@@ -105,7 +105,6 @@ require("tree-sitter-manager").setup({
     "query",
     "regex",
     "toml",
-    "vim",
     "vim",
     "vimdoc",
     "yaml",
