@@ -68,12 +68,11 @@ vim.pack.add({
   "https://github.com/nvim-mini/mini.nvim",
   "https://github.com/romus204/tree-sitter-manager.nvim",
   "https://github.com/stevearc/oil.nvim",
-  "https://github.com/vague-theme/vague.nvim",
 })
 
 -- <theme> --
-require("vague").setup({})
-vim.cmd.colorscheme("vague")
+require("monokai-pro").setup({ filter = "classic", })
+vim.cmd.colorscheme("monokai-pro-classic")
 
 -- <ui> --
 require("mini.ai").setup({})
@@ -96,7 +95,6 @@ require("tree-sitter-manager").setup({
     "gitattributes",
     "gitcommit",
     "json",
-    "jsonc",
     "lua",
     "luadoc",
     "markdown",

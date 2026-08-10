@@ -4,39 +4,39 @@ add_newline = false
 format = "$username$hostname $directory$git_branch$git_status $character"
 
 [username]
-format = "[$user](#bb9dbd)"
+format = "[$user](#ae82ff)"
 show_always = true
 
 [hostname]
-format = "[@](#606079)[$hostname](#7e98e8)"
+format = "[@](#acada1)[$hostname](#fa2772)"
 ssh_only = false
 trim_at = "."
 
 [directory]
-format = "[$path](#cdcdcd)"
+format = "[$path](#f1ebeb)"
 home_symbol = "~"
 read_only = ""
 truncate_to_repo = false
 truncation_length = 1000
 
 [git_branch]
-format = " [on](#606079) [git:$branch](#7fa563)"
+format = " [on](#9358fe) [git:$branch](#a7e22e)"
 truncation_length = 1000
 
 [git_status]
 format = "$staged$modified$deleted$renamed$typechanged$untracked$ahead_behind"
-ahead = " [^$count](#7fa563)"
-behind = " [v$count](#d8647e)"
-deleted = " [!$count](#f3be7c)"
-diverged = " [^$ahead_count](#7fa563) [v$behind_count](#d8647e)"
-modified = " [!$count](#f3be7c)"
-renamed = " [!$count](#f3be7c)"
-staged = " [+$count](#7fa563)"
-typechanged = " [!$count](#f3be7c)"
-untracked = " [?$count](#d8647e)"
+ahead = " [^$count](#a7e22e)"
+behind = " [v$count](#fa2772)"
+deleted = " [!$count](#e7db75)"
+diverged = " [^$ahead_count](#a7e22e) [v$behind_count](#fa2772)"
+modified = " [!$count](#e7db75)"
+renamed = " [!$count](#e7db75)"
+staged = " [+$count](#a7e22e)"
+typechanged = " [!$count](#e7db75)"
+untracked = " [?$count](#fa2772)"
 
 [character]
-error_symbol = "[λ](#d8647e)"
+error_symbol = "[λ](#fa2772)"
 format = "$symbol "
-success_symbol = "[λ](#7fa563)"
-vimcmd_symbol = "[λ](#7fa563)"
+success_symbol = "[λ](#8fc029)"
+vimcmd_symbol = "[λ](#8fc029)"
